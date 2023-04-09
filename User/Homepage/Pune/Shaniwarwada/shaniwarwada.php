@@ -42,7 +42,7 @@
   <?php
   require_once "../../../Database/functions.php";
   ?>
-  <form action="../../../Database/order.php" method="POST">
+  <form action="../../../Database/bookdetails.php" method="POST">
     <div class="navbar">
       <!-- Invisible buttons-disabled hover -->
       <a href="http://" target="_blank" rel="noopener noreferrer" class="disabled"></a>
@@ -137,7 +137,7 @@
       <style="color:black;font-size:110%"><b>Shaniwar Wada, Pune :</b>
         <i style="font-size:50px" class="fa" name="price">1000</i>
         <br><br>
-        <label for="adults"> No. of Adults:</lable>
+        <!-- <label for="adults"> No. of Adults:</lable>
           <select id="adults" name="adults">
             <option value="select">Select</option>
             <option value="1">1</option>
@@ -152,10 +152,31 @@
               <option value="2">2</option>
               <option value="3">3</option>
               <option value="4">4</option>
-            </select>
+            </select> -->
+            
+            <select name="adults">
+  <option value="">Adults</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+</select>
+<select name="children">
+  <option value="">Children</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+</select>
+
+</form>
 
             <p><button class="btn1" formaction="../../../Payment/payment.php"><b>Book Now!</b></button>
-              <input type="submit" value="Add to Bookings" style="margin-left:10vh" class="btn1" name="book">
+              <input type="submit" value="Add to Bookings" style="margin-left:10vh" class="btn1" name="submit">
             </p>
             <br>
             <p style="color:black">*Note: Children are only from age 0-18*</p>
