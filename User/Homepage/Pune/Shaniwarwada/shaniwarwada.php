@@ -82,7 +82,7 @@
       <img src="../../../Images/pune2.jpg" class="stretch" alt="" />
     </div>
     <div class="text">
-      <input type="hidden" name="destination" value="shaniwarwada">
+      <input type="hidden" name="destination" value="Shaniwarwada">
       SHANIWAR WADA
     </div>
 
