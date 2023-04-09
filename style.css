@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+body,html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.Section_top{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(../AdvenTour/User/Images/pranav.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 50s infinite ease-in-out;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+
+}
+.content h1{
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: 15px;
+}
+.content h1 span{
+    color: #111;
+}
+
+@keyframes change{
+    0%
+    {
+        background-image: url(../AdvenTour/User/Images/overview.jpg);
+    }
+    20%
+    {
+        background-image: url(../AdvenTour/User/Images/overview2.jpg);
+    }
+    40%
+    {
+        background-image: url(../AdvenTour/User/Images/overview3.jpg);
+    }
+    60%
+    {
+        background-image: url(../AdvenTour/User/Images/overview4.jpg);
+    }
+    80%
+    {
+        background-image: url(../AdvenTour/User/Images/agakhan.jpg);
+    }
+    100%
+    {
+        background-image: url(pune7.jpg);
+    }
+}
+
+
+body{
+    background: url(../AdvenTour/User/Images/overview3.jpg) no-repeat center center fixed ;  
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.parent{
+    position:absolute;
+    top: 45%;
+    left: 30%;
+    size: 130%;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #00000000;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border-bottom: 2px solid black; */
+    -webkit-backdrop-filter: blur(0px);
+    backdrop-filter: blur(0px);
+    top: 4%;
+    height: fit-content;
+    zoom: 80%;
+  }
+ 
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+  }
+  
+  .navbar a:hover{
+    background-color: rgba(122, 120, 120, 0.265);
+} 
+.text{
+    font-size: 400%;
+    position: absolute;
+    top: 130%;
+    text-align: center;
+    
+}
+.img{
+    width: 20%;
+    height: 20%;
+}
+.line {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+.line::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.line:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.disabled {
+    pointer-events: none;
+    opacity: 0.3;
+}
