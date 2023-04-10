@@ -1,5 +1,6 @@
 <html>
   <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../Homepage/homepage.css" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script
@@ -76,15 +77,43 @@
         <span class="escapes__caption">Discover your ideal Experience</span>
       </div>
       <div class="boxbtm">
-        About Us:
-        <p style="text-align: center">
+        <p><img class="btmimg" src="../Images/logo811.jpg" alt="">
+      <ul style="list-style-type:none;margin-left:20vh">
+        <li><h3>General</h3></li>
+        <li><a href="../Homepage/Pune/pune.php" style="text-decoration:none">Pune</a></li>
+        <li><a href="../Homepage/Mumbai/mumbai.php" style="text-decoration:none" >Mumbai</a></li>
+        <li><a href="../Homepage/Delhi/delhi.php" style="text-decoration:none" >Delhi</a></li>
+        <li><a href="../Homepage/aboutus.html" style="text-decoration:none" >About Us</a></li>
+      </ul>
+      <ul style="list-style-type:none;float:right;margin-top:-20vh;margin-right:50vh">
+        <li><h3>Community</h3></li>
+        <li><a href="" style="text-decoration:none" >News</a></li>
+        <li><a href="" style="text-decoration:none" >Travel Advice</a></li>
+      </ul>
+      <ul style="list-style-type:none;float:right;margin-top:-20vh;margin-right:10vh">
+        <li><h3>Legal</h3></li>
+        <li><a href="" style="text-decoration:none" >Terms & Conditions</a></li>
+        <li><a href=""style="text-decoration:none" >Booking Terms</a></li>
+        <li><a href="" style="text-decoration:none" >Privacy Policy</a></li>
+      </ul>
+    </p>
+    
+        <hr>
+        <p style="text-align: center;font-size:2vh">
           2023 Adventour.com All rights reserved.<br />
           The content and images used on this site are copyright protected and
           copyrights vests with the respective owners. The usage of the content
           and images on this website is intended to promote the works and no
           endorsement of the artist shall be implied. Unauthorized use is
           prohibited and punishable by law.
-        </p>
+        </p><hr width="20%">
+        <p style="text-align:center"> 
+                <a href=""><i class='fab fa-instagram'></i></a>
+                <a href=""><i class='fab fa-linkedin-in'></i></a>
+                <a href=""><i class='fab fa-twitter'></i></a><br>
+                <br>Powered by <a href="../../AdvenTour.html" target="_blank">AdvenTour.in</a></p>
+              
+        <br>
       </div>
     </form>
   </body>

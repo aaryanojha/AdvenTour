@@ -10,26 +10,25 @@ body{
     -o-background-size: cover;
     background-size: cover;
     background-attachment: scroll;
+    backdrop-filter:blur(1px);
   }
 
   /* Css for nav bar */
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    
-  }
+
   
   .navbar {
     overflow: hidden;
-    background-color: #fcfcfc00;
+    background-color: #1c000000;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    margin: 1 auto;
+    margin: 0 auto;
     width: 85%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-bottom: 2px solid black;
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(2px);
+    border-bottom: 4px orangered;
+    border-bottom-style:groove;
+    -webkit-backdrop-filter: blur(0px);
+    backdrop-filter: blur(1px);
     top: 0%;
   }
  
@@ -468,14 +467,14 @@ body{
 } */
 
 .boxbtm {
-  background-color: rgba(3, 13, 55, 0.758);
-  width: 196vh;
+  background-color: rgba(3, 13, 55, 0);
+  width: 120vh;
   position: absolute;
-  top: 280vh;
-  left: -21vh;
-  height: 12vh;
+  top: 250vh;
+  left: 18vh;
+  height: 10vh;
   border: 0px solid rgba(3, 1, 16, 0.044);
-  box-shadow: 1px 1px 2px 2px rgb(0, 0, 0);
+  /* box-shadow: 1px 1px 2px 2px rgb(0, 0, 0); */
   padding: 5vh;
   margin: 20vh;
   align-self: center;
@@ -486,4 +485,12 @@ body{
 }
 ::-webkit-scrollbar-thumb {
   background: #888; 
+}
+.btmimg{
+  height: 5vh;
+}
+ul
+{
+float:none;
+margin:10 10px 10 10;
 }

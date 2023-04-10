@@ -144,7 +144,8 @@ body {
   position: absolute;
   top: 40vh;
   left: 90vh;
-  color: #ffc400;
+  /* color: #ffc400; */
+  color: #ff0000;
   font-weight: lighter;
 }
 .btn {
@@ -320,18 +321,32 @@ body {
 }
 
 .boxbtm {
-  background-color: rgba(3, 13, 55, 0.758);
-  width: 196vh;
+  background-color: rgba(3, 13, 55, 0);
+  width: 120vh;
   position: absolute;
-  top: 1450vh;
-  left: -21vh;
-  height: 12vh;
+  top: 1480vh;
+  left: 18vh;
+  height: 10vh;
   border: 0px solid rgba(3, 1, 16, 0.044);
-  box-shadow: 1px 1px 2px 2px rgb(0, 0, 0);
+  /* box-shadow: 1px 1px 2px 2px rgb(0, 0, 0); */
   padding: 5vh;
   margin: 20vh;
   align-self: center;
   font-size: 2vh;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+.btmimg{
+  height: 5vh;
+}
+ul
+{
+float:none;
+margin:10 10px 10 10;
 }
 
 .map {

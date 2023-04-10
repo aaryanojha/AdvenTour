@@ -72,7 +72,6 @@ body{
     background-size: cover;
     background-attachment: scroll;
     font-family: 'Quicksand', sans-serif;
-
 }
 
 .parent{
@@ -123,11 +122,17 @@ body{
 .img{
     width: 20%;
     height: 20%;
+    border-radius: 2%;
+}.img:hover{
+    cursor: pointer;
+    width: 22%;
+    height: 22%;
+    box-shadow: 0 0 20px rgb(6, 49, 218);
 }
 .line {
   display: inline-block;
   position: relative;
-  color: #0087ca;
+  color: #ca3d00;
 }
 
 .line::after {
@@ -135,10 +140,10 @@ body{
   position: absolute;
   width: 100%;
   transform: scaleX(0);
-  height: 2px;
+  height: 3px;
   bottom: 0;
   left: 0;
-  background-color: #0087ca;
+  background-color: #ca0000;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -151,3 +156,21 @@ body{
     pointer-events: none;
     opacity: 0.3;
 }
+
+
+.escapes__title {
+    color: #3a3a3a;
+    font-weight: 600;
+    font-size: 8vh;
+    line-height: 1.24;
+    position: relative
+  }
+  
+  .escapes__title:before {
+    content: "";
+    position: absolute;
+    bottom: -2vh;
+    background-color: #ff5300;
+    height: 0.4vh;
+    width: 15vh
+  }
