@@ -25,7 +25,7 @@ body{
     margin: 0 auto;
     width: 85%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-bottom: 4px orangered;
+    border-bottom: 2px rgb(0, 0, 0);
     border-bottom-style:groove;
     -webkit-backdrop-filter: blur(0px);
     backdrop-filter: blur(1px);
@@ -51,7 +51,7 @@ body{
 .hover-underline-animation {
   display: inline-block;
   position: relative;
-  color: #0087ca;
+  color: orangered;
 }
 
 .hover-underline-animation::after {
@@ -62,7 +62,7 @@ body{
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #0087ca;
+  background-color: orangered;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
