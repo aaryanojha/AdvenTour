@@ -40,18 +40,18 @@
     <span style="font-size:medium; font-weight: 700;">
       <ul style="list-style-type: none;margin-right: 82vh;">
 <li><i class='fas fa-map-pin'></i> Pune, Maharashtra</li>
-<li><i class='fas fa-phone-alt'></i>Phone:+91 9876543210</li>
-<li><i class='fas fa-envelope'></i>Email: adventour@mail.com</li>
+<li><i class='fas fa-phone-alt'></i> Phone:+91 9876543210</li>
+<li><i class='fas fa-envelope'></i> Email: adventour@mail.com</li>
     </ul><ul style="list-style-type: none;margin-left: 82vh;margin-top: -15vh;">
         <li><input type="text" id="" placeholder="Name" name="fname"> <input type="email" id="" placeholder="Email" name=email></li>
        
         <li><input type="text"  style="width: 40%; height: 2%;padding: 2vh;" placeholder="Message" name="message"> 
           <button type="submit"name=enquire>Enquire</button></li>
-        
       </ul>
     </span>
-  
+  <hr>
     <img src="User/Images/overview2.jpg" alt="" style=" background-size: contain;width:98%">
+    <a href="User/Login/login.html"><input type=button class="expbtn" value="EXPLORE" formaction=""></a>
 
            <hr> <footer style="font-size: medium;">
                 <i class='fab fa-facebook-square'></i>
