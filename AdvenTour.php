@@ -16,10 +16,10 @@
     </div>
     <div class="navbar">
         <a href=""class="disabled"></a><a href=""class="disabled"></a>
-        <a href="" class="line">HOME</a>
+        <a href="Adventour.php" class="line">HOME</a>
         <a href="" class="line">NEWS</a>
         <a href=""class="disabled"></a>
-        <a href="" class="line">TRAVEL ADVICE</a>
+        <a href="advice.html" class="line">TRAVEL ADVICE</a>
         <a href=""class="disabled" style="float: right;"></a><a href=""class="disabled" style="float: right;"></a>
         <a href="../AdvenTour/User/Login/login.html" style="float: right;" class="line">LOGIN</a>
         <a href="../AdvenTour/User/Login/signup.html" style="float: right;" class="line">SIGN UP</a>
