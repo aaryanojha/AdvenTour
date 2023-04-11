@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 body{
   font-family: 'Quicksand', sans-serif;
+  backdrop-filter: blur(5px);
 }
 
 /* Css for nav bar */
