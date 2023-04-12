@@ -15,8 +15,74 @@ body{
 
   /* Css for nav bar */
 
-  
+
   .navbar {
+    overflow: hidden;
+    background-color: #ffffff;
+    zoom: 90%;
+    padding-bottom: 0.25vh;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 2.5vh;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .dropdown {
+    float: right;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 2.5vh;
+    font-weight: bold; 
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(255, 0, 0);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  
+  /* .navbar {
     overflow: hidden;
     background-color: #ffffff;
     position: absolute;
@@ -25,7 +91,6 @@ body{
     margin: -2vh auto;
     width: 100%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* border-bottom: 2px solid black; */
     -webkit-backdrop-filter: blur(0px);
     backdrop-filter: blur(0px);
     top: 0%;
@@ -34,10 +99,9 @@ body{
     padding:1.30vh;
     padding-bottom: 2px;
     box-shadow: 8px 2px 2px 2px black;
-    /* border-bottom: 2px solid black; */
-  }
+  } */
  
-  .navbar a {
+  /* .navbar a {
     float: left;
     font-size: 16px;
     color: rgb(0, 0, 0);
@@ -51,7 +115,7 @@ body{
   
   .navbar a:hover{
     background-color: rgba(122, 120, 120, 0.265);
-} 
+}  */
 /* try */
 .hover-underline-animation {
   display: inline-block;
@@ -77,7 +141,7 @@ body{
   transform-origin: bottom left;
 }
 /* try */
-.dropdown {
+/* .dropdown {
     float: right;
     overflow: hidden;
     
@@ -87,7 +151,6 @@ body{
     font-size: 16px;  
     border: none;
     outline: none;
-    /* color: rgb(75, 73, 73); */
     color: rgb(0, 0, 0);
     padding: 14px 16px;
     background-color: inherit;
@@ -99,13 +162,9 @@ body{
     font-weight: bolder;
     font-size: large;
   }
-  
- 
-
   .dropdown:hover .dropbtn {
     background-color: rgba(0, 0, 0, 0.111);
   }
-
   .dropdown-content {
     display: none;
     position: relative;
@@ -114,8 +173,7 @@ body{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     border-radius: 20%;
     z-index: 1;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
   }
   
   .dropdown-content a {
@@ -135,7 +193,7 @@ body{
   .dropdown:hover .dropdown-content {
     display: block;
     border-radius: 20%;
-  }
+  } */
   .disabled {
     pointer-events: none;
     opacity: 0.3;
@@ -475,14 +533,12 @@ body{
 } */
 
 .boxbtm {
-  background-color: rgba(3, 13, 55, 0);
+  
   width: 160vh;
   position: absolute;
   top: 250vh;
   left: -2vh;
-  height: 10vh;
   border: 0px solid rgba(3, 1, 16, 0.044);
-  /* box-shadow: 1px 1px 2px 2px rgb(0, 0, 0); */
   padding: 5vh;
   margin: 20vh;
   align-self: center;

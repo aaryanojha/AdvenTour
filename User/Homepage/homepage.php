@@ -78,14 +78,14 @@
       </div>
       <div class="boxbtm">
         <p><img class="btmimg" src="../Images/logo811.jpg" alt="">
-      <ul style="list-style-type:none;margin-left:20vh">
+      <ul style="list-style-type:none;margin-left:40vh">
         <li><h3 style="color:orangered;">General</h3></li>
         <li><a href="../Homepage/Pune/pune.php" style="text-decoration:none;color: black;">Pune</a></li>
         <li><a href="../Homepage/Mumbai/mumbai.php" style="text-decoration:none;color: black;" >Mumbai</a></li>
         <li><a href="../Homepage/Delhi/delhi.php" style="text-decoration:none;color: black;" >Delhi</a></li>
         <li><a href="../Homepage/aboutus.html" style="text-decoration:none;color: black;" >About Us</a></li>
       </ul>
-      <ul style="list-style-type:none;float:right;margin-top:-20vh;margin-right:50vh">
+      <ul style="list-style-type:none;float:right;margin-top:-20vh;margin-right:60vh">
         <li><h3 style="color:orangered;">Community</h3></li>
         <li><a href="" style="text-decoration:none;color: black;" >News</a></li>
         <li><a href="" style="text-decoration:none;color: black;" >Travel Advice</a></li>

@@ -287,23 +287,23 @@
 
     <div class="boxbtm">
         <p><img class="btmimg" src="../../Images/logo811.jpg" alt="">
-      <ul style="list-style-type:none;margin-left:20vh">
+      <ul style="list-style-type:none;margin-left:40vh">
         <li><h3>General</h3></li>
-        <li><a href="../Pune/pune.php" style="text-decoration:none">Pune</a></li>
-        <li><a href="../Mumbai/mumbai.php" style="text-decoration:none" >Mumbai</a></li>
-        <li><a href="../Delhi/delhi.php" style="text-decoration:none" >Delhi</a></li>
-        <li><a href="../aboutus.html" style="text-decoration:none" >About Us</a></li>
+        <li><a href="../Pune/pune.php" style="text-decoration:none;color: black;">Pune</a></li>
+        <li><a href="../Mumbai/mumbai.php" style="text-decoration:none;color: black;" >Mumbai</a></li>
+        <li><a href="../Delhi/delhi.php" style="text-decoration:none;color: black;" >Delhi</a></li>
+        <li><a href="../aboutus.html" style="text-decoration:none;color: black;" >About Us</a></li>
       </ul>
-      <ul style="list-style-type:none;float:right;margin-top:-20vh;margin-right:50vh">
+      <ul style="list-style-type:none;float:right;margin-top:-20vh;margin-right:60vh">
         <li><h3>Community</h3></li>
-        <li><a href="" style="text-decoration:none" >News</a></li>
-        <li><a href="" style="text-decoration:none" >Travel Advice</a></li>
+        <li><a href="" style="text-decoration:none;color: black;" >News</a></li>
+        <li><a href="" style="text-decoration:none;color: black;" >Travel Advice</a></li>
       </ul>
       <ul style="list-style-type:none;float:right;margin-top:-20vh;margin-right:10vh">
         <li><h3>Legal</h3></li>
-        <li><a href="" style="text-decoration:none" >Terms & Conditions</a></li>
-        <li><a href=""style="text-decoration:none" >Booking Terms</a></li>
-        <li><a href="" style="text-decoration:none" >Privacy Policy</a></li>
+        <li><a href="" style="text-decoration:none;color: black;" >Terms & Conditions</a></li>
+        <li><a href=""style="text-decoration:none;color: black;" >Booking Terms</a></li>
+        <li><a href="" style="text-decoration:none;color: black;" >Privacy Policy</a></li>
       </ul>
     </p>
     
