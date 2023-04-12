@@ -27,7 +27,7 @@
             padding: 0%;
             height: 55px;
             width: 200px;
-            background-image: url(../Images/logo811.jpg);
+            background-image: url(../Images/logo812.jpg);
             background-size: cover;
             align-items: center;
             background-repeat: no-repeat;
@@ -59,9 +59,9 @@
       </div>
 
       <!-- <p class="marquee" style="top:30%; font-size:300%;left:40%">Get Ready To</p> -->
-      <marquee class="marquee"   behavior=scroll
-  direction= up scrollamount=5 height=120vh scrolldelay=1>Travel ,Explore, Discover<p>AdvenTour!</p>  </marquee>
-
+      <!-- <marquee class="marquee"   behavior=scroll
+  direction= up scrollamount=5 height=120vh scrolldelay=1>Travel ,Explore, Discover<p>AdvenTour!</p>  </marquee> -->
+<p class="content">ADVENTOUR<br><span style="font-size:5vh">Travel, Explore, Discover !</span></p>
       <button class="button-86" role="button" formaction="./Pune/pune.php">
         Pune
       </button>

@@ -23,7 +23,7 @@ body {
 .hover-underline-animation {
   display: inline-block;
   position: relative;
-  color: #0087ca;
+  color: orangered;
 }
 
 .hover-underline-animation::after {
@@ -34,7 +34,7 @@ body {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #0087ca;
+  background-color: orangered;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -43,7 +43,8 @@ body {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-.navbar {
+/* Old Nav Bar */
+/* .navbar {
   overflow: auto;
   background-color: #fcfcfc00;
   position: absolute;
@@ -74,8 +75,43 @@ body {
 
 .navbar a:hover {
   background-color: rgba(0, 0, 0, 0.062);
+} */
+.navbar {
+  overflow: hidden;
+  background-color: #ffffff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0vh auto;
+  width: 100%;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* border-bottom: 2px solid black; */
+  -webkit-backdrop-filter: blur(0px);
+  backdrop-filter: blur(0px);
+  top: 0%;
+  height: fit-content;
+  zoom: 90%;
+  padding:1.30vh;
+  padding-bottom: 2px;
+  box-shadow: 8px 2px 2px 2px black;
+  /* border-bottom: 2px solid black; */
 }
 
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.navbar a:hover{
+  background-color: rgba(122, 120, 120, 0.265);
+}
 .dropdown {
   float: right;
   overflow: hidden;
