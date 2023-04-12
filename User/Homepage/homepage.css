@@ -18,26 +18,30 @@ body{
   
   .navbar {
     overflow: hidden;
-    background-color: #1c000000;
+    background-color: #00000000;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    margin: 0 auto;
-    width: 85%;
+    margin: -2vh auto;
+    width: 100%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-bottom: 2px rgb(0, 0, 0);
-    border-bottom-style:groove;
+    /* border-bottom: 2px solid black; */
     -webkit-backdrop-filter: blur(0px);
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(0px);
     top: 0%;
+    height: fit-content;
+    zoom: 100%;
+    padding:1.30vh;
+    padding-bottom: 2vh;
+    border-bottom: 2px solid black;
   }
  
   .navbar a {
     float: left;
-    font-size:2.5vh;
-    color: rgb(75, 73, 73);
+    font-size: 16px;
+    color: rgb(0, 0, 0);
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 16px;
     text-decoration: none;
     font-family: 'Quicksand', sans-serif;
     font-weight: bolder;
@@ -45,7 +49,7 @@ body{
   }
   
   .navbar a:hover{
-    background-color: rgba(0, 0, 0, 0.062);
+    background-color: rgba(122, 120, 120, 0.265);
 } 
 /* try */
 .hover-underline-animation {
@@ -82,7 +86,8 @@ body{
     font-size: 16px;  
     border: none;
     outline: none;
-    color: rgb(75, 73, 73);
+    /* color: rgb(75, 73, 73); */
+    color: rgb(0, 0, 0);
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
@@ -468,10 +473,10 @@ body{
 
 .boxbtm {
   background-color: rgba(3, 13, 55, 0);
-  width: 120vh;
+  width: 160vh;
   position: absolute;
   top: 250vh;
-  left: 18vh;
+  left: -2vh;
   height: 10vh;
   border: 0px solid rgba(3, 1, 16, 0.044);
   /* box-shadow: 1px 1px 2px 2px rgb(0, 0, 0); */
@@ -479,6 +484,7 @@ body{
   margin: 20vh;
   align-self: center;
   font-size: 2vh;
+  color: black;
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -495,5 +501,5 @@ float:none;
 margin:10 10px 10 10;
 }
 li{
-  color:orangered
+  color: black;
 }

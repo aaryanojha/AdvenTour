@@ -12,7 +12,7 @@ body {
 }
 
 .left {
-  background-color: #d8c5c556;
+  background-color: #ffffff56;
   overflow: hidden;
   display: flex;
   flex-wrap: wrap;
@@ -81,7 +81,7 @@ body {
 .form > button {
   padding: 12px 10px;
   border: 0;
-  background: linear-gradient(to right, #f65d17 0%,#ff0000 100%); 
+  background: linear-gradient(to right, #f27941 0%,#ff0000 100%); 
   border-radius: 3px;
   margin-top: 10px;
   color: #fff;
