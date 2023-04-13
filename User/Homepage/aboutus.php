@@ -73,42 +73,86 @@
       }
       /* NavBar */
       .navbar {
-        overflow: hidden;
-        background-color: #fcfcfc00;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        margin: 1 auto;
-        width: 95%;
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        border-bottom: 0px solid black;
-        -webkit-backdrop-filter: blur(8px);
-        backdrop-filter: blur(0px);
-        top: 2%;
-      }
-
-      .navbar a {
-        float: left;
-        font-size: 16px;
-        color: rgb(75, 73, 73);
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-family: "Quicksand", sans-serif;
-        font-weight: bolder;
-        font-size: large;
-      }
-
-      .navbar a:hover {
-        background-color: rgba(0, 0, 0, 0.062);
-      }
+    overflow: hidden;
+    background-color: #ffffff;
+    zoom: 90%;
+    padding-bottom: 0.25vh;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 2.5vh;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .dropdown {
+    float: right;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 2.5vh;
+    font-weight: bold; 
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(255, 0, 0);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .disabled {
+    pointer-events: none;
+    opacity: 0.3;
+}
     </style>
   </head>
   <body>
+    
+  <?php
+  require_once "../Database/functions.php";
+  ?>
+  
+  <form action="">
     <div class="navbar">
       <!-- Invisible buttons-disabled hover -->
       <!-- <a href="http://" target="_blank" rel="noopener noreferrer" class="disabled"></a>
-<a href="http://" target="_blank" rel="noopener noreferrer" class="disabled"></a> -->
+  <a href="http://" target="_blank" rel="noopener noreferrer" class="disabled"></a> -->
 
       <a
         href="../Homepage/homepage.php"
@@ -118,13 +162,34 @@
           padding: 0%;
           height: 55px;
           width: 200px;
-          background-image: url(../Images/logo811.jpg);
+          background-image: url(../Images/logo813.jpg);
           background-size: cover;
           align-items: center;
-          background-repeat: no-repeat;
-        "
-      >
-      </a>
+          background-repeat: no-repeat;"
+        ><img src=""
+      /></a>
+      <a
+        href="http://"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="disabled"
+      ></a>
+      <a href="#news" class="hover-underline-animation">News</a>
+      <a href="../Homepage/aboutus.html" class="hover-underline-animation">About Us</a>
+      <a href="../Enquire/enquire.php" class="hover-underline-animation">Enquire</a>
+      <div class="dropdown">
+        <button class="dropbtn">
+          <i class="fas fa-user-alt"></i>
+          <?php echo getSessionVar('name'); ?>
+  
+        </button>
+        <div class="dropdown-content">
+          <!-- <a href="../../Homepage/Profile/profile.php">Profile</a> -->
+          <a href="./Profile/profile.php">Profile</a>
+          <a href="../Login/login.html">Sign Out</a>
+        </div>
+        &emsp;&emsp;&emsp;&emsp;&nbsp;
+      </div>
     </div>
     <div class="about-section">
       <h1>About Us</h1>
@@ -166,5 +231,6 @@
     </div>
 
     <div style="text-align: center">AdvenTour ko banaya hai</div>
+    </form>
   </body>
 </html>

@@ -13,6 +13,7 @@
   <?php
   require_once "../Database/functions.php";
   ?>
+
     <form>
       <div class="navbar">
         <!-- Invisible buttons-disabled hover -->
@@ -30,7 +31,7 @@
             background-image: url(../Images/logo813.jpg);
             background-size: cover;
             align-items: center;
-            background-repeat: no-repeat;"
+            background-repeat: no-repeat;" class="disabled"
           ><img src=""
         /></a>
         <a
@@ -40,7 +41,7 @@
           class="disabled"
         ></a>
         <a href="#news" class="hover-underline-animation">News</a>
-        <a href="../Homepage/aboutus.html" class="hover-underline-animation">About Us</a>
+        <a href="../Homepage/aboutus.php" class="hover-underline-animation">About Us</a>
         <a href="../Enquire/enquire.php" class="hover-underline-animation">Enquire</a>
         <div class="dropdown">
           <button class="dropbtn">
@@ -57,9 +58,6 @@
         </div>
       </div>
 
-      <!-- <p class="marquee" style="top:30%; font-size:300%;left:40%">Get Ready To</p> -->
-      <!-- <marquee class="marquee"   behavior=scroll
-  direction= up scrollamount=5 height=120vh scrolldelay=1>Travel ,Explore, Discover<p>AdvenTour!</p>  </marquee> -->
 <p class="content">ADVENTOUR<br><span style="font-size:5vh">Travel, Explore, Discover !</span></p>
       <button class="button-86" role="button" formaction="./Pune/pune.php">
         Pune
