@@ -61,7 +61,7 @@
           "></a>
       <a href="http://" target="_blank" rel="noopener noreferrer" class="disabled"></a>
       <a href="#news" class="hover-underline-animation">News</a>
-      <a href="../../aboutus.html" class="hover-underline-animation">About Us</a>
+      <a href="../../aboutus.php" class="hover-underline-animation">About Us</a>
 
       <div class="dropdown">
         <button class="dropbtn">
@@ -85,7 +85,7 @@
 
     <div class="box" style="font-family: 'Alata'; font-size: 22px; color: #ff571b; text-decoration: none">
 
-      <b style="font-size: 50; font-family: fantasy"></b>Tour Destination : SHANIWAR
+      <b style="font-size: 50; font-family: fantasy"></b>Tour destination : SHANIWAR
       WADA
       <hr style="border: 2px solid darkgrey" />
 

@@ -31,7 +31,7 @@
             background-image: url(../Images/logo813.jpg);
             background-size: cover;
             align-items: center;
-            background-repeat: no-repeat;" class="disabled"
+            background-repeat: no-repeat;" 
           ><img src=""
         /></a>
         <a
@@ -80,7 +80,7 @@
         <li><a href="../Homepage/Pune/pune.php" style="text-decoration:none;color: black;">Pune</a></li>
         <li><a href="../Homepage/Mumbai/mumbai.php" style="text-decoration:none;color: black;" >Mumbai</a></li>
         <li><a href="../Homepage/Delhi/delhi.php" style="text-decoration:none;color: black;" >Delhi</a></li>
-        <li><a href="../Homepage/aboutus.html" style="text-decoration:none;color: black;" >About Us</a></li>
+        <li><a href="../Homepage/aboutus.php" style="text-decoration:none;color: black;" >About Us</a></li>
       </ul>
       <ul style="list-style-type:none;float:right;margin-top:-20vh;margin-right:60vh">
         <li><h3 style="color:orangered;">Community</h3></li>

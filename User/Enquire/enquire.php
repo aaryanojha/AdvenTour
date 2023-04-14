@@ -33,7 +33,7 @@
           "></a>
       <a href="http://" target="_blank" rel="noopener noreferrer" class="disabled"></a>
       <a href="" class="hover-underline-animation">News</a>
-      <a href="../Homepage/aboutus.html" class="hover-underline-animation">About Us</a>
+      <a href="../Homepage/aboutus.php" class="hover-underline-animation">About Us</a>
       <a href="./enquire.php" class="hover-underline-animation">Enquire</a>
       <div class="dropdown">
         <button class="dropbtn">

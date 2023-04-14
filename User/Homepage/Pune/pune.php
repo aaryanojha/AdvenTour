@@ -59,7 +59,7 @@
           "></a>
       <a href="http://" target="_blank" rel="noopener noreferrer" class="disabled"></a>
       <a href="" class="hover-underline-animation">News</a>
-      <a href="../../Homepage/aboutus.html" class="hover-underline-animation">About Us</a>
+      <a href="../../Homepage/aboutus.php" class="hover-underline-animation">About Us</a>
       <a href="../../Enquire/enquire.php" class="hover-underline-animation">Enquire</a>
       <div class="dropdown">
         <button class="dropbtn">
@@ -298,7 +298,7 @@
         <li><a href="pune.php" style="text-decoration:none;color: black;">Pune</a></li>
         <li><a href="../Mumbai/mumbai.php" style="text-decoration:none;color: black;" >Mumbai</a></li>
         <li><a href="../Delhi/delhi.php" style="text-decoration:none;color: black;" >Delhi</a></li>
-        <li><a href="../aboutus.html" style="text-decoration:none;color: black;" >About Us</a></li>
+        <li><a href="../aboutus.php" style="text-decoration:none;color: black;" >About Us</a></li>
       </ul>
       <ul style="list-style-type:none;float:right;margin-top:-20vh;margin-right:60vh">
         <li><h3>Community</h3></li>

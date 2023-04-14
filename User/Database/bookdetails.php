@@ -1,6 +1,7 @@
 <?php
 //Connect to the MySQL database
 require_once('../Database/functions.php');
+
 $conn = DBConnect();
 if (isset($_POST['submit'])) {
   $adults = $_POST['adults'];
@@ -10,7 +11,7 @@ if (isset($_POST['submit'])) {
   $email = getSessionVar('email');
   if (!empty($destination) && !empty($adults) && !empty($children)&& !empty($price)&& !empty($email)) {
    
-    $query = "INSERT INTO bookdetails (email,destination,adults,children,Price) VALUES('$email','$destination','$adults','$children','$price')";
+    $query = "INSERT INTO bookdetails (email,destination,adults,children,price) VALUES('$email','$destination','$adults','$children','$price')";
     $result = $conn->query($query);
     if ($result) {
       echo "<script>
@@ -22,6 +23,11 @@ if (isset($_POST['submit'])) {
     window.location.href='../Homepage/Pune/Shaniwarwada/shaniwarwada.php';
     </script>";
     }
+  }else {
+    echo "<script>
+  alert('Invalid Input');
+  window.location.href='../Homepage/Pune/Shaniwarwada/shaniwarwada.php';
+  </script>";
   }
 }
 

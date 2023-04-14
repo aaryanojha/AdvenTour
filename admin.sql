@@ -31,10 +31,10 @@ DROP TABLE IF EXISTS `bookdetails`;
 CREATE TABLE IF NOT EXISTS `bookdetails` (
   `id` int UNSIGNED NOT NULL AUTO_INCREMENT,
   `email` varchar(55) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
-  `Destination` varchar(55) NOT NULL,
+  `destination` varchar(55) NOT NULL,
   `adults` varchar(255) DEFAULT NULL,
   `children` varchar(255) DEFAULT NULL,
-  `Price` int DEFAULT NULL,
+  `price` int DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=20 DEFAULT CHARSET=latin1;
 
@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS `bookdetails` (
 -- Dumping data for table `bookdetails`
 --
 
-INSERT INTO `bookdetails` (`id`, `email`, `Destination`, `adults`, `children`, `Price`) VALUES
+INSERT INTO `bookdetails` (`id`, `email`, `destination`, `adults`, `children`, `price`) VALUES
 (13, '', 'Shaniwarwada', '1', '2', 1000),
 (14, 'aa@gmail.com', 'Shaniwarwada', '2', '3', 1000),
 (15, 'aa@gmail.com', 'Shaniwarwada', '2', '4', 1000),
@@ -62,7 +62,7 @@ CREATE TABLE IF NOT EXISTS `destination` (
   `Id` int NOT NULL AUTO_INCREMENT,
   `Adult` varchar(191) NOT NULL,
   `Children` varchar(191) NOT NULL,
-  `Price` varchar(20) NOT NULL,
+  `price` varchar(20) NOT NULL,
   PRIMARY KEY (`Id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 

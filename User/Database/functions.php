@@ -37,4 +37,11 @@ function GetSessionVar(string $varName)
     }
 }
 
+
+function display_data(){
+    global $conn;
+    $query="select * from bookdetails";
+    $result=mysqli_query($conn,$query);
+    return $result;
+}
 ?>
