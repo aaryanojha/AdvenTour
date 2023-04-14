@@ -70,11 +70,11 @@
 
         <table border="2" width="90%">
           <tr>
-            <td>Email</td>
-            <td>Destination</td>
-            <td>Adults</td>
-            <td>Children</td>
-            <td>Price</td>
+            <th>Email</th>
+            <th>Destination</th>
+            <th>Adults</th>
+            <th>Children</th>
+            <th>Price</th>
           </tr>
 
           <tr>
