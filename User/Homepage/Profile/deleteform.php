@@ -40,7 +40,7 @@
             padding: 1%;
             height: 55px;
             width: 200px;
-            background-image: url(../../Images/logo811.jpg);
+            background-image: url(../../Images/logo813.jpg);
             background-size: cover;
             align-items: center;
             background-repeat: no-repeat;

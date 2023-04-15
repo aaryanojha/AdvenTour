@@ -74,7 +74,7 @@
         <span class="escapes__caption">Discover your ideal Experience</span>
       </div>
       <div class="boxbtm">
-        <p><img class="btmimg" src="../Images/logo811.jpg" alt="">
+        <p><img class="btmimg" src="../Images/logo813.jpg" alt="">
       <ul style="list-style-type:none;margin-left:40vh">
         <li><h3 style="color:orangered;">General</h3></li>
         <li><a href="../Homepage/Pune/pune.php" style="text-decoration:none;color: black;">Pune</a></li>

@@ -16,17 +16,17 @@ if (isset($_POST['submit'])) {
     if ($result) {
       echo "<script>
         alert('Added to My Bookings!');
-        window.location.href='../Homepage/Pune/Shaniwarwada/shaniwarwada.php'; </script>";
+        window.location.href='../Homepage/Pune/Destinations/Shaniwarwada/shaniwarwada.php'; </script>";
     } else {
       echo "<script>
     alert('Invalid Input');
-    window.location.href='../Homepage/Pune/Shaniwarwada/shaniwarwada.php';
+    window.location.href='../Homepage/Pune/Destinations/Shaniwarwada/shaniwarwada.php';
     </script>";
     }
   }else {
     echo "<script>
   alert('Invalid Input');
-  window.location.href='../Homepage/Pune/Shaniwarwada/shaniwarwada.php';
+  window.location.href='../Homepage/Pune/Destinations/Shaniwarwada/shaniwarwada.php';
   </script>";
   }
 }

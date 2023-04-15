@@ -16,7 +16,7 @@ body{
 .hover-underline-animation {
   display: inline-block;
   position: relative;
-  color: #0087ca;
+  color: orangered;
 }
 
 .hover-underline-animation::after {
@@ -27,7 +27,7 @@ body{
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #0087ca;
+  background-color: orangered;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -37,36 +37,21 @@ body{
   transform-origin: bottom left;
 }
 .navbar {
-  overflow: auto;
-  background-color: #fcfcfc00;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  margin: 0 auto;
-  width: 100%;
-  top: 0%;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  border-bottom: 2px solid black;
-  -webkit-backdrop-filter: blur(0px);
-  backdrop-filter: blur(0px);
+  overflow: hidden;
+  background-color: #ffffff;
+  zoom: 80%;
+  padding-bottom: 0.25vh;
 }
 
 .navbar a {
   float: left;
-  font-size: 16px;
+  font-size: 2.5vh;
+  font-weight: bold;
   color: rgb(0, 0, 0);
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 20px;
   text-decoration: none;
-  font-weight: 500;
   font-family: 'Quicksand', sans-serif;
-  font-weight: bolder;
-  font-size: large;
-  color: rgb(75, 73, 73);
-}
-
-.navbar a:hover {
-  background-color: rgba(0, 0, 0, 0.062);
 }
 
 .dropdown {
@@ -75,7 +60,8 @@ body{
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;
+  font-size: 2.5vh;
+  font-weight: bold; 
   border: none;
   outline: none;
   color: rgb(0, 0, 0);
@@ -83,48 +69,38 @@ body{
   background-color: inherit;
   font-family: inherit;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 500;
-  font-family: 'Quicksand', sans-serif;
-  font-weight: bolder;
-  font-size: large;
-  color: rgb(75, 73, 73);
 }
 
-.dropdown:hover .dropbtn {
-  background-color: rgba(0, 0, 0, 0.111);
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(255, 0, 0);
 }
 
 .dropdown-content {
   display: none;
-  position: relative;
-  background-color: #00000093;
+  position: absolute;
+  background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  border-radius: 20%;
   z-index: 1;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  
 }
 
 .dropdown-content a {
   float: none;
-  color: rgb(255, 252, 252);
+  color: black;
   padding: 12px 16px;
   text-decoration: none;
-  display: block; 
-  text-align:center;
-  font-size: medium;
+  display: block;
+  text-align: left;
 }
+
 .dropdown-content a:hover {
-  background-color: #00000014;
-  border-radius: 0%;
-  border-bottom:#0000005d; 
-} 
+  background-color: #ddd;
+}
+
 .dropdown:hover .dropdown-content {
   display: block;
-  border-radius: 20%;
 }
+
 
 .disabled {
   pointer-events: none;

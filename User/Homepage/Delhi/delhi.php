@@ -51,7 +51,7 @@
                                         padding: 0%; 
                                         height: 55px;
                                         width: 200px;
-                                        background-image: url(../../Images/logo811.jpg);
+                                        background-image: url(../../Images/logo813.jpg);
                                         background-size:cover;
                                         align-items: center;
                                         background-repeat: no-repeat;"></a>
@@ -283,7 +283,7 @@
 
 
     <div class="boxbtm">
-        <p><img class="btmimg" src="../../Images/logo811.jpg" alt="">
+        <p><img class="btmimg" src="../../Images/logo813.jpg" alt="">
       <ul style="list-style-type:none;margin-left:40vh">
         <li><h3>General</h3></li>
         <li><a href="../Pune/pune.php" style="text-decoration:none;color: black;">Pune</a></li>

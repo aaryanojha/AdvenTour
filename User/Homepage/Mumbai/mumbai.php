@@ -51,7 +51,7 @@
                                         padding: 0%; 
                                         height: 55px;
                                         width: 200px;
-                                        background-image: url(../../Images/logo811.jpg);
+                                        background-image: url(../../Images/logo813.jpg);
                                         background-size:cover;
                                         align-items: center;
                                         background-repeat: no-repeat;"></a>
@@ -83,7 +83,7 @@
     <button formaction="../Pune/pune.php" title="Pune" class="btnleft"><i class='fas fa-arrow-left'></i></button>
 
     <!--GATEWAY OF INDIA  -->
-    <div class="box" style="font-family: 'Alata';font-size: 22px;color: #ffb700;"><a href=""
+    <div class="box" style="font-family: 'Alata';font-size: 22px;color: #ffb700;"><a href="./Destinations/GATEWAY OF INDIA/GATEWAY OF INDIA.php"
         style="color: #3090ff;;text-decoration: none;"><b style="font-size: 50;font-family:fantasy;">01</b>&emsp;
         GATEWAY OF INDIA
         <hr style="border: 4px solid lightblue;">
@@ -99,7 +99,7 @@
 
 
     <!-- TAJ HOTEL -->
-    <div class="box2" style="font-family: 'Alata';font-size: 22px;color: #ffb700;"><a href=""
+    <div class="box2" style="font-family: 'Alata';font-size: 22px;color: #ffb700;"><a href="./Destinations/TAJ HOTEL/TAJ HOTEL.php"
         style="color: #3090ff;text-decoration: none;"><b style="font-size: 50;font-family:fantasy;">02</b>&emsp; TAJ
         HOTEL
         <hr style="border: 4px solid lightblue;">
@@ -114,7 +114,7 @@
 
     <!-- SHREE SIDDHIVINAYAK TEMPLE -->
     <div class="box3" style="font-family: 'Alata';font-size: 22px;">
-      <a href="" style="color: #3090ff; text-decoration: none"><b
+      <a href="./Destinations/SHREE SIDDHIVINAYAK TEMPLE/SHREE SIDDHIVINAYAK TEMPLE.php" style="color: #3090ff; text-decoration: none"><b
           style="font-size: 50; font-family: fantasy">03</b>&emsp;
         SHREE SIDDHIVINAYAK TEMPLE
         <hr style="border: 4px solid lightblue" />
@@ -129,11 +129,11 @@
     </div>
     <br />
 
-    <!-- HANGING GARDEN MUMBAI TIMINGS -->
+    <!-- HANGING GARDEN  -->
     <div class="box4" style="font-family: 'Alata';font-size: 22px;">
-      <a href="" style="color: #3090ff; text-decoration: none"><b
+      <a href="./Destinations/HANGING GARDEN/HANGING GARDEN.php" style="color: #3090ff; text-decoration: none"><b
           style="font-size: 50; font-family: fantasy">04</b>&emsp;
-        HANGING GARDEN MUMBAI TIMINGS
+        HANGING GARDEN 
         <hr style="border: 4px solid lightblue" />
         <img src="../../Images/mumbai4.jpg" style="position: absolute; width: 90%; height: 65%; left: 5%" />
       </a>
@@ -148,7 +148,7 @@
 
     <!-- OBEROI MALL -->
     <div class="box5" style="font-family: 'Alata';font-size: 22px;">
-      <a href="" style="color: #3090ff; text-decoration: none"><b
+      <a href="./Destinations/OBEROI MALL/OBEROI MALL.php" style="color: #3090ff; text-decoration: none"><b
           style="font-size: 50; font-family: fantasy">05</b>&emsp;
         OBEROI MALL
         <hr style="border: 4px solid lightblue" />
@@ -165,7 +165,7 @@
 
     <!-- STREET SHOPPING  -->
     <div class="box6" style="font-family: 'Alata';font-size: 22px;">
-      <a href="" style="color: #3090ff; text-decoration: none"><b
+      <a href="./Destinations/STREET SHOPPING/STREET SHOPPING.php" style="color: #3090ff; text-decoration: none"><b
           style="font-size: 50; font-family: fantasy">06</b>&emsp;
         STREET SHOPPING
         <hr style="border: 4px solid lightblue" />
@@ -182,7 +182,7 @@
 
     <!-- MALABAR HILL FOREST TRAIL -->
     <div class="box7" style="font-family: 'Alata';font-size: 22px;">
-      <a href="" style="color: #3090ff; text-decoration: none"><b
+      <a href="./Destinations/MALABAR HILL/MALABAR HILL.php" style="color: #3090ff; text-decoration: none"><b
           style="font-size: 50; font-family: fantasy">07</b>&emsp;
         MALABAR HILL FOREST TRAIL
         <hr style="border: 4px solid lightblue" />
@@ -199,7 +199,7 @@
 
     <!-- BABULNATH MANDIR -->
     <div class="box8" style="font-family: 'Alata';font-size: 22px;">
-      <a href="" style="color: #3090ff; text-decoration: none"><b
+      <a href="./Destinations/BABULNATH MANDIR/BABULNATH MANDIR.php" style="color: #3090ff; text-decoration: none"><b
           style="font-size: 50; font-family: fantasy">08</b>&emsp;
         BABULNATH MANDIR
         <hr style="border: 4px solid lightblue" />
@@ -216,7 +216,7 @@
 
     <!-- HAJI ALI DARGAH -->
     <div class="box9" style="font-family: 'Alata';font-size: 22px;">
-      <a href="" style="color: #3090ff; text-decoration: none"><b
+      <a href="./Destinations/HAJI ALI DARGAH/HAJI ALI DARGAH.php" style="color: #3090ff; text-decoration: none"><b
           style="font-size: 50; font-family: fantasy">09</b>&emsp;
         HAJI ALI DARGAH
         <hr style="border: 4px solid lightblue" />
@@ -233,7 +233,7 @@
 
     <!-- FUN CITY COME PLAY! -->
     <div class="box10" style="font-family: 'Alata';font-size: 22px;">
-      <a href="" style="color: #3090ff; text-decoration: none"><b
+      <a href="./Destinations/FUN CITY COME PLAY!/FUN CITY COME PLAY!.php" style="color: #3090ff; text-decoration: none"><b
           style="font-size: 50; font-family: fantasy">10</b>&emsp;
         FUN CITY COME PLAY!
         <hr style="border: 4px solid lightblue" />
@@ -250,7 +250,7 @@
 
     <!-- MARINE DRIVE MUMBAI -->
     <div class="box11" style="font-family: 'Alata';font-size: 22px;">
-      <a href="" style="color: #3090ff; text-decoration: none"><b
+      <a href="./Destinations/MARINE DRIVE MUMBAI/MARINE DRIVE MUMBAI.php" style="color: #3090ff; text-decoration: none"><b
           style="font-size: 50; font-family: fantasy">11</b>&emsp;
         MARINE DRIVE MUMBAI
         <hr style="border: 4px solid lightblue" />
@@ -268,7 +268,7 @@
 
     <!-- ELEPHANTA CAVES -->
     <div class="box12" style="font-family: 'Alata';font-size: 22px;">
-      <a href="" style="color: #3090ff; text-decoration: none"><b
+      <a href="./Destinations/ELEPHANTA CAVES/ELEPHANTA CAVES.php" style="color: #3090ff; text-decoration: none"><b
           style="font-size: 50; font-family: fantasy">12</b>&emsp;
         ELEPHANTA CAVES
         <hr style="border: 4px solid lightblue" />
@@ -286,7 +286,7 @@
 
 
     <div class="boxbtm">
-        <p><img class="btmimg" src="../../Images/logo811.jpg" alt="">
+        <p><img class="btmimg" src="../../Images/logo813.jpg" alt="">
       <ul style="list-style-type:none;margin-left:40vh">
         <li><h3>General</h3></li>
         <li><a href="../Pune/pune.php" style="text-decoration:none;color: black;">Pune</a></li>
@@ -296,14 +296,14 @@
       </ul>
       <ul style="list-style-type:none;float:right;margin-top:-20vh;margin-right:60vh">
         <li><h3>Community</h3></li>
-        <li><a href="" style="text-decoration:none;color: black;" >News</a></li>
-        <li><a href="" style="text-decoration:none;color: black;" >Travel Advice</a></li>
+        <li><a href="#" style="text-decoration:none;color: black;" >News</a></li>
+        <li><a href="#" style="text-decoration:none;color: black;" >Travel Advice</a></li>
       </ul>
       <ul style="list-style-type:none;float:right;margin-top:-20vh;margin-right:10vh">
         <li><h3>Legal</h3></li>
-        <li><a href="" style="text-decoration:none;color: black;" >Terms & Conditions</a></li>
-        <li><a href=""style="text-decoration:none;color: black;" >Booking Terms</a></li>
-        <li><a href="" style="text-decoration:none;color: black;" >Privacy Policy</a></li>
+        <li><a href="#" style="text-decoration:none;color: black;" >Terms & Conditions</a></li>
+        <li><a href="#"style="text-decoration:none;color: black;" >Booking Terms</a></li>
+        <li><a href="#" style="text-decoration:none;color: black;" >Privacy Policy</a></li>
       </ul>
     </p>
     
@@ -317,9 +317,9 @@
           prohibited and punishable by law.
         </p><hr width="20%">
         <p style="text-align:center"> 
-                <a href=""><i class='fab fa-instagram'></i></a>
-                <a href=""><i class='fab fa-linkedin-in'></i></a>
-                <a href=""><i class='fab fa-twitter'></i></a><br>
+                <a href="#"><i class='fab fa-instagram'></i></a>
+                <a href="#"><i class='fab fa-linkedin-in'></i></a>
+                <a href="#"><i class='fab fa-twitter'></i></a><br>
                 <br>Powered by <a href="../../../AdvenTour.html" target="_blank">AdvenTour.in</a></p>
         <br>
   </div>

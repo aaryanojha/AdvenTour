@@ -52,7 +52,7 @@
             padding: 0%;
             height: 55px;
             width: 200px;
-            background-image: url(../../Images/logo811.jpg);
+            background-image: url(../../Images/logo813.jpg);
             background-size: cover;
             align-items: center;
             background-repeat: no-repeat;
@@ -85,7 +85,7 @@
 
     <!-- Shaniwar wada -->
     <div class="box" style="font-family: 'Alata'; font-size: 22px; color: #ffb700">
-      <a href="./shaniwarwada/shaniwarwada.php" style="color: #ffb700; text-decoration: none"><b
+      <a href="./Destinations/Shaniwarwada/shaniwarwada.php" style="color: #ffb700; text-decoration: none"><b
           style="font-size: 50; font-family: fantasy">01</b>&emsp; SHANIWAR
         WADA
         <hr style="border: 4px solid yellow" />
@@ -103,7 +103,7 @@
 
     <!-- Lal Mahal -->
     <div class="box2" style="font-family: 'Alata'; font-size: 22px; color: #ffb700">
-      <a href="./lalmahal/lalmahal.php" style="color: #ffb700; text-decoration: none"><b
+      <a href="./Destinations/lalmahal/lalmahal.php" style="color: #ffb700; text-decoration: none"><b
           style="font-size: 50; font-family: fantasy">02</b>&emsp; LAL MAHAL
         <hr style="border: 4px solid yellow" />
         <img src="../../Images/pune3.jpg" style="position: absolute; width: 90%; height: 65%; left: 5%" />
@@ -120,7 +120,7 @@
 
     <!-- Dagdusheth ganpati -->
     <div class="box3" style="font-family: 'Alata'; font-size: 22px; color: #ffb700">
-      <a href="" style="color: #ffb700; text-decoration: none"><b
+      <a href="./Destinations/DAGDUSHETH GANPATI/DAGDUSHETH GANPATI.php" style="color: #ffb700; text-decoration: none"><b
           style="font-size: 50; font-family: fantasy">03</b>&emsp;
         DAGDUSHETH GANPATI
         <hr style="border: 4px solid yellow" />
@@ -141,7 +141,7 @@
 
     <!--ISKCON NVCC Pune -->
     <div class="box4" style="font-family: 'Alata'; font-size: 22px; color: #ffb700">
-      <a href="" style="color: #ffb700; text-decoration: none"><b
+      <a href="./Destinations/ISKCON NVCC Pune/ISKCON NVCC.php" style="color: #ffb700; text-decoration: none"><b
           style="font-size: 50; font-family: fantasy">04</b>&emsp;
         ISKCON NVCC PUNE
         <hr style="border: 4px solid yellow" />
@@ -158,7 +158,7 @@
 
     <!-- Shivneri Fort -->
     <div class="box5" style="font-family: 'Alata'; font-size: 22px; color: #ffb700">
-      <a href="" style="color: #ffb700; text-decoration: none"><b
+      <a href="./Destinations/Shivneri/shivneri.php" style="color: #ffb700; text-decoration: none"><b
           style="font-size: 50; font-family: fantasy">05</b>&emsp;
         SHIVNERI FORT
         <hr style="border: 4px solid yellow" />
@@ -175,7 +175,7 @@
 
     <!--  Phoenix City Mall -->
     <div class="box6" style="font-family: 'Alata'; font-size: 22px; color: #ffb700">
-      <a href="" style="color: #ffb700; text-decoration: none"><b
+      <a href="./Destinations/Phoenix/Phoenix.php" style="color: #ffb700; text-decoration: none"><b
           style="font-size: 50; font-family: fantasy">06</b>&emsp;
         PHOENIX CITY MALL
         <hr style="border: 4px solid yellow" />
@@ -192,7 +192,7 @@
 
     <!--INOX - Elpro City Square -->
     <div class="box7" style="font-family: 'Alata'; font-size: 22px; color: #ffb700">
-      <a href="" style="color: #ffb700; text-decoration: none"><b
+      <a href="./Destinations/Elpro/Elpro.php" style="color: #ffb700; text-decoration: none"><b
           style="font-size: 50; font-family: fantasy">07</b>&emsp;
         INOX - ELPRO CITY SQUARE
         <hr style="border: 4px solid yellow" />
@@ -209,7 +209,7 @@
 
     <!-- Hotel JW MARRIOTT -->
     <div class="box8" style="font-family: 'Alata'; font-size: 22px; color: #ffb700">
-      <a href="" style="color: #ffb700; text-decoration: none"><b
+      <a href="./Destinations/JW MARRIOTT/JW MARRIOTT.php" style="color: #ffb700; text-decoration: none"><b
           style="font-size: 50; font-family: fantasy">08</b>&emsp;
         HOTEL JW MARRIOTT
         <hr style="border: 4px solid yellow" />
@@ -226,7 +226,7 @@
 
     <!-- Okayama Friendship Garden -->
     <div class="box9" style="font-family: 'Alata'; font-size: 22px; color: #ffb700">
-      <a href="" style="color: #ffb700; text-decoration: none"><b
+      <a href="./Destinations/Okayama/Okayama.php" style="color: #ffb700; text-decoration: none"><b
           style="font-size: 50; font-family: fantasy">09</b>&emsp;
         OKAYAMA FRIENDSHIP GARDEN
         <hr style="border: 4px solid yellow" />
@@ -243,7 +243,7 @@
 
     <!-- Sinhagad Fort  -->
     <div class="box10" style="font-family: 'Alata'; font-size: 22px; color: #ffb700">
-      <a href="" style="color: #ffb700; text-decoration: none"><b
+      <a href="./Destinations/Sinhagad/Sinhagad.php" style="color: #ffb700; text-decoration: none"><b
           style="font-size: 50; font-family: fantasy">10</b>&emsp;
         SINHAGAD FORT
         <hr style="border: 4px solid yellow" />
@@ -260,7 +260,7 @@
 
     <!-- TULSI BAUG SHOPPING MARKET -->
     <div class="box11" style="font-family: 'Alata'; font-size: 22px; color: #ffb700">
-      <a href="" style="color: #ffb700; text-decoration: none"><b
+      <a href="./Destinations/TULSI BAUG/TULSI BAUG.php" style="color: #ffb700; text-decoration: none"><b
           style="font-size: 50; font-family: fantasy">11</b>&emsp;
         TULSI BAUG SHOPPING MARKET
         <hr style="border: 4px solid yellow" />
@@ -275,9 +275,9 @@
     </div>
     <br />
 
-    <!-- Dagdusheth ganpati -->
+    <!--  AGA KHAN PALACE -->
     <div class="box12" style="font-family: 'Alata'; font-size: 22px; color: #ffb700">
-      <a href="" style="color: #ffb700; text-decoration: none"><b
+      <a href="./Destinations/AGA KHAN PALACE/AGA KHAN PALACE.php" style="color: #ffb700; text-decoration: none"><b
           style="font-size: 50; font-family: fantasy">12</b>&emsp;
         AGA KHAN PALACE
         <hr style="border: 4px solid yellow" />
@@ -292,7 +292,7 @@
     </div>
     <br />
     <div class="boxbtm">
-        <p><img class="btmimg" src="../../Images/logo811.jpg" alt="">
+        <p><img class="btmimg" src="../../Images/logo813.jpg" alt="">
       <ul style="list-style-type:none;margin-left:40vh">
         <li><h3>General</h3></li>
         <li><a href="pune.php" style="text-decoration:none;color: black;">Pune</a></li>
@@ -302,14 +302,14 @@
       </ul>
       <ul style="list-style-type:none;float:right;margin-top:-20vh;margin-right:60vh">
         <li><h3>Community</h3></li>
-        <li><a href="" style="text-decoration:none;color: black;" >News</a></li>
-        <li><a href="" style="text-decoration:none;color: black;" >Travel Advice</a></li>
+        <li><a href="#" style="text-decoration:none;color: black;" >News</a></li>
+        <li><a href="#" style="text-decoration:none;color: black;" >Travel Advice</a></li>
       </ul>
       <ul style="list-style-type:none;float:right;margin-top:-20vh;margin-right:10vh">
         <li><h3>Legal</h3></li>
-        <li><a href="" style="text-decoration:none;color: black;" >Terms & Conditions</a></li>
-        <li><a href=""style="text-decoration:none;color: black;" >Booking Terms</a></li>
-        <li><a href="" style="text-decoration:none;color: black;" >Privacy Policy</a></li>
+        <li><a href="#" style="text-decoration:none;color: black;" >Terms & Conditions</a></li>
+        <li><a href="#"style="text-decoration:none;color: black;" >Booking Terms</a></li>
+        <li><a href="#" style="text-decoration:none;color: black;" >Privacy Policy</a></li>
       </ul>
     </p>
     
@@ -323,9 +323,9 @@
           prohibited and punishable by law.
         </p><hr width="20%">
         <p style="text-align:center"> 
-                <a href=""><i class='fab fa-instagram'></i></a>
-                <a href=""><i class='fab fa-linkedin-in'></i></a>
-                <a href=""><i class='fab fa-twitter'></i></a><br>
+                <a href="#"><i class='fab fa-instagram'></i></a>
+                <a href="#"><i class='fab fa-linkedin-in'></i></a>
+                <a href="#"><i class='fab fa-twitter'></i></a><br>
                 <br>Powered by <a href="../../../AdvenTour.html" target="_blank">AdvenTour.in</a></p>
         <br>
   </div>
