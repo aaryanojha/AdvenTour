@@ -75,20 +75,41 @@
       </div>
 
       <div class="tourpackage">
-      <span class="tour_title">Tour Packages</span>
+      <span class="tour_title">Tour Packages</span></div>
         <!-- <span class="tour__caption">Discover your ideal Experience</span> -->
-        <span class="package1"><img src="../Images/pune1.jpg" alt="" style="height:20vh;width:45vh;float:left; padding:0px 2vh">
+       <div class="packbox">
+        <span class="package1"><img src="../Images/agakhan.jpg" alt="" style="height:20vh;width:45vh;float:left; padding:2vh 2vh">
+        <p>Pune Full Tour</p>
         <p>Hello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar heloo </p>
-        <p style="postion:fixed">Five star</p>
-      <button type="submit" class="packagebtn">Book now</button></span>
-      <span class="package1"><img src="../Images/pune1.jpg" alt="" style="height:20vh;width:45vh;float:left; padding:0px 2vh">
-        <p>Hello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar heloo </p>
-        <p style="postion:fixed">Five star</p>
-      <button type="submit" class="packagebtn">Book now</button></span>
-      <span class="package1"><img src="../Images/pune1.jpg" alt="" style="height:20vh;width:45vh;float:left; padding:0px 2vh">
-        <p>Hello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar heloo </p>
-        <p style="postion:fixed">Five star</p>
-      <button type="submit" class="packagebtn">Book now</button></span>
+        <p style="postion:fixed">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></p>
+      <button type="submit" class="packagebtn" formaction="punetour.php">Book now</button></span>
+
+      <span class="package1"><img src="../Images/mumbai1.jpg" alt="" style="height:20vh;width:45vh;float:left; padding:2vh 2vh">
+      <p>Mumbai Full Tour</p>  
+      <p>Hello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar heloo </p>
+        <p style="postion:fixed">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span></p>
+      <button type="submit" class="packagebtn" formaction="#">Book now</button></span>
+
+      <span class="package1"><img src="../Images/delhi.jpg" alt="" style="height:20vh;width:45vh;float:left; padding:2vh 2vh">
+      <p>Delhi Full Tour</p>  
+      <p>Hello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar heloo </p>
+        <p style="postion:fixed">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></p>
+      <button type="submit" class="packagebtn" formaction="#">Book now</button></span>
       </div>
 
       <div class="boxbtm">

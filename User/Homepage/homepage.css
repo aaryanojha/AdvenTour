@@ -514,7 +514,7 @@ body{
 
 .tourpackage {
   display:flex;
-  /* flex-flow: column nowrap; */
+  flex-flow: column nowrap;
   align-items: center;
   position: relative;
   /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
@@ -546,6 +546,18 @@ width: 20vh
 color: #3a3a3a;
 }
 
+.packbox{
+  margin-top: 4vh;
+  display:flex;
+  /* flex-flow: column nowrap; */
+  align-items: center;
+  position: relative;
+  /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  bottom: -250vh;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bolder;
+  font-size: 3vh;
+}
 .package1{
   border: 0px solid rgba(0, 0, 0, 0.525);
   padding: 5vh 5vh;
@@ -563,14 +575,16 @@ color: #3a3a3a;
   cursor: pointer;
 }
 
-
+.checked {
+  color: orange;
+}
 
 
 .boxbtm {
   
   width: 160vh;
   position: absolute;
-  top: 500vh;
+  top: 400vh;
   left: -2vh;
   border: 0px solid rgba(3, 1, 16, 0.044);
   padding: 5vh;
