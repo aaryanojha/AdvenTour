@@ -73,6 +73,24 @@
         <span class="escapes__title">Find The Perfect Escape</span>
         <span class="escapes__caption">Discover your ideal Experience</span>
       </div>
+
+      <div class="tourpackage">
+      <span class="tour_title">Tour Packages</span>
+        <!-- <span class="tour__caption">Discover your ideal Experience</span> -->
+        <span class="package1"><img src="../Images/pune1.jpg" alt="" style="height:20vh;width:45vh;float:left; padding:0px 2vh">
+        <p>Hello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar heloo </p>
+        <p style="postion:fixed">Five star</p>
+      <button type="submit" class="packagebtn">Book now</button></span>
+      <span class="package1"><img src="../Images/pune1.jpg" alt="" style="height:20vh;width:45vh;float:left; padding:0px 2vh">
+        <p>Hello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar heloo </p>
+        <p style="postion:fixed">Five star</p>
+      <button type="submit" class="packagebtn">Book now</button></span>
+      <span class="package1"><img src="../Images/pune1.jpg" alt="" style="height:20vh;width:45vh;float:left; padding:0px 2vh">
+        <p>Hello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar heloo </p>
+        <p style="postion:fixed">Five star</p>
+      <button type="submit" class="packagebtn">Book now</button></span>
+      </div>
+
       <div class="boxbtm">
         <p><img class="btmimg" src="../Images/logo813.jpg" alt="">
       <ul style="list-style-type:none;margin-left:40vh">

@@ -512,31 +512,65 @@ body{
   color: #3a3a3a;
 }
 
-/* @media (max-width: 1023px) {
-  .escapes__title:before {
-      left:calc(50% - 30.5px)
-  }
+.tourpackage {
+  display:flex;
+  /* flex-flow: column nowrap; */
+  align-items: center;
+  position: relative;
+  /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  bottom: -250vh;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bolder;
+  font-size: 3vh;
+}
+/* } */
+
+.tour_title {
+color: #3a3a3a;
+font-weight: 600;
+font-size: 8vh;
+line-height: 1.24;
+position: relative
 }
 
-@media (min-width: 1024px) {
-  .escapes__title {
-      font-size:3rem
-  }
+.tour_title:before {
+content: "";
+position: absolute;
+bottom: -2vh;
+background-color: #ff5300;
+height: 0.4vh;
+width: 20vh
 }
 
-@media (max-width: 1023px) {
-  .escapes__title {
-      width:220px;
-      text-align: center;
-      line-height: 1.33
-  }
-} */
+.tour__caption {
+color: #3a3a3a;
+}
+
+.package1{
+  border: 0px solid rgba(0, 0, 0, 0.525);
+  padding: 5vh 5vh;
+  margin: 5vh;
+  background-color: #ddd;
+}
+
+.packagebtn{
+  padding: 2vh 8vh;
+  float:right;
+  background: linear-gradient(to right, #f27941 0%,#ff0000 100%); 
+  border: 0px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+
+
 
 .boxbtm {
   
   width: 160vh;
   position: absolute;
-  top: 250vh;
+  top: 500vh;
   left: -2vh;
   border: 0px solid rgba(3, 1, 16, 0.044);
   padding: 5vh;
