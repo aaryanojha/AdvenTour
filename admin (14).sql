@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Apr 14, 2023 at 07:26 AM
+-- Generation Time: Apr 16, 2023 at 04:14 PM
 -- Server version: 8.0.31
 -- PHP Version: 8.0.26
 
@@ -35,25 +35,20 @@ CREATE TABLE IF NOT EXISTS `bookdetails` (
   `adults` varchar(255) DEFAULT NULL,
   `children` varchar(255) DEFAULT NULL,
   `price` int DEFAULT NULL,
+  `Total` int NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=25 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=35 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `bookdetails`
 --
 
-INSERT INTO `bookdetails` (`id`, `email`, `destination`, `adults`, `children`, `price`) VALUES
-(21, 'aa@gmail.com', 'Shaniwarwada', '1', '2', 1000),
-(14, 'aa@gmail.com', 'Shaniwarwada', '2', '3', 1000),
-(15, 'aa@gmail.com', 'Shaniwarwada', '2', '4', 1000),
-(16, 'aa@gmail.com', 'Shaniwarwada', '6', '6', 1000),
-(17, 'aa@gmail.com', 'Shaniwarwada', '1', '3', 1000),
-(18, 'aa@gmail.com', 'Shaniwarwada', '2', '3', 1000),
-(19, 'aa@gmail.com', 'Shaniwarwada', '1', '1', 1000),
-(20, 'aa@gmail.com', 'Shaniwarwada', '1', '2', 1000),
-(22, 'aa@gmail.com', 'Shaniwarwada', '1', '2', 1000),
-(23, 'aa@gmail.com', 'Shaniwarwada', '1', '1', 1000),
-(24, 'aa@gmail.com', 'Shaniwarwada', '1', '2', 1000);
+INSERT INTO `bookdetails` (`id`, `email`, `destination`, `adults`, `children`, `price`, `Total`) VALUES
+(21, 'aa@gmail.com', 'Shaniwarwada', '1', '2', 1000, 0),
+(31, 'aa@gmail.com', 'lal Mahal', '2', '3', 1000, 0),
+(32, 'aa@gmail.com', 'Shaniwarwada', '1', '1', 1000, 0),
+(33, 'aa@gmail.com', 'Shaniwarwada', '4', '3', 1000, 0),
+(34, 'aa@gmail.com', 'Shaniwarwada', '1', '1', 250, 0);
 
 -- --------------------------------------------------------
 

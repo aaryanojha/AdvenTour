@@ -67,7 +67,7 @@
         <button class="dropbtn">
           <i class="fas fa-user-alt"></i>
           <b>
-            <?php echo getSessionVar('name'); ?>
+            <?php   echo getSessionVar('name');   ?>
           </b>
         </button>
         <div class="dropdown-content">
@@ -135,84 +135,76 @@
       <hr style="border: 2px solid darkgrey" />
       <br>
       <b style="color:black;font-size:110%">Shaniwar Wada, Pune :</b>
-      <i style="font-size:50px" class="fa" name="price">250</i>
-      <br><br>
+        <i style="font-size:50px" class="fa" name="price">250</i>
+        <br><br>
+            
+            <select name="adults">
+  <option value="">Adults</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+</select>
+<select name="children">
+  <option value="">Children</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+</select>
 
-      <select name="adults">
-        <option value="">Adults</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-      </select>
-      <select name="children">
-        <option value="">Children</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-      </select>
-      <input type="hidden" name="redirectTo" value="Pune/Destinations/Shaniwarwada/shaniwarwada.php" />
-  </form>
+</form>
 
-  <p><button class="btn1" formaction="../../../../Payment/payment.php"><b>Book Now!</b></button>
-    <input type="submit" value="Add to Bookings" style="margin-left:10vh" class="btn1" name="submit">
-  </p>
-  <br>
-  <p style="color:black">*Note: Children are only from age 0-18*</p>
+            <p><button class="btn1" formaction="../../../../Payment/payment.php"><b>Book Now!</b></button>
+              <input type="submit" value="Add to Bookings" style="margin-left:10vh" class="btn1" name="submit">
+            </p>
+            <br>
+            <p style="color:black">*Note: Children are only from age 0-12*</p>
 
-  <div class="boxbtm">
-    <p><img class="btmimg" src="../Images/logo813.jpg" alt="">
-    <ul style="list-style-type:none;margin-left:40vh">
-      <li>
-        <h3 style="color:orangered;">General</h3>
-      </li>
-      <li><a href="../Homepage/Pune/pune.php" style="text-decoration:none;color: black;">Pune</a></li>
-      <li><a href="../Homepage/Mumbai/mumbai.php" style="text-decoration:none;color: black;">Mumbai</a></li>
-      <li><a href="../Homepage/Delhi/delhi.php" style="text-decoration:none;color: black;">Delhi</a></li>
-      <li><a href="../Homepage/aboutus.php" style="text-decoration:none;color: black;">About Us</a></li>
-    </ul>
-    <ul style="list-style-type:none;float:right;margin-top:-20vh;margin-right:60vh">
-      <li>
-        <h3 style="color:orangered;">Community</h3>
-      </li>
-      <li><a href="" style="text-decoration:none;color: black;">News</a></li>
-      <li><a href="" style="text-decoration:none;color: black;">Travel Advice</a></li>
-    </ul>
-    <ul style="list-style-type:none;float:right;margin-top:-20vh;margin-right:10vh">
-      <li>
-        <h3 style="color:orangered;">Legal</h3>
-      </li>
-      <li><a href="" style="text-decoration:none;color: black;">Terms & Conditions</a></li>
-      <li><a href="" style="text-decoration:none;color: black;">Booking Terms</a></li>
-      <li><a href="" style="text-decoration:none;color: black;">Privacy Policy</a></li>
-    </ul>
+            <div class="boxbtm">
+        <p><img class="btmimg" src="../Images/logo813.jpg" alt="">
+      <ul style="list-style-type:none;margin-left:40vh">
+        <li><h3 style="color:orangered;">General</h3></li>
+        <li><a href="../Homepage/Pune/pune.php" style="text-decoration:none;color: black;">Pune</a></li>
+        <li><a href="../Homepage/Mumbai/mumbai.php" style="text-decoration:none;color: black;" >Mumbai</a></li>
+        <li><a href="../Homepage/Delhi/delhi.php" style="text-decoration:none;color: black;" >Delhi</a></li>
+        <li><a href="../Homepage/aboutus.php" style="text-decoration:none;color: black;" >About Us</a></li>
+      </ul>
+      <ul style="list-style-type:none;float:right;margin-top:-20vh;margin-right:60vh">
+        <li><h3 style="color:orangered;">Community</h3></li>
+        <li><a href="" style="text-decoration:none;color: black;" >News</a></li>
+        <li><a href="" style="text-decoration:none;color: black;" >Travel Advice</a></li>
+      </ul>
+      <ul style="list-style-type:none;float:right;margin-top:-20vh;margin-right:10vh">
+        <li><h3 style="color:orangered;">Legal</h3></li>
+        <li><a href="" style="text-decoration:none;color: black;" >Terms & Conditions</a></li>
+        <li><a href=""style="text-decoration:none;color: black;" >Booking Terms</a></li>
+        <li><a href="" style="text-decoration:none;color: black;" >Privacy Policy</a></li>
+      </ul>
     </p>
-
-    <hr>
-    <p style="text-align: center;font-size:2vh">
-      2023 Adventour.com All rights reserved.<br />
-      The content and images used on this site are copyright protected and
-      copyrights vests with the respective owners. The usage of the content
-      and images on this website is intended to promote the works and no
-      endorsement of the artist shall be implied. Unauthorized use is
-      prohibited and punishable by law.
-    </p>
-    <hr width="20%">
-    <p style="text-align:center">
-      <a href=""><i class='fab fa-instagram'></i></a>
-      <a href=""><i class='fab fa-linkedin-in'></i></a>
-      <a href=""><i class='fab fa-twitter'></i></a><br>
-      <br>Powered by <a href="../../AdvenTour.html" target="_blank">AdvenTour.in</a>
-    </p>
-
-    <br>
-  </div>
-  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class='fas fa-arrow-up'></i></button>
+    
+        <hr>
+        <p style="text-align: center;font-size:2vh">
+          2023 Adventour.com All rights reserved.<br />
+          The content and images used on this site are copyright protected and
+          copyrights vests with the respective owners. The usage of the content
+          and images on this website is intended to promote the works and no
+          endorsement of the artist shall be implied. Unauthorized use is
+          prohibited and punishable by law.
+        </p><hr width="20%">
+        <p style="text-align:center"> 
+                <a href=""><i class='fab fa-instagram'></i></a>
+                <a href=""><i class='fab fa-linkedin-in'></i></a>
+                <a href=""><i class='fab fa-twitter'></i></a><br>
+                <br>Powered by <a href="../../AdvenTour.html" target="_blank">AdvenTour.in</a></p>
+              
+        <br>
+      </div>
+            <button onclick="topFunction()" id="myBtn" title="Go to top"><i class='fas fa-arrow-up'></i></button>
   </form>
   <script>
     // Get the button
