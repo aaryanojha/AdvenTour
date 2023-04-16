@@ -14,6 +14,7 @@ body {
     left: -1.25vh;
     z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
     background-attachment: scroll;
+    background-color: #f3f3f3;
   }
   
   .stretch {
@@ -23,7 +24,7 @@ body {
   .hover-underline-animation {
     display: inline-block;
     position: relative;
-    color: #0087ca;
+    color: orangered;
   }
   
   .hover-underline-animation::after {
@@ -34,7 +35,7 @@ body {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #0087ca;
+    background-color: orangered;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
   }
@@ -79,7 +80,7 @@ body {
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: rgb(255, 0, 0);
+    background-color: rgba(255, 0, 0, 0);
   }
   
   .dropdown-content {
@@ -238,4 +239,30 @@ select{
     height: 30px;
     width: 30px;
     background-color: #eee;
+  }
+
+
+  .mainbox{
+    margin-top: 50vh;
+    display:flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    font-size: 3vh;
+  }
+  .boxcontent{
+    border: 0px solid rgba(0, 0, 0, 0.525);
+    padding: 5vh 5vh;
+    margin: 5vh;
+    background-color: #ffffff;
+  }
+  .imgclass{
+    height: 40vh;
+    width: 50vh;
+    float:left;
+    padding: 0vh 2vh;
   }

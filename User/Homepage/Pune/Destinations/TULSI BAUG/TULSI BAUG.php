@@ -163,7 +163,7 @@
               <input type="submit" value="Add to Bookings" style="margin-left:10vh" class="btn1" name="submit">
             </p>
             <br>
-            <p style="color:black">*Note: Children are only from age 0-18*</p>
+            <p style="color:black">*Note: Children are only from age 0-12*</p>
 
             <div class="boxbtm">
         <p><img class="btmimg" src="../Images/logo813.jpg" alt="">

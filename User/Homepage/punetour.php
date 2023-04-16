@@ -40,13 +40,13 @@
 
 <body>
 
-  <form action="../../../../Database/bookdetails.php" method="POST">
+  <form action="" method="POST">
     <div class="navbar">
       <!-- Invisible buttons-disabled hover -->
       <a href="http://" target="_blank" rel="noopener noreferrer" class="disabled"></a>
       <a href="http://" target="_blank" rel="noopener noreferrer" class="disabled"></a>
 
-      <a href="../../../homepage.php" style="
+      <a href="../homepage.php" style="
             position: relative;
             overflow: hidden;
             padding: 0%;
@@ -84,68 +84,12 @@
       PUNE FULL TOUR
     </div>
 
-    <div class="box" style="font-family: 'Alata'; font-size: 22px; color: #ff571b; text-decoration: none">
-
-      <b style="font-size: 50; font-family: fantasy"></b>Tour destination : Pune City Full Tour
-      <hr style="border: 2px solid darkgrey" />
-
-
-      <p style="color:black"><b>Shaniwar Wada</b> a 13 storey palace of Peshwas was built by Bajirao-I,
-        in the year 1736.It was head quarter of the Peshwas and it symbolizes Pune’s culture.
-        The structure was built giving security the highest priority.
-        The main entrance is known as ‘Delhi Darwaja’ & others have names like Ganesh,
-        Mastani, Jambhal, Khidki. </p>
-
-      <b style="font-size: 50; font-family: fantasy"></b>Tour Details :
-      <hr style="border: 2px solid darkgrey" />
-      <ul style="color:black">
-        <li>SHANIWAR WADA</li>
-        <li>LAL MAHAL</li>
-        <li>Khidki Darwaja or Window Gate, named after the armored window contained there</li>
-        <li>Ganesh Darwaja or Ganesh Gate, near which existed the Ganesh Rang Mahal</li>
-        <li>Jambhul Darwaja or Narayan Darwaja aka Narayan’s Gate, used by concubines to access and leave the fortified
-          premises</li>
-        <li>Nine bastion towers</li>
-        <li>Garden complex</li>
-        <li>Hazari Karanje, the sixteen-petal lotus-shaped fountain</li>
-        <li>A few surviving cannons</li>
-        <li>The majestic statue of Baji Rao I that stands at the entrance of the palace</li>
-      </ul>
+    <div class="mainbox">
+    <span class="boxcontent"><h1>Pune, Maharashtra</h1></span><br>
+      <span class="boxcontent"><img src="../Images/agakhan.jpg" class="imgclass">Pune is a city located in the western Indian state of Maharashtra. It is the second-largest city in the state and is known as the "Oxford of the East" due to the presence of several reputed educational institutions.
+Historically, Pune was the seat of the Peshwas, who were the prime ministers of the Maratha Empire. The city played a significant role in the Indian independence movement, and many prominent freedom fighters such as Mahatma Gandhi, Jawaharlal Nehru, and Subhash Chandra Bose had links to the city.
+Today, Pune is a bustling metropolis that is known for its vibrant culture, food, and nightlife. The city has a rich history and is home to several museums, forts, and other historical landmarks. Additionally, Pune is surrounded by beautiful hills and valleys, making it a popular destination for trekkers and nature lovers.</span>
     </div>
-
-    <div class="box2" style="font-family: 'Alata'; font-size: 22px; color: #ff571b; text-decoration: none">
-      <h4>About the Tour:</h4>
-      <hr style="border: 2px solid darkgrey" />
-      <ul style="color:black">
-        <li><b>Pickup Location :</b> Shivaji Nagar</li><br>
-        <li><b>Pickup Timing :</b> 8:00 am</li><br>
-        <li><b>Drop Timing :</b> 9:30 pm Next day</li><br>
-        <li><b>Visiting hours:</b> 8:00 AM - 6:30 PM every day</li><br>
-        <li><b>Time Required :</b> 2 days trip</li><br>
-        <li><b>Entry Fee :</b> Indian citizens: INR 5,</li><br>
-        <li><b>Light and sound show:</b> INR 25,</li><br>
-        <li><b>Foreigners:</b> INR 125</li><br>
-      </ul>
-
-      <h4>Our Tour Facility</h4>
-      <ul style="color:black">
-        <li><b>Breakfast :</b> Shivaji Nagar</li><br>
-        <li><b>Lunch :</b> 8:00 am</li><br>
-        <li><b>Dinner :</b> 9:30 pm Next day</li><br>
-        <li><b>Visiting hours:</b> 8:00 AM - 6:30 PM every day</li><br>
-        <li><b>Time Required :</b> 2 days trip</li><br>
-        <li><b>Entry Fee :</b> Indian citizens: INR 5,</li><br>
-        <li><b>Light and sound show:</b> INR 25,</li><br>
-        <li><b>Foreigners:</b> INR 125</li><br>
-      </ul>
-
-</form>
-
-            <p><button class="btn1" formaction="../../../../Payment/payment.php"><b>Book Now!</b></button>
-              <input type="submit" value="Add to Bookings" style="margin-left:10vh" class="btn1" name="submit">
-            </p>
-            <br>
-            <p style="color:black">*Note: Children are only from age 0-18*</p>
 
             <div class="boxbtm">
         <p><img class="btmimg" src="../Images/logo813.jpg" alt="">
