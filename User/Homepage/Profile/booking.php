@@ -75,12 +75,13 @@
             <th>Adults</th>
             <th>Children</th>
             <th>Price</th>
+            <th>Total</th>
           </tr>
 
           <tr>
             <?php
 
-            if ($row = mysqli_fetch_assoc($result)) {
+            while ($row = mysqli_fetch_assoc($result)) {
               ?>
               <td>
                 <?php echo $row['email']; ?>
@@ -97,7 +98,9 @@
               <td>
                 <?php echo $row['price']; ?>
               </td>
-
+              <td>
+                <?php echo $row['Total']=($row['price']*$row['adults'])+($row['price']/2); ?>
+              </td>
             </tr>
             <?php
             }
@@ -105,7 +108,7 @@
         </table>
       </div>
     </div>
-
+<div> <p><button class="btn1" formaction="../../Payment/payment.php"><b>Book Now!</b></button></div>
   </body>
 </form>
 

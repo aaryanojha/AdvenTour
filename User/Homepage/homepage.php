@@ -52,7 +52,7 @@
           <div class="dropdown-content">
             <!-- <a href="../../Homepage/Profile/profile.php">Profile</a> -->
             <a href="./Profile/profile.php">Profile</a>
-            <a href="../Login/login.html">Sign Out</a>
+            <a href="../Login/signout.php">Sign Out</a>
           </div>
           &emsp;&emsp;&emsp;&emsp;&nbsp;
         </div>

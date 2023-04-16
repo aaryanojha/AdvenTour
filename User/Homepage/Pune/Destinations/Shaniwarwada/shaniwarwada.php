@@ -131,11 +131,11 @@
       </ul>
 
       <h4>Packages:</h4>
-      <input type="hidden" name="price" value="1000">
+      <input type="hidden" name="price" value="250">
       <hr style="border: 2px solid darkgrey" />
       <br>
       <b style="color:black;font-size:110%">Shaniwar Wada, Pune :</b>
-        <i style="font-size:50px" class="fa" name="price">1000</i>
+        <i style="font-size:50px" class="fa" name="price">250</i>
         <br><br>
             
             <select name="adults">

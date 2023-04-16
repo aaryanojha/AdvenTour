@@ -82,8 +82,8 @@
       <img src="../../../../Images/pune2.jpg" class="stretch" alt="" />
     </div>
     <div class="text">
-      <input type="hidden" name="destination" value="Shaniwarwada">
-      SHANIWAR WADA
+      <input type="hidden" name="destination" value="lal Mahal">
+      Lal Mahal
     </div>
 
     <div class="box" style="font-family: 'Alata'; font-size: 22px; color: #ff571b; text-decoration: none">
@@ -131,7 +131,7 @@
       </ul>
 
       <h4>Packages:</h4>
-      <input type="hidden" name="price" value="1000">
+      <input type="hidden" name="price" value="250">
       <hr style="border: 2px solid darkgrey" />
       <br>
       <b style="color:black;font-size:110%">Shaniwar Wada, Pune :</b>

@@ -96,9 +96,10 @@
       <div class="map">
         <a href="./Punemap/pmap1.html"><i class="fa fa-map-marker" style="font-size: 40"></i></a>
       </div>
-
-      <p><button class="btn" formaction="./shaniwarwada/shaniwarwada.php">Book Now!</button></p>
-      <div style="position:absolute;bottom:2%;right:35%;color:black;">₹ 12449.00</div>
+      <p><button class="btn" formaction="../../Homepage/shaniwarwada/shaniwarwada.php">Book Now!</button></p>
+      <div style="position:absolute;bottom:2%;right:35%;color:black;">₹250.00</div>
+     
+     
     </div>
 
     <!-- Lal Mahal -->
