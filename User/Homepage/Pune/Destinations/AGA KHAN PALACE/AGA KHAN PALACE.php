@@ -82,7 +82,7 @@
       <img src="../../../../Images/pune2.jpg" class="stretch" alt="" />
     </div>
     <div class="text">
-      <input type="hidden" name="destination" value="Shaniwarwada">
+      <input type="hidden" name="destination" value="AGA KHAN PALACE">
       SHANIWAR WADA
     </div>
 

@@ -38,10 +38,11 @@ function GetSessionVar(string $varName)
 }
 
 
-function display_data(){
+function display_data(string $email)
+{
     global $conn;
-    $query="select * from bookdetails";
-    $result=mysqli_query($conn,$query);
+    $query = "select * from bookdetails where email='$email'";
+    $result = mysqli_query($conn, $query);
     return $result;
 }
 ?>

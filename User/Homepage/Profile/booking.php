@@ -11,13 +11,12 @@
 
   <body>
     <?php
-    session_start();
-    $retrievedSessionObject = $_SESSION['mySessionObject'];
-
     //Connect to the MySQL database
     require_once('../../Database/functions.php');
+
+    $email = GetSessionVar('email');
     $conn = DBConnect();
-    $result = display_data();
+    $result = display_data($email);
     ?>
 
     <div class="navbar">
@@ -39,7 +38,7 @@
       <div class="dropdown">
         <button class="dropbtn">Hi <b>
             <?php
-            echo $retrievedSessionObject->name ?>
+            echo GetSessionVar('name'); ?>
           </b></button>
         <div class="dropdown-content">
           <a href="../../Login/login.html">Sign Out</a>
@@ -57,7 +56,7 @@
     position:absolute;
     top: 33%;left: 25%;
     ">&ensp; <?php
-    echo $retrievedSessionObject->name ?>
+    echo GetSessionVar('name'); ?>
       </h2>
       <a href="../../Homepage/Profile/profile.php" class="text" style="color: blue;">My profile</a>
       <a href="booking.php" class="text" style="top:70%;color: blue;">My Bookings</a>
@@ -99,7 +98,7 @@
                 <?php echo $row['price']; ?>
               </td>
               <td>
-                <?php echo $row['Total']=($row['price']*$row['adults'])+($row['price']/2); ?>
+                <?php echo $row['Total'] = ($row['price'] * $row['adults']) + ($row['price'] / 2); ?>
               </td>
             </tr>
             <?php
@@ -108,7 +107,9 @@
         </table>
       </div>
     </div>
-<div> <p><button class="btn1" formaction="../../Payment/payment.php"><b>Book Now!</b></button></div>
+    <div>
+      <p><button class="btn1" formaction="../../Payment/payment.php"><b>Book Now!</b></button>
+    </div>
   </body>
 </form>
 

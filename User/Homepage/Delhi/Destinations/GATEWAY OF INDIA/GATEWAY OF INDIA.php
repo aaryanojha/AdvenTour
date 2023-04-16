@@ -42,7 +42,7 @@
   <?php
   require_once "../../../../Database/functions.php";
   ?>
-  <form action="../../../../Database/bookdetails.php" method="POST">
+  <form action="../../../../Database/bookdetailsm.php" method="POST">
     <div class="navbar">
       <!-- Invisible buttons-disabled hover -->
       <a href="http://" target="_blank" rel="noopener noreferrer" class="disabled"></a>
