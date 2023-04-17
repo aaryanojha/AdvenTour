@@ -11,11 +11,10 @@ if (isset($_POST['submit'])) {
   $email = getSessionVar('email');
   $redirectTo = $_POST['redirectTo'];
 
-  if (!empty($destination) && !empty($adults) && !empty($children) && !empty($price) && !empty($email)) {
+  if (!empty($destination)  && !empty($price) && !empty($email)) {
     $query = "INSERT INTO bookdetails (email,destination,adults,children,price) VALUES('$email','$destination','$adults','$children','$price')";
     $result = $conn->query($query);
     if ($result) {
-      echo "success";
       echo "<script>
         alert('Added to My Bookings!');
         window.location.href='../$redirectTo'; </script>";

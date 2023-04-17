@@ -93,7 +93,7 @@
       <!-- Map Button -->
       <div class="map"><a href="./Mumbaimap/mmap1.html"><i class="fa fa-map-marker" style="font-size:40;"></i></a></div>
 
-      <p><button class="btn" formaction="">Book Now!</button></p>
+      <p><button class="btn" formaction="../../Homepage/Mumbai/Destinations/Shaniwarwada/shaniwarwada.php">Book Now!</button></p>
       <div style="position:absolute;bottom:2%;right:35%;color:black;">₹ 12449.00</div>
     </div>
 
@@ -108,7 +108,7 @@
 
       <!-- Map Button -->
       <div class="map"><a href="./Mumbaimap/mmap2.html"><i class="fa fa-map-marker" style="font-size:40;"></i></a></div>
-      <p><button class="btn" formaction="">Book Now!</button></p>
+      <p><button class="btn" formaction="../../Homepage/Mumbai/Destinations/Shaniwarwada/shaniwarwada.php">Book Now!</button></p>
       <div style="position:absolute;bottom:2%;right:35%;color:black;">₹ 12449.00</div>
     </div>
 
@@ -124,7 +124,7 @@
       <div class="map">
         <a href="./Mumbaimap/mmap3.html"><i class="fa fa-map-marker" style="font-size: 40"></i></a>
       </div>
-      <p><button class="btn" formaction="">Book Now!</button></p>
+      <p><button class="btn" formaction="../../Homepage/Mumbai/Destinations/Shaniwarwada/shaniwarwada.php">Book Now!</button></p>
       <div style="position:absolute;bottom:2%;right:35%;color:black;">₹ 12449.00</div>
     </div>
     <br />
@@ -141,7 +141,7 @@
       <div class="map">
         <a href="./Mumbaimap/mmap4.html"><i class="fa fa-map-marker" style="font-size: 40"></i></a>
       </div>
-      <p><button class="btn" formaction="">Book Now!</button></p>
+      <p><button class="btn" formaction="../../Homepage/Mumbai/Destinations/Shaniwarwada/shaniwarwada.php">Book Now!</button></p>
       <div style="position:absolute;bottom:2%;right:35%;color:black;">₹ 12449.00</div>
     </div>
     <br />
@@ -158,7 +158,7 @@
       <div class="map">
         <a href="./Mumbaimap/mmap5.html"><i class="fa fa-map-marker" style="font-size: 40"></i></a>
       </div>
-      <p><button class="btn" formaction="">Book Now!</button></p>
+      <p><button class="btn" formaction="../../Homepage/Mumbai/Destinations/Shaniwarwada/shaniwarwada.php">Book Now!</button></p>
       <div style="position:absolute;bottom:2%;right:35%;color:black;">₹ 12449.00</div>
     </div>
     <br />
@@ -175,7 +175,7 @@
       <div class="map">
         <a href="./Mumbaimap/mmap6.html"><i class="fa fa-map-marker" style="font-size: 40"></i></a>
       </div>
-      <p><button class="btn" formaction="">Book Now!</button></p>
+      <p><button class="btn" formaction="../../Homepage/Mumbai/Destinations/Shaniwarwada/shaniwarwada.php">Book Now!</button></p>
       <div style="position:absolute;bottom:2%;right:35%;color:black;">₹ 12449.00</div>
     </div>
     <br />
@@ -192,7 +192,7 @@
       <div class="map">
         <a href="./Mumbaimap/mmap7.html"><i class="fa fa-map-marker" style="font-size: 40"></i></a>
       </div>
-      <p><button class="btn" formaction="">Book Now!</button></p>
+      <p><button class="btn" formaction="../../Homepage/Mumbai/Destinations/Shaniwarwada/shaniwarwada.php">Book Now!</button></p>
       <div style="position:absolute;bottom:2%;right:35%;color:black;">₹ 12449.00</div>
     </div>
     <br />
@@ -209,7 +209,7 @@
       <div class="map">
         <a href="./Mumbaimap/mmap8.html"><i class="fa fa-map-marker" style="font-size: 40"></i></a>
       </div>
-      <p><button class="btn" formaction="">Book Now!</button></p>
+      <p><button class="btn" formaction="../../Homepage/Mumbai/Destinations/Shaniwarwada/shaniwarwada.php">Book Now!</button></p>
       <div style="position:absolute;bottom:2%;right:35%;color:black;">₹ 12449.00</div>
     </div>
     <br />
@@ -226,7 +226,7 @@
       <div class="map">
         <a href="./Mumbaimap/mmap9.html"><i class="fa fa-map-marker" style="font-size: 40"></i></a>
       </div>
-      <p><button class="btn" formaction="">Book Now!</button></p>
+      <p><button class="btn" formaction="../../Homepage/Mumbai/Destinations/Shaniwarwada/shaniwarwada.php">Book Now!</button></p>
       <div style="position:absolute;bottom:2%;right:35%;color:black;">₹ 12449.00</div>
     </div>
     <br />
@@ -243,7 +243,7 @@
       <div class="map">
         <a href="./Mumbaimap/mmap10.html"><i class="fa fa-map-marker" style="font-size: 40"></i></a>
       </div>
-      <p><button class="btn" formaction="">Book Now!</button></p>
+      <p><button class="btn" formaction="../../Homepage/Mumbai/Destinations/Shaniwarwada/shaniwarwada.php">Book Now!</button></p>
       <div style="position:absolute;bottom:2%;right:35%;color:black;">₹ 12449.00</div>
     </div>
     <br />
@@ -261,7 +261,7 @@
 
         <a href="./Mumbaimap/mmap11.html"><i class="fa fa-map-marker" style="font-size: 40"></i></a>
       </div>
-      <p><button class="btn" formaction="">Book Now!</button></p>
+      <p><button class="btn" formaction="../../Homepage/Mumbai/Destinations/Shaniwarwada/shaniwarwada.php">Book Now!</button></p>
       <div style="position:absolute;bottom:2%;right:35%;color:black;">₹ 12449.00</div>
     </div>
     <br />
@@ -278,7 +278,7 @@
       <div class="map">
         <a href="./Mumbaimap/mmap12.html"><i class="fa fa-map-marker" style="font-size: 40"></i></a>
       </div>
-      <p><button class="btn" formaction="">Book Now!</button></p>
+      <p><button class="btn" formaction="../../Homepage/Mumbai/Destinations/Shaniwarwada/shaniwarwada.php">Book Now!</button></p>
       <div style="position:absolute;bottom:2%;right:35%;color:black;">₹ 12449.00</div>
     </div>
     <br />

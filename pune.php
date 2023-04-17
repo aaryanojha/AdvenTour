@@ -96,7 +96,7 @@
       <div class="map">
         <a href="./Punemap/pmap1.html"><i class="fa fa-map-marker" style="font-size: 40"></i></a>
       </div>
-      <p><button class="btn" formaction="../../Homepage/Pune/Destinations/Shaniwarwada/shaniwarwada.php">Book Now!</button></p>
+      <p><button class="btn" formaction="../../Homepage/shaniwarwada/shaniwarwada.php">Book Now!</button></p>
       <div style="position:absolute;bottom:2%;right:35%;color:black;">₹250.00</div>
      
      
@@ -114,7 +114,7 @@
       <div class="map">
         <a href="./Punemap/pmap2.html"><i class="fa fa-map-marker" style="font-size: 40"></i></a>
       </div>
-      <p><button class="btn" formaction="../../Homepage/Pune/Destinations/lalmahal/lalmahal.php">Book Now!</button></p>
+      <p><button class="btn" formaction="../../Homepage/shaniwarwada/shaniwarwada.php">Book Now!</button></p>
       <div style="position:absolute;bottom:2%;right:35%;color:black;">₹ 12449.00</div>
     </div>
     <br />
@@ -131,7 +131,7 @@
       <div class="map">
         <a href="./Punemap/pmap3.html"><i class="fa fa-map-marker" style="font-size: 40"></i></a>
       </div>
-      <p><button class="btn" formaction="../../Homepage/Pune/Destinations/DAGDUSHETH GANPATI/DAGDUSHETH GANPATI.php">Book Now!</button></p>
+      <p><button class="btn" formaction="../../Homepage/shaniwarwada/shaniwarwada.php">Book Now!</button></p>
       <div style="position:absolute;bottom:2%;right:35%;color:black;">₹ 12449.00</div>
     </div>
     <br />
@@ -152,7 +152,7 @@
       <div class="map">
         <a href="./Punemap/pmap4.html"><i class="fa fa-map-marker" style="font-size: 40"></i></a>
       </div>
-      <p><button class="btn" formaction="../../Homepage/Pune/Destinations/ISKCON NVCC Pune/ISKCON NVCC Pune.php">Book Now!</button></p>
+      <p><button class="btn" formaction="../../Homepage/shaniwarwada/shaniwarwada.php">Book Now!</button></p>
       <div style="position:absolute;bottom:2%;right:35%;color:black;">₹ 12449.00</div>
     </div>
     <br />
@@ -169,7 +169,7 @@
       <div class="map">
         <a href="./Punemap/pmap5.html"><i class="fa fa-map-marker" style="font-size: 40"></i></a>
       </div>
-      <p><button class="btn" formaction="../../Homepage/Pune/Destinations/Shivneri/Shivneri.php">Book Now!</button></p>
+      <p><button class="btn" formaction="../../Homepage/shaniwarwada/shaniwarwada.php">Book Now!</button></p>
       <div style="position:absolute;bottom:2%;right:35%;color:black;">₹ 12449.00</div>
     </div>
     <br />
@@ -186,7 +186,7 @@
       <div class="map">
         <a href="./Punemap/pmap6.html"><i class="fa fa-map-marker" style="font-size: 40"></i></a>
       </div>
-      <p><button class="btn" formaction="../../Homepage/Pune/Destinations/Phoenix/Phoenix.php">Book Now!</button></p>
+      <p><button class="btn" formaction="../../Homepage/shaniwarwada/shaniwarwada.php">Book Now!</button></p>
       <div style="position:absolute;bottom:2%;right:35%;color:black;">₹ 12449.00</div>
     </div>
     <br />
@@ -203,7 +203,7 @@
       <div class="map">
         <a href="./Punemap/pmap7.html"><i class="fa fa-map-marker" style="font-size: 40"></i></a>
       </div>
-      <p><button class="btn" formaction="../../Homepage/Pune/Destinations/Elpro/Elpro.php">Book Now!</button></p>
+      <p><button class="btn" formaction="../../Homepage/shaniwarwada/shaniwarwada.php">Book Now!</button></p>
       <div style="position:absolute;bottom:2%;right:35%;color:black;">₹ 12449.00</div>
     </div>
     <br />
@@ -220,7 +220,7 @@
       <div class="map">
         <a href="./Punemap/pmap8.html"><i class="fa fa-map-marker" style="font-size: 40"></i></a>
       </div>
-      <p><button class="btn" formaction="../../Homepage/Pune/Destinations/JW MARRIOTT/JW MARRIOTT.php">Book Now!</button></p>
+      <p><button class="btn" formaction="../../Homepage/shaniwarwada/shaniwarwada.php">Book Now!</button></p>
       <div style="position:absolute;bottom:2%;right:35%;color:black;">₹ 12449.00</div>
     </div>
     <br />
@@ -237,7 +237,7 @@
       <div class="map">
         <a href="./Punemap/pmap9.html"><i class="fa fa-map-marker" style="font-size: 40"></i></a>
       </div>
-      <p><button class="btn" formaction="../../Homepage/Pune/Destinations/Okayama/Okayama.php">Book Now!</button></p>
+      <p><button class="btn" formaction="../../Homepage/shaniwarwada/shaniwarwada.php">Book Now!</button></p>
       <div style="position:absolute;bottom:2%;right:35%;color:black;">₹ 12449.00</div>
     </div>
     <br />
@@ -254,7 +254,7 @@
       <div class="map">
         <a href="./Punemap/pmap10.html"><i class="fa fa-map-marker" style="font-size: 40"></i></a>
       </div>
-      <p><button class="btn" formaction="../../Homepage/Pune/Destinations/Sinhagad/Sinhagad.php">Book Now!</button></p>
+      <p><button class="btn" formaction="../../Homepage/shaniwarwada/shaniwarwada.php">Book Now!</button></p>
       <div style="position:absolute;bottom:2%;right:35%;color:black;">₹ 12449.00</div>
     </div>
     <br />
@@ -271,7 +271,7 @@
       <div class="map">
         <a href="./Punemap/pmap11.html"><i class="fa fa-map-marker" style="font-size: 40"></i></a>
       </div>
-      <p><button class="btn" formaction="../../Homepage/Pune/Destinations/TULSI BAUG/TULSI BAUG.php">Book Now!</button></p>
+      <p><button class="btn" formaction="../../Homepage/shaniwarwada/shaniwarwada.php">Book Now!</button></p>
       <div style="position:absolute;bottom:2%;right:35%;color:black;">₹ 12449.00</div>
     </div>
     <br />
@@ -288,7 +288,7 @@
       <div class="map">
         <a href="./Punemap/pmap12.html"><i class="fa fa-map-marker" style="font-size: 40"></i></a>
       </div>
-      <p><button class="btn" formaction="../../Homepage/Pune/Destinations/AGA KHAN PALACE/AGA KHAN PALACE.php">Book Now!</button></p>
+      <p><button class="btn" formaction="../../Homepage/shaniwarwada/shaniwarwada.php">Book Now!</button></p>
       <div style="position:absolute;bottom:2%;right:35%;color:black;">₹ 12449.00</div>
     </div>
     <br />

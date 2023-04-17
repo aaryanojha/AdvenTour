@@ -98,7 +98,7 @@
                 <?php echo $row['price']; ?>
               </td>
               <td>
-                <?php echo $row['Total'] = ($row['price'] * $row['adults']) + ($row['price'] / 2); ?>
+                <?php echo $row['Total'] = ($row['price'] * $row['adults']) + (($row['price']*$row['children']) / 2); ?>
               </td>
             </tr>
             <?php
