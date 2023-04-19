@@ -11,9 +11,12 @@
     $conn = DBConnect1();
     $result = display_users();
     ?>
-    
+            <div class="area">
+        <div class="boxes">
+            <span>User Details</span>
+        </div>
 
-    </div><nav class="main-menu">
+    <nav class="main-menu">
             <ul>
                 <li>
                     <a href="admin.html">
@@ -73,7 +76,7 @@
             </ul>
         </nav>
 
-        <table border="3" width="80%" align="center" >
+        <table border="3" width="80%" align="center" class="customers">
  <tr align="center" >
    <th>User Name</th>
    <th>Email</th>
@@ -107,7 +110,8 @@
    ?>
 
 <?php
-?>  .
+?>  
+</div>
 </table>  
   </body>
     </html>

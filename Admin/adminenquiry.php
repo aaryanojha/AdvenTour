@@ -13,8 +13,11 @@
     ?>
     <!-- <div class="area">
         <div class="boxes">Hello</div> -->
-
-    </div><nav class="main-menu">
+        <div class="area">
+        <div class="boxes">
+            <span>User Enquiries</span>
+        </div>
+    <nav class="main-menu">
             <ul>
                 <li>
                     <a href="admin.html">
@@ -74,9 +77,9 @@
             </ul>
         </nav>
       
-        <table border="3" width="80%" align="center" >
+        <table border="3" width="80%" align="center" class="customers">
  <tr align="center" >
-   <th>Frist Name</th>
+   <th>First Name</th>
    <th>Last Name</th>
    <th>Email</th>
    <th>Message</th>
@@ -106,5 +109,6 @@
 </table>
 <?php
 ?>
+</div>
   </body>
     </html>

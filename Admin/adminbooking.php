@@ -10,9 +10,12 @@
     $conn = DBConnect1();
     $result = display_data1("email");
     ?>
-  
+          <div class="area">
+        <div class="boxes">
+            <span>User Bookings</span>
+        </div>
 
-    </div><nav class="main-menu">
+    <nav class="main-menu">
             <ul>
                 <li>
                     <a href="admin.html">
@@ -74,7 +77,7 @@
         
  
     
- <table border="3" width="80%" align="center" >
+ <table border="3" width="80%" align="center" class="customers">
  <tr>
    <th>Email</th>
    <th>Destination</th>
@@ -89,22 +92,22 @@
 
    while ($row = mysqli_fetch_assoc($result)) {
      ?>
-     <td>
+     <td align="center">
        <?php echo $row['email']; ?>
      </td>
-     <td>
+     <td align="center">
        <?php echo $row['destination']; ?>
      </td>
-     <td>
+     <td align="center">
        <?php echo $row['adults']; ?>
      </td>
-     <td>
+     <td align="center">
        <?php echo $row['children']; ?>
      </td>
-     <td>
+     <td align="center">
        <?php echo $row['price']; ?>
      </td>
-     <td>
+     <td align="center">
        <?php  $a = ($row['price'] * $row['adults']) + (($row['price']*$row['children']) / 2); ?>
        <?php echo $a?>
 
@@ -116,6 +119,7 @@
 </table>
 <?php
 ?>
+</div>
  </body>
     </html>
    
