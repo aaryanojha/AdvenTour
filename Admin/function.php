@@ -1,6 +1,5 @@
 <?php
-
-function DBConnect()
+function DBConnect1()
 {
     $servername = "localhost";
     $username = "root";
@@ -15,13 +14,7 @@ function DBConnect()
     return $conn;
 }
 
-function initSession()
-{
-    session_start();
-    return $_SESSION["mySessionObject"];
-}
-
-function GetSessionVar(string $varName)
+function GetSessionVar1(string $varName)
 {
     // Start the session if it has not already been started
     if (session_status() == PHP_SESSION_NONE) {
@@ -37,13 +30,28 @@ function GetSessionVar(string $varName)
     }
 }
 
-
-function display_data(string $email)
+function display_data1(string $email)
 {
     global $conn;
-    $query = "select * from bookdetails where email='$email'";
+    $query = "select * from bookdetails ";
     $result = mysqli_query($conn, $query);
     return $result;
 }
 
+function display_enquiries()
+{
+    global $conn;
+    $query = "select * from enquiries ";
+    $result = mysqli_query($conn, $query);
+    return $result;
+}
+
+
+function display_users()
+{
+    global $conn;
+    $query = "select * from users ";
+    $result = mysqli_query($conn, $query);
+    return $result;
+}
 ?>

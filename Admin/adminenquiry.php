@@ -1,12 +1,18 @@
 <html>
   <head>
   <link rel="stylesheet" href="admin.css">
- 
+
   </head>
   <body>
-    
-    <div class="area">
-        <div class="boxes">Hello</div>
+    <form>
+    <?php
+    //Connect to the MySQL database
+    require_once('function.php');
+    $conn = DBConnect1();
+    $result = display_enquiries();
+    ?>
+    <!-- <div class="area">
+        <div class="boxes">Hello</div> -->
 
     </div><nav class="main-menu">
             <ul>
@@ -67,6 +73,38 @@
                 </li>  
             </ul>
         </nav>
-        
+      
+        <table border="3" width="80%" align="center" >
+ <tr align="center" >
+   <th>Frist Name</th>
+   <th>Last Name</th>
+   <th>Email</th>
+   <th>Message</th>
+ </tr>
+
+ <tr align="center">
+   <?php
+
+   while ($row = mysqli_fetch_assoc($result)) {
+     ?>
+     <td align="center">
+       <?php echo $row['Frist_name']; ?>
+     </td>
+     <td align="center">
+       <?php echo $row['Last_Name']; ?>
+     </td>
+     <td align="center">
+       <?php echo $row['Email']; ?>
+     </td>
+     <td align="center">
+       <?php echo $row['Message']; ?>
+     </td>
+   </tr>
+   <?php
+   }
+   ?>
+</table>
+<?php
+?>
   </body>
     </html>

@@ -98,13 +98,19 @@
                 <?php echo $row['price']; ?>
               </td>
               <td>
-                <?php echo $row['Total'] = ($row['price'] * $row['adults']) + (($row['price']*$row['children']) / 2); ?>
+                <?php  $a = ($row['price'] * $row['adults']) + (($row['price']*$row['children']) / 2); ?>
+                <?php echo $a?>
+
               </td>
             </tr>
             <?php
             }
             ?>
         </table>
+        <?php
+        ?>
+ 
+        <?php echo"Total". $a; ?>
       </div>
     </div>
     <div>

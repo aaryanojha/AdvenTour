@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Apr 16, 2023 at 04:14 PM
+-- Generation Time: Apr 19, 2023 at 05:24 PM
 -- Server version: 8.0.31
 -- PHP Version: 8.0.26
 
@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS `bookdetails` (
   `price` int DEFAULT NULL,
   `Total` int NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=35 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=58 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `bookdetails`
@@ -47,8 +47,7 @@ INSERT INTO `bookdetails` (`id`, `email`, `destination`, `adults`, `children`, `
 (21, 'aa@gmail.com', 'Shaniwarwada', '1', '2', 1000, 0),
 (31, 'aa@gmail.com', 'lal Mahal', '2', '3', 1000, 0),
 (32, 'aa@gmail.com', 'Shaniwarwada', '1', '1', 1000, 0),
-(33, 'aa@gmail.com', 'Shaniwarwada', '4', '3', 1000, 0),
-(34, 'aa@gmail.com', 'Shaniwarwada', '1', '1', 250, 0);
+(36, 's1@gmail.com', 'lal Mahal', '1', '2', 250, 0);
 
 -- --------------------------------------------------------
 
@@ -58,32 +57,21 @@ INSERT INTO `bookdetails` (`id`, `email`, `destination`, `adults`, `children`, `
 
 DROP TABLE IF EXISTS `enquiries`;
 CREATE TABLE IF NOT EXISTS `enquiries` (
+  `id` int NOT NULL AUTO_INCREMENT,
   `Frist_name` varchar(35) NOT NULL,
   `Last_Name` varchar(35) NOT NULL,
   `Email` varchar(35) NOT NULL,
-  `Message` varchar(35) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+  `Message` varchar(35) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=16 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `enquiries`
 --
 
-INSERT INTO `enquiries` (`Frist_name`, `Last_Name`, `Email`, `Message`) VALUES
-('asdf', 'asdf', 'ddd@gmail.com', 'sdf'),
-('asdf', 'asdf', 'sdfg@gmail.com', 'hgtf'),
-('asdf', 'asdf', 'sdfg@gmail.com', 'hgtf'),
-('d', 'dd', 'aa@gmail.com', 'dsfg'),
-('pranav', 'malwatkar', 'pranav@gmail.com', 'hey,This is pranav'),
-('aa', 'aa', 'aa@gmail.com', 'asdf'),
-('aa', 'aa', 'aa@gmail.com', 'sadf'),
-('aa', 'aa', 'aa@gmail.com', 'asdf'),
-('aa', 'aa', 'aa@gmail.com', 'ad'),
-('aa', 'aa', 'aa@gmail.com', 'asdfgh'),
-('aa', 'aa', 'aa@gmail.com', 'we'),
-('aa', 'aa', 'aa@gmail.com', 'j'),
-('aa', 'aa', 'aa@gmail.com', 'ff'),
-('Aaryan', 'Ojha', 'hello1@gmail.com', 'Hello Admin'),
-('adsf', '', 's@gmail.com', 'hi');
+INSERT INTO `enquiries` (`id`, `Frist_name`, `Last_Name`, `Email`, `Message`) VALUES
+(5, 'pranav', 'malwatkar', 'pranav@gmail.com', 'hey,This is pranav'),
+(14, 'Aaryan', 'Ojha', 'hello1@gmail.com', 'Hello Admin');
 
 -- --------------------------------------------------------
 
@@ -93,6 +81,7 @@ INSERT INTO `enquiries` (`Frist_name`, `Last_Name`, `Email`, `Message`) VALUES
 
 DROP TABLE IF EXISTS `payment`;
 CREATE TABLE IF NOT EXISTS `payment` (
+  `id` int NOT NULL AUTO_INCREMENT,
   `Full_Name` varchar(35) NOT NULL,
   `Email` varchar(35) NOT NULL,
   `Address` varchar(35) NOT NULL,
@@ -103,17 +92,18 @@ CREATE TABLE IF NOT EXISTS `payment` (
   `Card_Number` int NOT NULL,
   `Expmonth` int NOT NULL,
   `Expyear` int NOT NULL,
-  `Cvv` int NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+  `Cvv` int NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `payment`
 --
 
-INSERT INTO `payment` (`Full_Name`, `Email`, `Address`, `City`, `State`, `Zip`, `Card_Name`, `Card_Number`, `Expmonth`, `Expyear`, `Cvv`) VALUES
-('aa', 'aa@gmail.com', 'aa', 'aa', 'aa', 123, 'aa', 121, 1, 1, 1),
-('pranav', 'p@gmailcom', 'hi', 'nanded', 'maharstra', 431602, 'pranav', 1112, 0, 5, 602),
-('sadfds', 'sdafd', 'safd', 'dsaf', 'sdafd', 0, 'sdaf', 0, 0, 0, 0);
+INSERT INTO `payment` (`id`, `Full_Name`, `Email`, `Address`, `City`, `State`, `Zip`, `Card_Name`, `Card_Number`, `Expmonth`, `Expyear`, `Cvv`) VALUES
+(1, 'aa', 'aa@gmail.com', 'aa', 'aa', 'aa', 123, 'aa', 121, 1, 1, 1),
+(2, 'pranav', 'p@gmailcom', 'hi', 'nanded', 'maharstra', 431602, 'pranav', 1112, 0, 5, 602),
+(3, 'sadfds', 'sdafd', 'safd', 'dsaf', 'sdafd', 0, 'sdaf', 0, 0, 0, 0);
 
 -- --------------------------------------------------------
 
@@ -132,19 +122,17 @@ CREATE TABLE IF NOT EXISTS `users` (
   `IsAdmin` tinyint(1) NOT NULL,
   PRIMARY KEY (`ID`),
   KEY `ID` (`ID`,`UserName`,`Password`,`Email`,`IsAdmin`)
-) ENGINE=MyISAM AUTO_INCREMENT=22 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=24 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `users`
 --
 
 INSERT INTO `users` (`ID`, `UserName`, `Email`, `Password`, `question1`, `question2`, `IsAdmin`) VALUES
-(1, 'pranav', 'pranav@gmail.com', 'asdf', '', '', 0),
-(2, 'swapnil', 'swapnil@gmail.com', 'hi', '', '', 0),
-(3, 'bb', 'pranav5@gmail.com', 'bb', '', '', 1),
+(1, 'admin', 'admin@gmail.com', 'admin', 'indira', 'admin', 1),
 (19, 'aa', 'aa@gmail.com', 'aa', 'aa', 'aa', 0),
 (20, 'pranav', 'p@gmail.com', 'pp', 'pp', 'pp', 0),
-(21, 'aas', 's1@gmail.com', 'd', 'd', 'd', 0);
+(22, 'Pranav', 'pranavmalwatkar142@gmail.', 'Pranav@55', 'Indira', 'Abita', 1);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

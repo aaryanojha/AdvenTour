@@ -64,8 +64,8 @@
       <div class="dropdown">
         <button class="dropbtn">
           <i class="fas fa-user-alt"></i>
-          <b>
-         
+          <b>          
+            <?php echo getSessionVar('name'); ?>
           </b>
         </button>
         <div class="dropdown-content">

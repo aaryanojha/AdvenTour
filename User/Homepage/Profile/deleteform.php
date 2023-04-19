@@ -28,9 +28,10 @@
       font-size: large;
     }
     
-    .navbar a:hover {
+    /* .navbar a:hover {
       background-color: rgba(0, 0, 0, 0.062);
-    }</style>
+    } */
+    </style>
   </head>
   <body>
     <div class="navbar">
@@ -39,7 +40,7 @@
             overflow: hidden;
             padding: 1%;
             height: 55px;
-            width: 200px;
+            width: 350px;
             background-image: url(../../Images/logo813.jpg);
             background-size: cover;
             align-items: center;
@@ -51,25 +52,7 @@
       </h1>
       <p style="text-align: center; font-weight: bold;font-size: larger;">We're sorry to see you go. <br> Once your account is deleted, 
         all of your content will be permanently gone, including your profile, bookings, and responses.</p> 
-      <!-- <center>
-        <div class="form" style="position: absolute; top: 20%; left: 30%">
-          <h3>
-            UserName: &nbsp;<input class="form-field" type="text" name="uname" />
-          
-          
-          
-            Password: &nbsp;<input class="form-field" type="text" name="p1" />
-          </h3>
-          <br />
-        
-          <div>
-            <button class="button" name="n1" style="width: 80%;float: right;">Submit</button><br>
-            <br>  <h4>* Note: This will delete your account permanently.</h4>
-          </div>
-          
-        </div>
-       
-      </center> -->
+
       <div class="col-25">
         <div class="container">
          <p> <label for="uname" style="font-size: larger;font-weight: bold;">UserName:</label><br>

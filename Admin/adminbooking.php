@@ -1,12 +1,16 @@
 <html>
   <head>
   <link rel="stylesheet" href="admin.css">
-   
   </head>
   <body>
-    
-    <div class="area">
-        <div class="boxes">Hello</div>
+    <form>
+    <?php
+    //Connect to the MySQL database
+    require_once('function.php');
+    $conn = DBConnect1();
+    $result = display_data1("email");
+    ?>
+  
 
     </div><nav class="main-menu">
             <ul>
@@ -68,5 +72,50 @@
             </ul>
         </nav>
         
-  </body>
+ 
+    
+ <table border="3" width="80%" align="center" >
+ <tr>
+   <th>Email</th>
+   <th>Destination</th>
+   <th>Adults</th>
+   <th>Children</th>
+   <th>Price</th>
+   <th>Total</th>
+ </tr>
+
+ <tr>
+   <?php
+
+   while ($row = mysqli_fetch_assoc($result)) {
+     ?>
+     <td>
+       <?php echo $row['email']; ?>
+     </td>
+     <td>
+       <?php echo $row['destination']; ?>
+     </td>
+     <td>
+       <?php echo $row['adults']; ?>
+     </td>
+     <td>
+       <?php echo $row['children']; ?>
+     </td>
+     <td>
+       <?php echo $row['price']; ?>
+     </td>
+     <td>
+       <?php  $a = ($row['price'] * $row['adults']) + (($row['price']*$row['children']) / 2); ?>
+       <?php echo $a?>
+
+     </td>
+   </tr>
+   <?php
+   }
+   ?>
+</table>
+<?php
+?>
+ </body>
     </html>
+   

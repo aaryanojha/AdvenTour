@@ -3,9 +3,15 @@
   <link rel="stylesheet" href="admin.css">
   </head>
   <body>
+  <?php
+    //Connect to the MySQL database
+    require_once('function.php');
+
+    // $email = GetSessionVar1('email');
+    $conn = DBConnect1();
+    $result = display_users();
+    ?>
     
-    <div class="area">
-        <div class="boxes">Hello</div>
 
     </div><nav class="main-menu">
             <ul>
@@ -66,6 +72,42 @@
                 </li>  
             </ul>
         </nav>
-        
+
+        <table border="3" width="80%" align="center" >
+ <tr align="center" >
+   <th>User Name</th>
+   <th>Email</th>
+   <th>Password</th>
+   <th>Security Question 1</th>
+   <th>Security Question 2</th>
+ </tr>
+
+ <tr align="center">
+   <?php
+   while ($row = mysqli_fetch_assoc($result)) {
+     ?>
+     <td align="center">
+       <?php echo $row['UserName']; ?>
+     </td>
+     <td align="center">
+       <?php echo $row['Email']; ?>
+     </td>
+     <td align="center">
+       <?php echo $row['Password']; ?>
+     </td>
+     <td align="center">
+       <?php echo $row['question1']; ?>
+     </td>
+     <td align="center">
+       <?php echo $row['question2']; ?>
+     </td>
+   </tr>
+   <?php
+   }
+   ?>
+
+<?php
+?>  .
+</table>  
   </body>
     </html>
