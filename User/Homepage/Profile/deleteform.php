@@ -45,7 +45,7 @@
             background-size: cover;
             align-items: center;
             background-repeat: no-repeat;
-          "></a></div>
+          "></a></div><br><br>
     <form method="POST" action='<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?> '>
       <h1 style="text-align: center">
         <u>Delete Profile</u>

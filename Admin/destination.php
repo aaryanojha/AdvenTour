@@ -111,49 +111,49 @@ $(document).ready(function(){
     <td align="center">Gateway of India</td>
     <td align="center">Chhatarpur Temple</td>
  </tr>
- <td align="center">Shaniwar Wada</td>
-    <td align="center">Gateway of India</td>
-    <td align="center">Chhatarpur Temple</td>
+    <td align="center">Lal Mahal</td>
+    <td align="center">TAJ HOTEL</td>
+    <td align="center">LOTUS TEMPLE</td>
  </tr>
- <td align="center">Shaniwar Wada</td>
-    <td align="center">Gateway of India</td>
-    <td align="center">Chhatarpur Temple</td>
+ <td align="center">Dagdusheth ganpati</td>
+    <td align="center">SHREE SIDDHIVINAYAK TEMPLE</td>
+    <td align="center">JAMA MASJID</td>
  </tr>
- <td align="center">Shaniwar Wada</td>
-    <td align="center">Gateway of India</td>
-    <td align="center">Chhatarpur Temple</td>
+ <td align="center">ISKCON NVCC Pune</td>
+    <td align="center">HANGING GARDEN</td>
+    <td align="center">AKSHARDHAM TEMPLE</td>
  </tr>
- <td align="center">Shaniwar Wada</td>
-    <td align="center">Gateway of India</td>
-    <td align="center">Chhatarpur Temple</td>
+ <td align="center">Shivneri Fort</td>
+    <td align="center">OBEROI MALL</td>
+    <td align="center">QUTUB MINAR</td>
  </tr>
- <td align="center">Shaniwar Wada</td>
-    <td align="center">Gateway of India</td>
-    <td align="center">Chhatarpur Temple</td>
+ <td align="center">Phoenix City Mall</td>
+    <td align="center">STREET SHOPPING</td>
+    <td align="center">SWARGADWAR BEACH</td>
  </tr>
- <td align="center">Shaniwar Wada</td>
-    <td align="center">Gateway of India</td>
-    <td align="center">Chhatarpur Temple</td>
+ <td align="center">INOX - Elpro City Square</td>
+    <td align="center">MALABAR HILL FOREST TRAIL</td>
+    <td align="center">GATEWAY OF INDIA DELHI</td>
  </tr>
- <td align="center">Shaniwar Wada</td>
-    <td align="center">Gateway of India</td>
-    <td align="center">Chhatarpur Temple</td>
+ <td align="center">Hotel JW MARRIOTT</td>
+    <td align="center">BABULNATH MANDIR</td>
+    <td align="center">TUMBLE HOUSE</td>
  </tr>
- <td align="center">Shaniwar Wada</td>
-    <td align="center">Gateway of India</td>
-    <td align="center">Chhatarpur Temple</td>
+ <td align="center">Okayama Friendship Garden</td>
+    <td align="center">HAJI ALI DARGAH</td>
+    <td align="center">DE PAVILION HOTEL</td>
  </tr>
- <td align="center">Shaniwar Wada</td>
-    <td align="center">Gateway of India</td>
-    <td align="center">Chhatarpur Temple</td>
+ <td align="center">Sinhagad Fort</td>
+    <td align="center">FUN CITY COME PLAY!</td>
+    <td align="center">LODHI GARDEN</td>
  </tr>
- <td align="center">Shaniwar Wada</td>
-    <td align="center">Gateway of India</td>
-    <td align="center">Chhatarpur Temple</td>
+ <td align="center">TULSI BAUG SHOPPING MARKET</td>
+    <td align="center">MARINE DRIVE MUMBAI</td>
+    <td align="center">Promenade Beach</td>
  </tr>
- <td align="center">Shaniwar Wada</td>
-    <td align="center">Gateway of India</td>
-    <td align="center">Chhatarpur Temple</td>
+ <td align="center">AGA KHAN PALACE</td>
+    <td align="center">ELEPHANTA CAVES</td>
+    <td align="center">GATEWAY OF INDIA</td>
  </tr>
 </table>
 <table border="0" width="80%" align="center" class="customers" id="t2" name="t2">

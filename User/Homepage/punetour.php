@@ -39,7 +39,10 @@
 </head>
 
 <body>
-
+  
+<?php
+  require_once "../Database/functions.php";
+  ?>
   <form action="" method="POST">
     <div class="navbar">
       <!-- Invisible buttons-disabled hover -->
@@ -59,18 +62,18 @@
           "></a>
       <a href="http://" target="_blank" rel="noopener noreferrer" class="disabled"></a>
       <a href="#news" class="hover-underline-animation">News</a>
-      <a href="../../../aboutus.php" class="hover-underline-animation">About Us</a>
-      <a href="../../../../Enquire/enquire.php" class="hover-underline-animation">Enquire</a>
+      <a href="../Homepage/aboutus.php" class="hover-underline-animation">About Us</a>
+      <a href="../Enquire/enquire.php" class="hover-underline-animation">Enquire</a>
       <div class="dropdown">
         <button class="dropbtn">
           <i class="fas fa-user-alt"></i>
-          <b>          
-            <?php echo getSessionVar('name'); ?>
+          <?php
+           echo getSessionVar('name');  ?>
           </b>
         </button>
         <div class="dropdown-content">
-          <a href="../../../Profile/profile.php">Profile</a>
-          <a href="../../../../Login/login.html">Sign Out</a>
+          <a href="../Homepage/Profile/profile.php">Profile</a>
+          <a href="../Login/login.html">Sign Out</a>
         </div>
         &emsp;&emsp;&emsp;&emsp;&nbsp;
       </div>
@@ -92,7 +95,7 @@ Today, Pune is a bustling metropolis that is known for its vibrant culture, food
     </div>
 
             <div class="boxbtm">
-        <p><img class="btmimg" src="../Images/logo813.jpg" alt="">
+        <p><img class="btmimg" src="../Images/logo813" alt="">
       <ul style="list-style-type:none;margin-left:40vh">
         <li><h3 style="color:orangered;">General</h3></li>
         <li><a href="../Homepage/Pune/pune.php" style="text-decoration:none;color: black;">Pune</a></li>
