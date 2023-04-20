@@ -104,10 +104,10 @@ a:hover {
   margin: 0;
 }
 
-.navbar a:hover,
+/* .navbar a:hover,
 .dropdown:hover .dropbtn {
-  background-color: rgb(255, 0, 0);
-}
+  background-color: rgba(255, 0, 0, 0);
+} */
 
 .dropdown-content {
   display: none;
@@ -139,3 +139,25 @@ a:hover {
   pointer-events: none;
   opacity: 0.3;
 }
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: orangered;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: orangered;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;

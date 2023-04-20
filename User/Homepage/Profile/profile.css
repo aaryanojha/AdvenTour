@@ -5,6 +5,8 @@ body{
 body {
   /* background-color: rgb(255, 255, 255); */
   background: linear-gradient(to right, #b1d1fc 20%,#f7f7c2 80%);
+  -tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
 }
 .hover-underline-animation {
   display: inline-block;

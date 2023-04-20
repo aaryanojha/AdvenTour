@@ -82,6 +82,7 @@
 
             while ($row = mysqli_fetch_assoc($result)) {
               ?>
+                
               <td>
                 <?php echo $row['email']; ?>
               </td>
@@ -100,9 +101,14 @@
               <td>
                 <?php  $a = ($row['price'] * $row['adults']) + (($row['price']*$row['children']) / 2); ?>
                 <?php echo $a?>
+                  <?php $sum=0;
+                $sum=$sum+$a;
+                ?>
+                
 
               </td>
             </tr>
+        
             <?php
             }
             ?>
@@ -112,7 +118,7 @@
       <tr>
        <th>Complete Total: </th>
        <td></td><td></td><td></td><td></td>
-       <td><b><?php echo " $a"; ?></b></td>
+       <td><b><?php echo " $sum"; ?></b></td>
         </tr>
         </table>
       <button class="btn1" formaction="../../Payment/payment.php">Book Now</button>

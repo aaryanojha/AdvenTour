@@ -88,7 +88,7 @@
     </div>
 
     <div class="mainbox">
-    <span class="boxcontent"><h1>Pune, Maharashtra</h1></span><br>
+    <span class="boxcontent"><h1 style="border-left:4px solid orangered">Pune, Maharashtra</h1></span><br>
       <span class="boxcontent"><img src="../Images/agakhan.jpg" class="imgclass">Pune is a city located in the western Indian state of Maharashtra. It is the second-largest city in the state and is known as the "Oxford of the East" due to the presence of several reputed educational institutions.
 Historically, Pune was the seat of the Peshwas, who were the prime ministers of the Maratha Empire. The city played a significant role in the Indian independence movement, and many prominent freedom fighters such as Mahatma Gandhi, Jawaharlal Nehru, and Subhash Chandra Bose had links to the city.
 Today, Pune is a bustling metropolis that is known for its vibrant culture, food, and nightlife. The city has a rich history and is home to several museums, forts, and other historical landmarks. Additionally, Pune is surrounded by beautiful hills and valleys, making it a popular destination for trekkers and nature lovers.</span>
