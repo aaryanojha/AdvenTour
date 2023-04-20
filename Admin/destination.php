@@ -1,13 +1,47 @@
 <html>
   <head>
   <link rel="stylesheet" href="admin.css">
+  <style>#t2 {
+  display: none;
+}</style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <!-- <script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("table").hide();
+  });
+  $("#hide").click(function(){
+    $("t2").hide();
+  });
+  $("#show").click(function(){
+    $("table").show();
+  });
+});
+</script> -->
+<script>
+    function switchVisible() {
+            if (document.getElementById('t1')) {
+
+                if (document.getElementById('t1').style.display == 'none') {
+                    document.getElementById('t1').style.display = 'block';
+                    document.getElementById('t2').style.display = 'none';
+                }
+                else {
+                    document.getElementById('t1').style.display = 'none';
+                    document.getElementById('t2').style.display = 'block';
+                }
+            }
+}
+</script>
   </head>
   <body>
-    
-    <div class="area">
-        <div class="boxes">Hello</div>
-
-    </div><nav class="main-menu">
+        <div class="boxes">
+            <span style="margin-top:-2vh"><button id="Button1" onclick="switchVisible();">Destinations/Packages</button>
+            </span>
+            <!-- <span style="margin-top:-16vh;margin-left:120vh"><button onclick="switchVisible();">Packages</button>
+            </span> -->
+        </div>
+    <nav class="main-menu">
             <ul>
                 <li>
                     <a href="admin.html">
@@ -65,7 +99,75 @@
                     </a>
                 </li>  
             </ul>
-        </nav>
-        
+        </nav>    
+        <table border="0" width="100%" align="center" class="customers" id="t1">
+ <tr align="center" >
+   <th>Pune</th>
+   <th>Mumbai</th>
+   <th>Delhi</th>
+ </tr>
+ <tr>
+    <td align="center">Shaniwar Wada</td>
+    <td align="center">Gateway of India</td>
+    <td align="center">Chhatarpur Temple</td>
+ </tr>
+ <td align="center">Shaniwar Wada</td>
+    <td align="center">Gateway of India</td>
+    <td align="center">Chhatarpur Temple</td>
+ </tr>
+ <td align="center">Shaniwar Wada</td>
+    <td align="center">Gateway of India</td>
+    <td align="center">Chhatarpur Temple</td>
+ </tr>
+ <td align="center">Shaniwar Wada</td>
+    <td align="center">Gateway of India</td>
+    <td align="center">Chhatarpur Temple</td>
+ </tr>
+ <td align="center">Shaniwar Wada</td>
+    <td align="center">Gateway of India</td>
+    <td align="center">Chhatarpur Temple</td>
+ </tr>
+ <td align="center">Shaniwar Wada</td>
+    <td align="center">Gateway of India</td>
+    <td align="center">Chhatarpur Temple</td>
+ </tr>
+ <td align="center">Shaniwar Wada</td>
+    <td align="center">Gateway of India</td>
+    <td align="center">Chhatarpur Temple</td>
+ </tr>
+ <td align="center">Shaniwar Wada</td>
+    <td align="center">Gateway of India</td>
+    <td align="center">Chhatarpur Temple</td>
+ </tr>
+ <td align="center">Shaniwar Wada</td>
+    <td align="center">Gateway of India</td>
+    <td align="center">Chhatarpur Temple</td>
+ </tr>
+ <td align="center">Shaniwar Wada</td>
+    <td align="center">Gateway of India</td>
+    <td align="center">Chhatarpur Temple</td>
+ </tr>
+ <td align="center">Shaniwar Wada</td>
+    <td align="center">Gateway of India</td>
+    <td align="center">Chhatarpur Temple</td>
+ </tr>
+ <td align="center">Shaniwar Wada</td>
+    <td align="center">Gateway of India</td>
+    <td align="center">Chhatarpur Temple</td>
+ </tr>
+</table>
+<table border="0" width="80%" align="center" class="customers" id="t2" name="t2">
+ <tr align="center" >
+   <th>Pune</th>
+   <th>Mumbai</th>
+   <th>Delhi</th>
+ </tr>
+ <tr>
+ <td>Pune Full Tour</td>
+ <td>Mumbai Full Tour</td>
+ <td>Delhi Full Tour</td>
+ </tr>
+</table>
+</div>
   </body>
     </html>

@@ -167,7 +167,17 @@ height: 100%;
 .boxes p:hover{
   background: linear-gradient(to right, #f279418c 0%,#ff000081 100%); 
   cursor: pointer;
-  
+}
+.boxes button {
+  padding: 0vh 0vh;
+  background-color: #f2794100;
+  border: 0px;
+  cursor: pointer;
+  font-size: 4vh;
+}
+.boxes button:hover{
+  font-size: 4.4vh;
+  transition:cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s;
 }
 
 .customers {
@@ -191,10 +201,4 @@ height: 100%;
   text-align: center;
   background-color: #ff5100;
   color: white;
-}
-.avatar {
-  vertical-align: middle;
-  width: 50px;
-  height: 50px;
-  border-radius: 40%;
 }

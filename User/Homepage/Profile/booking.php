@@ -67,7 +67,7 @@
         <h3>Bookings:<span class="price" style="color:black"> <i class="fa fa-plane"></i></span></h3>
 
 
-        <table border="2" width="90%">
+        <table border="1" width="90%" class="customers">
           <tr>
             <th>Email</th>
             <th>Destination</th>
@@ -106,15 +106,20 @@
             <?php
             }
             ?>
-        </table>
+        
         <?php
         ?>
- 
-        <?php echo"Total". $a; ?>
+      <tr>
+       <th>Complete Total: </th>
+       <td></td><td></td><td></td><td></td>
+       <td><b><?php echo " $a"; ?></b></td>
+        </tr>
+        </table>
+      <button class="btn1" formaction="../../Payment/payment.php">Book Now</button>
       </div>
     </div>
     <div>
-      <p><button class="btn1" formaction="../../Payment/payment.php"><b>Book Now!</b></button>
+      
     </div>
   </body>
 </form>
