@@ -65,7 +65,7 @@
     <div class="col-25">
       <div class="container">
         <h3>Bookings:<span class="price" style="color:black"> <i class="fa fa-plane"></i></span></h3>
-
+        <?php $total = 0 ?>
 
         <table border="1" width="90%" class="customers">
           <tr>
@@ -78,11 +78,7 @@
           </tr>
 
           <tr>
-            <?php
-
-            while ($row = mysqli_fetch_assoc($result)) {
-              ?>
-                
+            <?php foreach ($result as $row) { ?>
               <td>
                 <?php echo $row['email']; ?>
               </td>
@@ -99,33 +95,30 @@
                 <?php echo $row['price']; ?>
               </td>
               <td>
-                <?php  $a = ($row['price'] * $row['adults']) + (($row['price']*$row['children']) / 2); ?>
-                <?php echo $a?>
-                  <?php $sum=0;
-                $sum=$sum+$a;
-                ?>
-                
-
+                <?php echo $row['total'] ?>
+                <?php $total += $row['total'] ?>
               </td>
             </tr>
-        
-            <?php
-            }
-            ?>
-        
-        <?php
-        ?>
-      <tr>
-       <th>Complete Total: </th>
-       <td></td><td></td><td></td><td></td>
-       <td><b><?php echo " $sum"; ?></b></td>
-        </tr>
+          <?php } ?>
+
+          <?php
+          ?>
+          <tr>
+            <th>Complete Total: </th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><b>
+                <?php echo "$total"; ?>
+              </b></td>
+          </tr>
         </table>
-      <button class="btn1" formaction="../../Payment/payment.php">Book Now</button>
+        <button class="btn1" formaction="../../Payment/payment.php">Book Now</button>
       </div>
     </div>
     <div>
-      
+
     </div>
   </body>
 </form>

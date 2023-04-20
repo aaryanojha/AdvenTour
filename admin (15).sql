@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Apr 19, 2023 at 05:24 PM
+-- Generation Time: Apr 20, 2023 at 12:32 PM
 -- Server version: 8.0.31
 -- PHP Version: 8.0.26
 
@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS `bookdetails` (
   `adults` varchar(255) DEFAULT NULL,
   `children` varchar(255) DEFAULT NULL,
   `price` int DEFAULT NULL,
-  `Total` int NOT NULL,
+  `total` decimal(10,2) GENERATED ALWAYS AS (((`price` * `adults`) + ((`price` * `children`) / 2))) VIRTUAL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=58 DEFAULT CHARSET=latin1;
 
@@ -43,11 +43,11 @@ CREATE TABLE IF NOT EXISTS `bookdetails` (
 -- Dumping data for table `bookdetails`
 --
 
-INSERT INTO `bookdetails` (`id`, `email`, `destination`, `adults`, `children`, `price`, `Total`) VALUES
-(21, 'aa@gmail.com', 'Shaniwarwada', '1', '2', 1000, 0),
-(31, 'aa@gmail.com', 'lal Mahal', '2', '3', 1000, 0),
-(32, 'aa@gmail.com', 'Shaniwarwada', '1', '1', 1000, 0),
-(36, 's1@gmail.com', 'lal Mahal', '1', '2', 250, 0);
+INSERT INTO `bookdetails` (`id`, `email`, `destination`, `adults`, `children`, `price`) VALUES
+(21, 'aa@gmail.com', 'Shaniwarwada', '1', '2', 1000),
+(31, 'aa@gmail.com', 'lal Mahal', '2', '3', 1000),
+(32, 'aa@gmail.com', 'Shaniwarwada', '1', '1', 1000),
+(36, 's1@gmail.com', 'lal Mahal', '1', '2', 250);
 
 -- --------------------------------------------------------
 
