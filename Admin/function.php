@@ -14,21 +14,7 @@ function DBConnect1()
     return $conn;
 }
 
-function GetSessionVar1(string $varName)
-{
-    // Start the session if it has not already been started
-    if (session_status() == PHP_SESSION_NONE) {
-        session_start();
-    }
 
-    $ss = $_SESSION["mySessionObject"];
-
-    if (isset($ss->$varName)) {
-        return $ss->$varName;
-    } else {
-        return null;
-    }
-}
 
 function display_data1(string $email)
 {
@@ -54,4 +40,7 @@ function display_users()
     $result = mysqli_query($conn, $query);
     return $result;
 }
+
+
+
 ?>
