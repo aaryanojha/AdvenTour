@@ -190,17 +190,21 @@ Returns to original departure point<br>
 <p>
   <h2 style="color:orangered">Itinerary</h2>
   <ul>
-    <li>You'll get picked up</li>
+    <li>You'll get picked up: Wakad</li>
+    <li>INOX - Elpro City Square</li>
     <li>Aga Khan Palace</li>
-    <li>Dagadusheth Halwai Ganapati Temple</li>
+    <li>Shaniwar Wada</li> 
+    <li>Dagdusheth ganpati</li>
     <li>Lal Mahal</li>
-    <li></li>
-    <li></li>
-    <li>You'll return to the starting point</li>
+    <li>Tulshibaug</li>
+    <li>Okayama Friendship Garden</li>
+    <li>ISKCON NVCC Pune</li>
+    <li>JW Marriott Hotel Pune</li>
+    <li>You'll return to the starting point:Wakad</li>
   </ul>
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.223973849555!2d73.85435141436868!3d18.5187781740636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c065793c91a1%3A0x4a206d80daf21f92!2sLal%20Mahal!5e0!3m2!1sen!2sin!4v1679077500377!5m2!1sen!2sin" width="1200" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="W3Schools Free Online Web Tutorials">
-</iframe>
-</p>
+    <iframe src="https://www.google.com/maps/d/embed?mid=19hb4QJctcikPxbFJDEhUEoYLdPkDtFg&ehbc=2E312F" width="1200" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  </p>
 </span>
 <h1 style="border-left:4px solid orangered">&nbsp;Customer Reviews</h1><br>
 
