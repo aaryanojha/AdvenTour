@@ -33,6 +33,7 @@
       width:110vh;
       margin-left:8vh;
       padding:8vh 0vh;
+      
     }
     #img2{
       width:80vh;
@@ -110,7 +111,7 @@
     </div> -->
 
     <div class="mainbox">
-    <span class="boxcontent" style="margin-top:-50vh;margin-left:-50vh"><h1 style="border-left:4px solid orangered">&nbsp; Guided Highlights of Pune Car Tour with a local <br>&nbsp; (24 Hrs Sightseeing in AC Bus)</h1></span>
+    <span class="boxcontent" style="margin-top:-50vh;margin-left:-50vh"><h1 style="border-left:4px solid orangered">&nbsp; Guided Highlights of Pune Tour with a local <br>&nbsp; (24 Hrs Sightseeing in AC Bus)</h1></span>
     <br>
       <span class="boxcontent"><img src="../Images/agakhan.jpg" class="imgclass">Pune is a city located in the western Indian state of Maharashtra. It is the second-largest city in the state and is known as the "Oxford of the East" due to the presence of several reputed educational institutions.
 Historically, Pune was the seat of the Peshwas, who were the prime ministers of the Maratha Empire. The city played a significant role in the Indian independence movement, and many prominent freedom fighters such as Mahatma Gandhi, Jawaharlal Nehru, and Subhash Chandra Bose had links to the city.
@@ -123,8 +124,43 @@ Today, Pune is a bustling metropolis that is known for its vibrant culture, food
   <li><i class="fa fa-globe"></i> English,Hindi,Marathi</li>
   <li></li>
 </ul></p>
-<span class="boxcontent" style="margin-left:-1000vh;">
-    <br><button>Booknow</button>
+<span class="pay">
+  <h1 style="border-left: 4px solid orangered">&nbsp;Reserve your spot</h1>
+  <input type="date" name="" id="">
+
+  <!-- <select name="adults">
+  <option value="">Adults</option>
+  <option value="0">0</option>
+  <option value="1">1</option>
+
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+</select>
+<select name="children">
+  <option value="">Children</option>
+  <option value="0">0</option>
+  <option value="1">1</option>
+
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+</select> -->
+ <p class="price"><b>Premium Tour with Bus/Volvo</b><input type="radio" name="radio" id="" value="radio"><br>
+ Premium<br>
+ Local Snacks<br>
+AC Bus<br>
+Pickup included<br>
+Per group (up to 5) x ₹20,000.00<br>
+<b>Total ₹20,000.00</b><br>
+(No additional taxes or booking fees)
+</p>
+<b style="font-size:4vh">Total ₹20,000.00</b>
+    <button class="btn1" formaction="../Payment/payment.php">Booknow</button>
   </span>
 <p>
  

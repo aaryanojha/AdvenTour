@@ -244,8 +244,8 @@ Returns to original departure point<br>
 
 <div class="review-card" style="margin-top:-46vh;margin-left:-120vh">
   <div class="review-header">
-    <img src="https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/57.png" alt="Customer Image">
-    <h3 style="color:black">MS Dhoni</h3>
+    <img src="https://iccs.ac.in/assets/images/BCA_Sci_Staff/Prof.Sumit-Sasane.jpg" alt="Customer Image">
+    <h3 style="color:black">Sumit Sir</h3>
   </div>
   <div class="review-body">
     <p>Very good Website. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis suscipit neque. Nullam quis orci vitae magna maximus interdum. Sed aliquet dolor eget libero auctor vestibulum.</p>
