@@ -98,7 +98,7 @@
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span></p>
-      <button type="submit" class="packagebtn" formaction="#">Book now</button></span>
+      <button type="submit" class="packagebtn" formaction="mumbaitour.php">Book now</button></span>
 
       <span class="package1"><img src="../Images/delhi.jpg" alt="" style="height:20vh;width:45vh;float:left; padding:2vh 2vh">
       <p>Delhi Full Tour</p>  
@@ -109,7 +109,7 @@
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star"></span></p>
-      <button type="submit" class="packagebtn" formaction="#">Book now</button></span>
+      <button type="submit" class="packagebtn" formaction="delhitour.php">Book now</button></span>
       </div>
 
       <div class="boxbtm">

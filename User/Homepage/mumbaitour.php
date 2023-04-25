@@ -190,19 +190,22 @@ Returns to original departure point<br>
 <p>
   <h2 style="color:orangered">Itinerary</h2>
   <ul>
-    <li>You'll get picked up: Wakad</li>
-    <li>INOX - Elpro City Square</li>
-    <li>Aga Khan Palace</li>
-    <li>Shaniwar Wada</li> 
-    <li>Dagdusheth ganpati</li>
-    <li>Lal Mahal</li>
-    <li>Tulshibaug</li>
-    <li>Okayama Friendship Garden</li>
-    <li>ISKCON NVCC Pune</li>
-    <li>JW Marriott Hotel Pune</li>
-    <li>You'll return to the starting point:Wakad</li>
+    <li>You'll get picked up: Kalbadevi</li>   
+    <li>Babulnath Mandir</li> 
+    <li>Marine Drive</li>
+    <li>Hanging Gardens</li>
+    <li>Malabar Hill</li>
+    <li>Gateway Of India Mumbai</li>
+    <li>Taj Hotel view point</li>
+    <li>Haji Ali Dargah</li>
+    <li>Shree Siddhivinayak Temple</li>
+    <li>Fun City Come Play!</li>
+    <li>Oberoi Mall</li>
+    <li>Elephanta Caves</li>
+    <li>Street Shopping Market</li>
+    <li>You'll return to the starting point:Kalbadevi</li>
   </ul>
-    <iframe src="https://www.google.com/maps/d/embed?mid=19hb4QJctcikPxbFJDEhUEoYLdPkDtFg&ehbc=2E312F"" width="1200" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/d/embed?mid=1XlSp9Rmcrmm_0juEsR_5EIdTTfr0ChE&ehbc=2E312F"  width="1200" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
   </p>
 </span>

@@ -202,7 +202,7 @@ Returns to original departure point<br>
     <li>JW Marriott Hotel Pune</li>
     <li>You'll return to the starting point:Wakad</li>
   </ul>
-    <iframe src="https://www.google.com/maps/d/embed?mid=19hb4QJctcikPxbFJDEhUEoYLdPkDtFg&ehbc=2E312F"" width="1200" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/d/embed?mid=19hb4QJctcikPxbFJDEhUEoYLdPkDtFg&ehbc=2E312F" width="1200" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
   </p>
 </span>
