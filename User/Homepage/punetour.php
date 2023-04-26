@@ -110,7 +110,7 @@
     </div> -->
 
     <div class="mainbox">
-    <span class="boxcontent" style="margin-top:-50vh;margin-left:-50vh"><h1 style="border-left:4px solid orangered">&nbsp; Guided Highlights of Pune Car Tour with a local <br>&nbsp; (8 Hrs Sightseeing in AC Car)</h1></span>
+    <span class="boxcontent" style="margin-top:-50vh;margin-left:-50vh"><h1 style="border-left:4px solid orangered">&nbsp; Guided Highlights of Pune Car Tour with a local <br>&nbsp; (24 Hrs Sightseeing in AC Bus)</h1></span>
     <br>
       <span class="boxcontent"><img src="../Images/agakhan.jpg" class="imgclass">Pune is a city located in the western Indian state of Maharashtra. It is the second-largest city in the state and is known as the "Oxford of the East" due to the presence of several reputed educational institutions.
 Historically, Pune was the seat of the Peshwas, who were the prime ministers of the Maratha Empire. The city played a significant role in the Indian independence movement, and many prominent freedom fighters such as Mahatma Gandhi, Jawaharlal Nehru, and Subhash Chandra Bose had links to the city.
@@ -123,8 +123,11 @@ Today, Pune is a bustling metropolis that is known for its vibrant culture, food
   <li><i class="fa fa-globe"></i> English,Hindi,Marathi</li>
   <li></li>
 </ul></p>
+<span class="boxcontent" style="margin-left:-1000vh;">
+    <br><button>Booknow</button>
+  </span>
 <p>
-  
+ 
  <h3>What's included</h3>
  <ol>
 <li> Friendly Storyteller/Guide</li>
@@ -146,8 +149,9 @@ Itinrary <br>
 
 This is a typical itinerary for this product <br>
 
-Stop At: Aga Khan Palace, Yerwada., Pune India <br>
+Pickup At: Wakad, Pune India <br>
 
+Stop At: Aga Khan Palace,Yerwada, Pune India
 We will begin our tour from Aga Khan Palace, the ancient place that is riddled with history and heritage, it served as a prison for Mahatma Gandhi.
 
 <br>Duration: 1 hour <br>
@@ -160,7 +164,7 @@ Duration: 1 hour<br>
 
 Stop At: Dagadusheth Halwai Ganapati Temple, Ganpati Bhavan, 250, Budhvar Peth, Pune 411002 India<br>
 
- Experience the divinity of the Dagdusheth Halwai Ganapati Mandir dedicated to Lord Shri Ganesha and other temples of dedicated to load Ganesha.<br>
+Experience the divinity of the Dagdusheth Halwai Ganapati Mandir dedicated to Lord Shri Ganesha and other temples of dedicated to load Ganesha.<br>
 
 Duration: 30 minutes<br>
 
@@ -192,17 +196,20 @@ Returns to original departure point<br>
   <ul>
     <li>You'll get picked up: Wakad</li>
     <li>INOX - Elpro City Square</li>
+    <li>JW Marriott Hotel Pune</li>
     <li>Aga Khan Palace</li>
     <li>Shaniwar Wada</li> 
     <li>Dagdusheth ganpati</li>
+    <li>Phoenix City Mall</li>
     <li>Lal Mahal</li>
-    <li>Tulshibaug</li>
+    <li>TULSI BAUG SHOPPING MARKET</li>
     <li>Okayama Friendship Garden</li>
     <li>ISKCON NVCC Pune</li>
-    <li>JW Marriott Hotel Pune</li>
+    <li>Shivneri Fort</li>
+    <li>Sinhagad Fort</li>
     <li>You'll return to the starting point:Wakad</li>
   </ul>
-    <iframe src="https://www.google.com/maps/d/embed?mid=19hb4QJctcikPxbFJDEhUEoYLdPkDtFg&ehbc=2E312F"" width="1200" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=19hb4QJctcikPxbFJDEhUEoYLdPkDtFg&ehbc=2E312F" width="1200" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
   </p>
 </span>
@@ -257,6 +264,7 @@ Returns to original departure point<br>
       <span class="star">&#9733;</span>
     </div>
   </div>
+  
 </div>
 
 

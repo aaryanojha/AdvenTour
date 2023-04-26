@@ -80,7 +80,7 @@
        <div class="packbox">
         <span class="package1"><img src="../Images/agakhan.jpg" alt="" style="height:20vh;width:45vh;float:left; padding:2vh 2vh">
         <p>Pune Full Tour</p>
-        <p>Hello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar heloo </p>
+        <p>Experience the history and culture of Pune on this guided excursion. After a convenient hotel pickup, learn about the city’s ancient heritage from an informative local guide and visit sites like Aga Khan Palace, where Mahatma Gandhi was once imprisoned, the historic Tulsi Baug market, and the popular pilgrimage site Dagadusheth Halwai Ganapati Temple. </p>
         <p style="postion:fixed">
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
@@ -91,7 +91,7 @@
 
       <span class="package1"><img src="../Images/mumbai1.jpg" alt="" style="height:20vh;width:45vh;float:left; padding:2vh 2vh">
       <p>Mumbai Full Tour</p>  
-      <p>Hello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar heloo </p>
+      <p>Mumbai is India’s fashion and film capital, a sprawling, history-filled city overlooking the Bay of Bengal. Discover one of the world’s most exciting metropolises on this intimate guided visit, which transports you between landmarks in a comfortable, private car. Go deep into the heart of the multifaceted city with a flexible, custom-made itinerary, covering all the top sights in a single day. Hotel pickup makes for a seamless experience.</p>
         <p style="postion:fixed">
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
@@ -102,7 +102,7 @@
 
       <span class="package1"><img src="../Images/delhi.jpg" alt="" style="height:20vh;width:45vh;float:left; padding:2vh 2vh">
       <p>Delhi Full Tour</p>  
-      <p>Hello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar helooHello my name is pranav malwatkar heloo </p>
+      <p>Explore the sights of Old and New Delhi with your own private guide on a full-day tour. Travel in a private air-conditioned vehicle to UNESCO World Heritage sites including Jama Masjid, Qutub Minar, and Humayun's Tomb. You'll also go to other attractions like Raj Ghat—a memorial to Mahatma Gandhi, Parliament House, and Chandni Chowk; and temples such as the lavish Akshardham. Includes entrance fees, and round-trip transfers from your Delhi hotel, airport or train station. </p>
         <p style="postion:fixed">
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
