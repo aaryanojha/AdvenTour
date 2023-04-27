@@ -64,7 +64,7 @@
   require_once "../Database/functions.php";
   ?>
   <form action="" method="POST">
-    <div class="navbar" style="zoom:110%">
+    <div class="navbar">
       <!-- Invisible buttons-disabled hover -->
       <a href="http://" target="_blank" rel="noopener noreferrer" class="disabled"></a>
       <a href="http://" target="_blank" rel="noopener noreferrer" class="disabled"></a>
@@ -171,15 +171,15 @@
           <li>Entry/Admission - Shaniwar Wada</li>
         </ul>
         </p>
-        <p style=>
+        <span style="font-weight:100">
         <h3>What To Expect</h3>
-        Itinrary <br>
+        <b>Itinrary</b> <br>
 
         This is a typical itinerary for this product <br>
 
-        Pickup At: Wakad, Pune India <br>
+        <b>Pickup At</b>: Wakad, Pune India <br>
 
-        Stop At: Aga Khan Palace,Yerwada, Pune India
+        <b>Stop At</b>: Aga Khan Palace,Yerwada, Pune India
         We will begin our tour from Aga Khan Palace, the ancient place that is riddled with history and heritage, it
         served as a prison for Mahatma Gandhi.
 
@@ -191,79 +191,75 @@
         Society for Krishna Consciousness (ISKCON), dedicated to promoting the teachings of the Bhagavad Gita and the
         practice of bhakti-yoga.<br>
 
-        Duration: 1 hour<br>
+       <b> Duration</b>: 1 hour<br>
 
-        Stop At: Dagadusheth Halwai Ganapati Temple, Ganpati Bhavan, 250, Budhvar Peth, Pune 411002 India<br>
+        <b>Stop At</b>: Dagadusheth Halwai Ganapati Temple, Ganpati Bhavan, 250, Budhvar Peth, Pune 411002 India<br>
 
         Experience the divinity of the Dagdusheth Halwai Ganapati Mandir dedicated to Lord Shri Ganesha and other
         temples of dedicated to load Ganesha.<br>
 
-        Duration: 30 minutes<br>
+        <b>Duration</b>: 30 minutes<br>
 
-        Stop At: Tulsi Baug Shopping Market, Tulsi Baug Near Vishrambaug Wada Mandai Vegetable Market Tulsi Baug Near
+        <b>Stop At</b>: Tulsi Baug Shopping Market, Tulsi Baug Near Vishrambaug Wada Mandai Vegetable Market Tulsi Baug Near
         Vishrambaug Wada, Pune 411046 India<br>
 
         Visit the one of the Oldest markets of Pune, Tulsi Bagh<br>
 
 
 
-        Stop At: Shaniwar Wada, Shaniwar Peth, Pune 411030 India<br>
+        <b>Stop At</b>: Shaniwar Wada, Shaniwar Peth, Pune 411030 India<br>
 
         Visit the Shaniwar Wada Fort, Childhood home of founder of Maratha Empire and 180 degree view of architecture in
         the city and centuries old buildings and markets of Pune.<br>
 
-        Duration: 1 hour<br>
+        <b>Duration</b>: 1 hour<br>
 
-        Stop At: Lal Mahal, Pune 411030 India.<br>
+        <b>Stop At</b>: Lal Mahal, Pune 411030 India.<br>
 
         Lal Mahal is a historical palace located in Pune,
         India. It was constructed in the 17th century and is known for its association with
         the legendary warrior king, Shivaji Maharaj.<br>
 
-        Duration: 1 hour<br>
+        <b>Duration</b>: 1 hour<br>
 
-        Duration: 1 day<br>
-        Stop At: Hotel JW MARRIOTT, Pune India.<br>
+        <b>Duration</b>: 1 day<br>
+        <b>Stop At</b>: Hotel JW MARRIOTT, Pune India.<br>
 
 
-        Duration: 1 hour<br>
+        <b>Duration</b>: 1 hour<br>
 
-        Stop At: Shivneri Fort, Pune India.<br>
+        <b>Stop At</b>: Shivneri Fort, Pune India.<br>
 
         Shivneri Fort is a 17th-century hill fort located near Junnar in Pune,
         Maharashtra. It is known as the birthplace of the Maratha warrior king, Shivaji Maharaj.<br>
 
-        Duration: 1 hour<br>
+        <b>Duration</b>: 1 hour<br>
 
-        Stop At: Phoenix City Mall, Pune India.<br>
+        <b>Stop At</b>: Phoenix City Mall, Pune India.<br>
         Phoenix City Mall is a popular shopping mall located in Pune,
         India. It offers a wide range of shopping, dining, and entertainment options for visitors.<br>
 
-        Duration: 1 hour.<br>
+        <b>Duration</b>: 1 hour.<br>
 
-        Stop At: INOX - Elpro City Square, Pune India<br>
+        <b>Stop At</b>: INOX - Elpro City Square, Pune India<br>
         INOX - Elpro City Square is a movie theater located in Pune, India,
         It is part of the INOX chain of movie theaters and is situated in the Elpro City Square shopping mall.<br>
 
-        Duration: 1 hour<br>
+        <b>Duration</b>: 1 hour<br>
 
-        Stop At: Okayama Friendship Garden, Pune India<br>
+        <b>Stop At</b>: Okayama Friendship Garden, Pune India<br>
         Okayama Friendship Garden is a beautiful Japanese-style garden located in Pune, India.
         It was established in 1969 to celebrate the sister city relationship between Pune and Okayama in Japan.<br>
 
-        Duration: 1 hour<br>
+        <b>Duration</b>: 1 hour<br>
 
-        Stop At: Sinhagad Fort, Pune India<br>
+        <b>Stop At</b>: Sinhagad Fort, Pune India<br>
         Sinhagad Fort is a historical fortress located on a hilltop in Pune, Maharashtra, India.
         It is known for its significant role in the Maratha Empire and offers stunning views of the surrounding
         landscape.<br>
 
-        Duration: 1 hour<br>
-
-
-
-
-        </p>
+       <b> Duration</b>: 1 hour<br>
+        </span>
         <p>
         <h3>Departure and return</h3>
         Departure details<br>

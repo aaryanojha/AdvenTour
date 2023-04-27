@@ -60,7 +60,7 @@
   require_once "../Database/functions.php";
   ?>
   <form action="" method="POST">
-    <div class="navbar" style="zoom:110%">
+    <div class="navbar">
       <!-- Invisible buttons-disabled hover -->
       <a href="http://" target="_blank" rel="noopener noreferrer" class="disabled"></a>
       <a href="http://" target="_blank" rel="noopener noreferrer" class="disabled"></a>
