@@ -100,33 +100,27 @@
     </div>
     <span>
 
-      <img src="../Images/pune10.jpg" class="stretch" id="img1" />
-      <img src="../Images/agakhan.jpg" class="stretch" style="width:80vh;height:35vh;padding:8vh 0vh;" />
-      <img src="../Images/pune6.jpg" class="stretch" id="img2" />
+      <img src="../Images/delhi2.jpg" class="stretch" id="img1" />
+      <img src="../Images/delhi1.jpg" class="stretch" style="width:80vh;height:35vh;padding:8vh 0vh;" />
+      <img src="../Images/delhi7.jpg" class="stretch" id="img2" />
     </span>
-
-    <!-- <div id="body">
-    </div> -->
-
-    <!-- <div class="text">
-      <input type="hidden" name="destination" value="Shaniwarwada">
-      PUNE FULL TOUR
-    </div> -->
 
     <div class="mainbox">
       <span class="boxcontent" style="margin-top:-50vh;margin-left:-50vh">
-        <h1 style="border-left:4px solid orangered">&nbsp; Guided Highlights of Pune Tour with a local <br>&nbsp; (24
+        <h1 style="border-left:4px solid orangered">&nbsp; Guided Highlights of delhi Tour with a local <br>&nbsp; (24
           Hrs Sightseeing in AC Bus)</h1>
       </span>
       <br>
-      <span class="boxcontent"><img src="../Images/agakhan.jpg" class="imgclass">Pune is a city located in the western
+      <span class="boxcontent"><img src="../Images/delhi3.jpg" class="imgclass"> delhi is a city located in the
+        western
         Indian state of Maharashtra. It is the second-largest city in the state and is known as the "Oxford of the East"
         due to the presence of several reputed educational institutions.
-        Historically, Pune was the seat of the Peshwas, who were the prime ministers of the Maratha Empire. The city
+        Historically, delhi was the seat of the Peshwas, who were the prime ministers of the Maratha Empire. The city
         played a significant role in the Indian independence movement, and many prominent freedom fighters such as
         Mahatma Gandhi, Jawaharlal Nehru, and Subhash Chandra Bose had links to the city.
-        Today, Pune is a bustling metropolis that is known for its vibrant culture, food, and nightlife. The city has a
-        rich history and is home to several museums, forts, and other historical landmarks. Additionally, Pune is
+        Today, delhi is a bustling metropolis that is known for its vibrant culture, food, and nightlife. The city has
+        a
+        rich history and is home to several museums, forts, and other historical landmarks. Additionally, delhi is
         surrounded by beautiful hills and valleys, making it a popular destination for trekkers and nature lovers. <br>
         <br><br>
         <p>
@@ -167,107 +161,110 @@
           <li>Lunch</li>
           <li>Entrance Tickets to any Historical Place</li>
           <li>Bottled water</li>
-          <li>Entry/Admission - Aga Khan Palace</li>
-          <li>Entry/Admission - Shaniwar Wada</li>
+          <li>Entry/Admission -Taj Hotel view point</li>
+          <li>Entry/Admission - Shree Siddhivinayak Temple</li>
         </ul>
         </p>
         <span style="font-weight:100">
-        <h3>What To Expect</h3>
-        <b>Itinrary</b> <br>
+          <h3>What To Expect</h3>
+          <b>Itinrary</b> <br>
 
-        This is a typical itinerary for this product <br>
+          This is a typical itinerary for this product <br>
 
-        <b>Pickup At</b>: Wakad, Pune India <br>
+          <b>Pickup At</b>:Delhi Junction, delhi India <br>
 
-        <b>Stop At</b>: Aga Khan Palace,Yerwada, Pune India
-        We will begin our tour from Aga Khan Palace, the ancient place that is riddled with history and heritage, it
-        served as a prison for Mahatma Gandhi.
+          <b>Stop At</b>: Chhatarpur Temple, delhi India
+          Chhatarpur Temple is a famous Hindu temple located in South Delhi, India.
+          It is dedicated to the goddess Katyayani and is known for its stunning architecture and intricate carvings.
 
-        <br>Duration: 1 hour <br>
+          <br>Duration: 1 hour <br>
 
-        <b>Stop At</b>: ISKCON NVCC, Pune-411030 India <br>
+          <b>Stop At</b>: LOTUS TEMPLE, delhi India <br>
 
-        ISKCON NVCC is a temple complex located in the heart of Pune city in India. It is a branch of the International
-        Society for Krishna Consciousness (ISKCON), dedicated to promoting the teachings of the Bhagavad Gita and the
-        practice of bhakti-yoga.<br>
+          Lotus Temple is a Bahá'í House of Worship located in Delhi, India, famous for
+          its unique lotus-shaped architecture and serving as a place of worship for people of all religions.<br>
 
-       <b> Duration</b>: 1 hour<br>
+          <b> Duration</b>: 1 hour<br>
 
-        <b>Stop At</b>: Dagadusheth Halwai Ganapati Temple, Ganpati Bhavan, 250, Budhvar Peth, Pune 411002 India<br>
+          <b>Stop At</b>: JAMA MASJID,delhi India<br>
 
-        Experience the divinity of the Dagdusheth Halwai Ganapati Mandir dedicated to Lord Shri Ganesha and other
-        temples of dedicated to load Ganesha.<br>
+          Jama Masjid is a historic mosque located in the heart of Old Delhi, India. It was built by Mughal Emperor
+          Shah Jahan in the 17th century and is one of the largest mosques in India.<br>
 
-        <b>Duration</b>: 30 minutes<br>
+          <b>Duration</b>: 30 minutes<br>
 
-        <b>Stop At</b>: Tulsi Baug Shopping Market, Tulsi Baug Near Vishrambaug Wada Mandai Vegetable Market Tulsi Baug Near
-        Vishrambaug Wada, Pune 411046 India<br>
+          <b>Stop At</b>: AKSHARDHAM TEMPLE, delhi India<br>
 
-        Visit the one of the Oldest markets of Pune, Tulsi Bagh<br>
-
-
-
-        <b>Stop At</b>: Shaniwar Wada, Shaniwar Peth, Pune 411030 India<br>
-
-        Visit the Shaniwar Wada Fort, Childhood home of founder of Maratha Empire and 180 degree view of architecture in
-        the city and centuries old buildings and markets of Pune.<br>
-
-        <b>Duration</b>: 1 hour<br>
-
-        <b>Stop At</b>: Lal Mahal, Pune 411030 India.<br>
-
-        Lal Mahal is a historical palace located in Pune,
-        India. It was constructed in the 17th century and is known for its association with
-        the legendary warrior king, Shivaji Maharaj.<br>
-
-        <b>Duration</b>: 1 hour<br>
-
-        <b>Duration</b>: 1 day<br>
-        <b>Stop At</b>: Hotel JW MARRIOTT, Pune India.<br>
+          The Akshardham Temple in Delhi is a Hindu temple complex known for its stunning architecture and intricate
+          carvings.
+          It is a popular tourist destination and a center for cultural and spiritual activities.<br>
 
 
-        <b>Duration</b>: 1 hour<br>
 
-        <b>Stop At</b>: Shivneri Fort, Pune India.<br>
+          <b>Stop At</b>: QUTUB MINAR, delhi India<br>
 
-        Shivneri Fort is a 17th-century hill fort located near Junnar in Pune,
-        Maharashtra. It is known as the birthplace of the Maratha warrior king, Shivaji Maharaj.<br>
+          Qutub Minar is a UNESCO World Heritage Site located in Delhi, India. It is a towering brick minaret, standing
+          at a height
+          of 73 meters, and is considered one of the finest examples of Indo-Islamic architecture.<br>
 
-        <b>Duration</b>: 1 hour<br>
+          <b>Duration</b>: 1 hour<br>
 
-        <b>Stop At</b>: Phoenix City Mall, Pune India.<br>
-        Phoenix City Mall is a popular shopping mall located in Pune,
-        India. It offers a wide range of shopping, dining, and entertainment options for visitors.<br>
+          <b>Stop At</b>: Delhi Zoo, delhi India.<br>
 
-        <b>Duration</b>: 1 hour.<br>
+          Delhi Zoo is a beautiful park located in the heart of Delhi, India. It is famous for its lush greenery,
+          historic tombs,
+          and serene atmosphere, making it a popular spot for picnics and relaxation.<br>
 
-        <b>Stop At</b>: INOX - Elpro City Square, Pune India<br>
-        INOX - Elpro City Square is a movie theater located in Pune, India,
-        It is part of the INOX chain of movie theaters and is situated in the Elpro City Square shopping mall.<br>
+          <b>Duration</b>: 1 hour<br>
 
-        <b>Duration</b>: 1 hour<br>
+          <b>Duration</b>: 1 day<br>
+          <b>Stop At</b>:DE PAVILION HOTEL, delhi India.<br>
+          De Pavilion Hotel is a hotel located in Delhi, India.
+          It offers comfortable accommodations and amenities for travelers visiting the city.<br>
 
-        <b>Stop At</b>: Okayama Friendship Garden, Pune India<br>
-        Okayama Friendship Garden is a beautiful Japanese-style garden located in Pune, India.
-        It was established in 1969 to celebrate the sister city relationship between Pune and Okayama in Japan.<br>
+          <b>Duration</b>: 1 hour<br>
 
-        <b>Duration</b>: 1 hour<br>
+          <b>Stop At</b>: GATEWAY OF INDIA DELHI, delhi India.<br>
 
-        <b>Stop At</b>: Sinhagad Fort, Pune India<br>
-        Sinhagad Fort is a historical fortress located on a hilltop in Pune, Maharashtra, India.
-        It is known for its significant role in the Maratha Empire and offers stunning views of the surrounding
-        landscape.<br>
+          I apologize, but the Gateway of India is not located in Delhi. It is actually situated in Mumbai,
+          Maharashtra, and is a monument built during
+          the British Raj era to commemorate the visit of King George V and Queen Mary to Mumbai.<br>
 
-       <b> Duration</b>: 1 hour<br>
+          <b>Duration</b>: 1 hour<br>
+
+          <b>Stop At</b>: TUMBLE HOUSE, delhi India.<br>
+          Children play in Delhi, running and laughing with joy, enjoying
+          the company of friends and the beautiful weather.<br>
+
+          <b>Duration</b>: 1 hour.<br>
+
+          <b>Stop At</b>: LODHI GARDEN, delhi India<br>
+          Lodhi Garden is a historical park located in the heart of Delhi, India. It features beautiful landscaped
+          gardens, historic tombs and monuments,
+          and is a popular destination for locals and tourists alike.<br>
+
+          <b>Duration</b>: 1 hour<br>
+
+          <b>Stop At</b>: South Delhi Garden, delhi India<br>
+          South Delhi Garden is a public park located in the southern part of Delhi, India. It is a popular destination
+          for locals and tourists alike, offering a peaceful oasis within the bustling city.<br>
+
+          <b>Duration</b>: 1 hour<br>
+
+          <b>Stop At</b>: TAJ MAHAL HOTEL, delhi India<br>
+          The Taj Mahal Hotel is a luxury hotel located in the heart of Delhi, India. It is known
+          for its iconic architecture, elegant interiors, and world-class hospitality.<br>
+
+          <b> Duration</b>: 1 hour<br>
         </span>
         <p>
         <h3>Departure and return</h3>
         Departure details<br>
         Traveller pickup is offered.<br>
-        <br>We provide hotel pick up and drop from all the hotels located within Pune City Center limit, please reach
+        <br>We provide hotel pick up and drop from all the hotels located within delhi City Center limit, please reach
         out to use for more information.
         Airports:<br>
-        Lohegaon Airport, Pune India<br>
+        Lohegaon Airport, delhi India<br>
         <br>Hotel pickup is offered. View the hotel list on our checkout page to see if yours is included among the
         pickup points.
         Return details<br>
@@ -276,23 +273,23 @@
         <p>
         <h2 style="color:orangered">Itinerary</h2>
         <ul>
-          <li>You'll get picked up: Wakad</li>
-          <li>INOX - Elpro City Square</li>
-          <li>JW Marriott Hotel Pune</li>
-          <li>Aga Khan Palace</li>
-          <li>Shaniwar Wada</li>
-          <li>Dagdusheth ganpati</li>
-          <li>Phoenix City Mall</li>
-          <li>Lal Mahal</li>
-          <li>TULSI BAUG SHOPPING MARKET</li>
-          <li>Okayama Friendship Garden</li>
-          <li>ISKCON NVCC Pune</li>
-          <li>Shivneri Fort</li>
-          <li>Sinhagad Fort</li>
-          <li>You'll return to the starting point:Wakad</li>
+          <li>You'll get picked up: New Delhi railway station</li>
+          <li>Chhatarpur Temple</li>
+          <li>LOTUS TEMPLE</li>
+          <li>JAMA MASJID</li>
+          <li>AKSHARDHAM TEMPLE</li>
+          <li>QUTUB MINAR</li>
+          <li>Delhi Zoo</li>
+          <li>GATEWAY OF INDIA DELHI</li>
+          <li>TUMBLE HOUSE</li>
+          <li>DE PAVILION HOTEL</li>
+          <li>LODHI GARDEN</li>
+          <li>South Delhi Garden</li>
+          <li>TAJ MAHAL HOTEL</li>
+          <li>You'll return to the starting point:New Delhi railway station</li>
         </ul>
-        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=19hb4QJctcikPxbFJDEhUEoYLdPkDtFg&ehbc=2E312F"
-          width="1200" height="550" style="border:0;" allowfullscreen="" loading="lazy"
+        <iframe src="https://www.google.com/maps/d/embed?mid=1GBKnTFhg-83wDOtja-P_cBxZENUIVCw&ehbc=2E312F" width="1200"
+          height="550" style="border:0;" allowfullscreen="" loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"></iframe>
 
         </p>
@@ -364,8 +361,8 @@
           <li>
             <h3 style="color:orangered;">General</h3>
           </li>
-          <li><a href="../Homepage/Pune/pune.php" style="text-decoration:none;color: black;">Pune</a></li>
-          <li><a href="../Homepage/Mumbai/mumbai.php" style="text-decoration:none;color: black;">Mumbai</a></li>
+          <li><a href="../Homepage/ delhi / delhi .php" style="text-decoration:none;color: black;"> delhi </a></li>
+          <li><a href="../Homepage/delhi/delhi.php" style="text-decoration:none;color: black;">delhi</a></li>
           <li><a href="../Homepage/Delhi/delhi.php" style="text-decoration:none;color: black;">Delhi</a></li>
           <li><a href="../Homepage/aboutus.php" style="text-decoration:none;color: black;">About Us</a></li>
         </ul>

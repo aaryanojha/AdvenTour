@@ -161,13 +161,13 @@
     </div>
     <br />
 
-    <!-- SWARGADWAR BEACH  -->
+    <!--Delhi Zoo  -->
     <div class="box6" style="font-family: 'Alata';font-size: 22px;">
       <a href="./Destinations/SWARGADWAR BEACH/SWARGADWAR BEACH.php" style=" color: #ff0000; text-decoration: none"><b
           style="font-size: 50; font-family: fantasy">06</b>&emsp;
-        SWARGADWAR BEACH
+         Delhi Zoo
         <hr style="border: 4px solid #f85c5c" />
-        <img src="../../Images/delhi6.jpg" style="position: absolute; width: 90%; height: 65%; left: 5%" />
+        <img src="../../Images/delhi13.jpg" style="position: absolute; width: 90%; height: 65%; left: 5%" />
       </a>
       <!-- Map Button -->
       <div class="map">
@@ -246,13 +246,13 @@
     </div>
     <br />
 
-    <!-- Promenade Beach -->
+    <!-- South Delhi Garden -->
     <div class="box11" style="font-family: 'Alata';font-size: 22px;">
       <a href="./Destinations/JUHU BEACH delhi TIMINGS/JUHU BEACH delhi TIMINGS.php" style=" color: #ff0000; text-decoration: none"><b
           style="font-size: 50; font-family: fantasy">11</b>&emsp;
-          Promenade Beach
+          South Delhi Garden
         <hr style="border: 4px solid #f85c5c" />
-        <img src="../../Images/delhi11.jpg" style="position: absolute; width: 90%; height: 65%; left: 5%" />
+        <img src="../../Images/delhi14.jpg" style="position: absolute; width: 90%; height: 65%; left: 5%" />
       </a>
       <!-- Map Button -->
       <div class="map">
