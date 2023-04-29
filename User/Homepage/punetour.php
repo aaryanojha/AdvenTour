@@ -59,7 +59,6 @@
 </head>
 
 <body>
-
   <?php
   require_once "../Database/functions.php";
   ?>
@@ -105,18 +104,14 @@
       <img src="../Images/pune6.jpg" class="stretch" id="img2" />
     </span>
 
-    <!-- <div id="body">
-    </div> -->
 
-    <!-- <div class="text">
-      <input type="hidden" name="destination" value="Shaniwarwada">
-      PUNE FULL TOUR
-    </div> -->
 
     <div class="mainbox">
       <span class="boxcontent" style="margin-top:-50vh;margin-left:-50vh">
         <h1 style="border-left:4px solid orangered">&nbsp; Guided Highlights of Pune Tour with a local <br>&nbsp; (24
           Hrs Sightseeing in AC Bus)</h1>
+      <input type="hidden" name="destination" value="Pune Tour">
+          
       </span>
       <br>
       <span class="boxcontent"><img src="../Images/agakhan.jpg" class="imgclass">Pune is a city located in the western
