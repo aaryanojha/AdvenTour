@@ -100,9 +100,9 @@
     </div>
     <span>
 
-      <img src="../Images/delhi2.jpg" class="stretch" id="img1" />
+      <img src="../Images/delhi5.jpg" class="stretch" id="img1" />
       <img src="../Images/delhi1.jpg" class="stretch" style="width:80vh;height:35vh;padding:8vh 0vh;" />
-      <img src="../Images/delhi7.jpg" class="stretch" id="img2" />
+      <img src="../Images/delhi13.jpg" class="stretch" id="img2" />
     </span>
 
     <div class="mainbox">

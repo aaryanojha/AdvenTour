@@ -63,6 +63,14 @@
                         </span>
                     </a>
                 </li>
+                <li>
+                <a href="userpayment.php">
+                    <i class="fa fa-credit-card"></i>
+                    <span class="nav-text">
+                        User Payments
+                    </span>
+                </a>
+            </li>
             </ul>
 
             <ul class="logout">

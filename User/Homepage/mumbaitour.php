@@ -113,7 +113,7 @@
 
       </span>
       <br>
-      <span class="boxcontent"><img src="../Images/agakhan.jpg" class="imgclass"> Mumbai is a city located in the
+      <span class="boxcontent"><img src="../Images/caves.jpg" class="imgclass"> Mumbai is a city located in the
         western
         Indian state of Maharashtra. It is the second-largest city in the state and is known as the "Oxford of the East"
         due to the presence of several reputed educational institutions.
