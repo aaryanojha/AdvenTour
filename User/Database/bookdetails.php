@@ -11,9 +11,13 @@ if (isset($_POST['submit'])) {
   $email = getSessionVar('email');
   $redirectTo = $_POST['redirectTo'];
 
-  if (!empty($destination)  && !empty($price) && !empty($email)) {
+  if (!empty($destination) && !empty($price) && !empty($email)) {
     $query = "INSERT INTO bookdetails (email,destination,adults,children,price) VALUES('$email','$destination','$adults','$children','$price')";
     $result = $conn->query($query);
+    // echo $destination;
+    if ($destination == "PuneTour"||$destination=="MumbaiTour"||$destination=="DelhiTour") {
+      echo "<script>window.location.href='../Payment/payment.php'; </script>";
+    }
     if ($result) {
       echo "<script>
         alert('Added to My Bookings!');
