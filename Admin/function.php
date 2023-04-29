@@ -23,7 +23,13 @@ function display_data1(string $email)
     $result = mysqli_query($conn, $query);
     return $result;
 }
-
+function display_payment()
+{
+    global $conn;
+    $query = "select * from payment ";
+    $result = mysqli_query($conn, $query);
+    return $result;
+}
 function display_enquiries()
 {
     global $conn;
