@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 
 body {
   /* font-family: 'Rubik', sans-serif; */
   background-color: #d8c5c556;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 .container {
@@ -34,8 +34,6 @@ body {
   background-position: center;
 }
 
-
-
 .header > h2 {
   margin: 0;
   color: #4f46a5;
@@ -45,7 +43,7 @@ body {
   margin-top: 10px;
   font-weight: normal;
   font-size: 15px;
-  color: rgba(0,0,0,.4);
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .form {
@@ -68,9 +66,9 @@ body {
   padding: 0 16px;
   border: 2px solid #ddd;
   border-radius: 4px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   outline: 0;
-  transition: .2s;
+  transition: 0.2s;
   margin-top: 20px;
 }
 
@@ -81,24 +79,24 @@ body {
 .form > button {
   padding: 12px 10px;
   border: 0;
-  background: linear-gradient(to right, #f27941 0%,#ff0000 100%); 
+  background: linear-gradient(to right, #f27941 0%, #ff0000 100%);
   border-radius: 3px;
   margin-top: 10px;
   color: #fff;
   letter-spacing: 1px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 button:hover {
-    color: white;
-    
-    box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
-    background-color: rgba(104, 85, 224, 1);
-  }
+  color: white;
+
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+  background-color: rgba(104, 85, 224, 1);
+}
 
 .animation {
   animation-name: move;
-  animation-duration: .4s;
+  animation-duration: 0.4s;
   animation-fill-mode: both;
   animation-delay: 2s;
 }
@@ -126,9 +124,6 @@ button:hover {
 .a6 {
   animation-delay: 2.5s;
 }
-
-
-
 
 @keyframes move {
   0% {

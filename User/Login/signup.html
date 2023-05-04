@@ -1,17 +1,6 @@
 <html>
   <head>
     <link rel="stylesheet" href="../Login/demo.css" type="text/css" />
-
-    <!-- Back button disable -->
-    <!-- <script type="text/javascript">
-      function preventBack() {
-        window.history.forward();
-      }
-      setTimeout("preventBack()", 0);
-      window.onunload = function () {
-        null;
-      };
-    </script> -->
   </head>
 
   <form method="POST" action="../Database/registerdb.php">
@@ -26,14 +15,12 @@
             class="form-field animation a3"
             placeholder="Username"
             name="uname"
-            
           />
           <input
             type="email"
             class="form-field animation a4"
             placeholder="Email"
             name="email"
-           
           />
           <input
             type="password"
@@ -42,21 +29,22 @@
             name="pass"
           />
           <input
-          type="text"
-          class="form-field animation a6"
-          placeholder="What is your College Name?"
-          name="q1"
-        />
-        <input
-        type="text"
-        class="form-field animation a6"
-        placeholder="What is your Mother's name?"
-        name="q2"
-      />
+            type="text"
+            class="form-field animation a6"
+            placeholder="What is your College Name?"
+            name="q1"
+          />
+          <input
+            type="text"
+            class="form-field animation a6"
+            placeholder="What is your Mother's name?"
+            name="q2"
+          />
 
           <button class="animation a6" name="register">REGISTER</button>
           <p class="animation a5">
-            Already have an account? Sign in <a href="../Login/login.html">here</a>
+            Already have an account? Sign in
+            <a href="../Login/login.html">here</a>
           </p>
         </div>
       </div>

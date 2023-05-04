@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
-body{
-  font-family: 'Quicksand', sans-serif;
-  background: linear-gradient(to right, #d8c5c556 20%,#b1d1fc 80%);
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+body {
+  font-family: "Quicksand", sans-serif;
+  background: linear-gradient(to right, #d8c5c556 20%, #b1d1fc 80%);
   left: 0vh;
   top: -1.25vh;
   left: -1.25vh;
@@ -20,7 +20,7 @@ body{
 }
 
 .hover-underline-animation::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);
@@ -51,7 +51,7 @@ body{
   text-align: center;
   padding: 20px 20px;
   text-decoration: none;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 .dropdown {
@@ -61,7 +61,7 @@ body{
 
 .dropdown .dropbtn {
   font-size: 2.5vh;
-  font-weight: bold; 
+  font-weight: bold;
   border: none;
   outline: none;
   color: rgb(0, 0, 0);
@@ -71,17 +71,18 @@ body{
   margin: 0;
 }
 
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: rgba(133, 130, 130, 0); 
-    cursor: pointer;
-  }
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgba(133, 130, 130, 0);
+  cursor: pointer;
+}
 
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -101,7 +102,6 @@ body{
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
 
 .disabled {
   pointer-events: none;
@@ -123,7 +123,8 @@ body{
   text-align: center;
   justify-self: center;
 }
-input[type=text], select {
+input[type="text"],
+select {
   width: 100%;
   padding: 2vh 2vh;
   margin: 2vh 0;
@@ -133,7 +134,8 @@ input[type=text], select {
   box-sizing: border-box;
   background-color: #ffffff97;
 }
-input[type=email], select {
+input[type="email"],
+select {
   width: 100%;
   padding: 2vh 2vh;
   margin: 2vh 0;
@@ -143,7 +145,7 @@ input[type=email], select {
   box-sizing: border-box;
   background-color: #ffffff97;
 }
-.txta{
+.txta {
   width: 100%;
   padding: 12px 20px;
   margin: 4px 0;
@@ -158,20 +160,20 @@ input[type=email], select {
   padding: 12px 10px 10px 10px;
   width: 100%;
   border: 0;
-  background: linear-gradient(to right, #ff6d12 0%,#ff3131 100%); 
+  background: linear-gradient(to right, #ff6d12 0%, #ff3131 100%);
   border-radius: 3px;
   margin-top: 10px;
   color: #fff;
   letter-spacing: 1px;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
-.btnenq:hover{
-  background: linear-gradient(to right, #ff6d12 0%,#ff3131b1 100%); 
-  
+.btnenq:hover {
+  background: linear-gradient(to right, #ff6d12 0%, #ff3131b1 100%);
+
   cursor: pointer;
 }
 
-.content{
+.content {
   justify-content: center;
   margin-top: -22vh;
 }

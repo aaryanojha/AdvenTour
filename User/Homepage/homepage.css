@@ -1,89 +1,88 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
-body{
-  font-family: 'Quicksand', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+body {
+  font-family: "Quicksand", sans-serif;
 }
 /* Css for background image */
-  body {
-    background: url(../Images/homebg.jpg) no-repeat center center fixed ; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-attachment: scroll;
-    backdrop-filter:blur(0px);
-  }
+body {
+  background: url(../Images/homebg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: scroll;
+  backdrop-filter: blur(0px);
+}
 
-  /* Css for nav bar */
+/* Css for nav bar */
 
+.navbar {
+  overflow: hidden;
+  background-color: #ffffff;
+  zoom: 90%;
+  padding-bottom: 0.25vh;
+}
 
-  .navbar {
-    overflow: hidden;
-    background-color: #ffffff;
-    zoom: 90%;
-    padding-bottom: 0.25vh;
-  }
-  
-  .navbar a {
-    float: left;
-    font-size: 2.5vh;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 20px 20px;
-    text-decoration: none;
-    font-family: 'Quicksand', sans-serif;
-  }
-  
-  .dropdown {
-    float: right;
-    overflow: hidden;
-  }
-  
-  .dropdown .dropbtn {
-    font-size: 2.5vh;
-    font-weight: bold; 
-    border: none;
-    outline: none;
-    color: rgb(0, 0, 0);
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-  
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: rgba(133, 130, 130, 0); 
-    cursor: pointer;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+.navbar a {
+  float: left;
+  font-size: 2.5vh;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif;
+}
 
-  
-  /* .navbar {
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 2.5vh;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgba(133, 130, 130, 0);
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* .navbar {
     overflow: hidden;
     background-color: #ffffff;
     position: absolute;
@@ -101,8 +100,8 @@ body{
     padding-bottom: 2px;
     box-shadow: 8px 2px 2px 2px black;
   } */
- 
-  /* .navbar a {
+
+/* .navbar a {
     float: left;
     font-size: 16px;
     color: rgb(0, 0, 0);
@@ -125,7 +124,7 @@ body{
 }
 
 .hover-underline-animation::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);
@@ -195,36 +194,36 @@ body{
     display: block;
     border-radius: 20%;
   } */
-  .disabled {
-    pointer-events: none;
-    opacity: 0.3;
+.disabled {
+  pointer-events: none;
+  opacity: 0.3;
 }
-.content{
+.content {
   margin-left: 48vh;
   font-size: 20vh;
   position: absolute;
   top: 20vh;
   color: white;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  text-shadow: 2px 2px black
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 2px 2px black;
 }
 
 /* CSS */
 
 /* Button1 */
-body{
-  background-color: rgba(255, 255, 255, 0.755)
+body {
+  background-color: rgba(255, 255, 255, 0.755);
 }
 .button-86 {
   all: unset;
   width: 32vh;
   height: 49vh;
   font-size: 8vh;
-  font-weight:bold;
+  font-weight: bold;
   font-family: Copperplate, Papyrus, fantasy;
   background: transparent;
   border: none;
-  position:absolute;
+  position: absolute;
   left: 20vh;
   top: 185vh;
   color: #ffffff;
@@ -238,17 +237,16 @@ body{
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  
 }
 
 .button-86::after,
 .button-86::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   right: 0;
   z-index: -99999;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 .button-86::before {
@@ -257,12 +255,11 @@ body{
   height: 100%;
   background: #28282d;
   border-radius: 10px;
-  background: url(../Images/mh3.jpg) no-repeat center center fixed; 
+  background: url(../Images/mh3.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
- 
 }
 
 .button-86::after {
@@ -273,7 +270,6 @@ body{
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
   border-radius: 50px;
-  
 }
 
 .button-86:hover::before {
@@ -282,7 +278,6 @@ body{
   height: 110%;
   box-shadow: 0 0 20px rgb(6, 49, 218);
   background-color: rgb(10, 95, 232);
- 
 }
 
 .button-86:hover::after {
@@ -297,7 +292,6 @@ body{
   transform: translate(0, 5%);
   box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
   background-color: rgba(103, 85, 224, 0);
-
 }
 
 /* Button2 */
@@ -307,11 +301,11 @@ body{
   width: 32vh;
   height: 49vh;
   font-size: 8vh;
-  font-weight:bold;
+  font-weight: bold;
   font-family: Copperplate, Papyrus, fantasy;
   background: transparent;
   border: none;
-  position:absolute;
+  position: absolute;
   left: 85vh;
   top: 185vh;
   color: #ffffff;
@@ -325,17 +319,16 @@ body{
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  
 }
 
 .button-87::after,
 .button-87::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   right: 0;
   z-index: -99999;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 .button-87::before {
@@ -344,12 +337,11 @@ body{
   height: 100%;
   background: #28282d;
   border-radius: 10px;
-  background: url(../Images/mh.jpg) no-repeat center center fixed; 
+  background: url(../Images/mh.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
- 
 }
 
 .button-87::after {
@@ -360,7 +352,6 @@ body{
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
   border-radius: 50px;
-  
 }
 
 .button-87:hover::before {
@@ -369,7 +360,6 @@ body{
   height: 110%;
   box-shadow: 0 0 20px rgb(6, 49, 218);
   background-color: rgb(10, 95, 232);
- 
 }
 
 .button-87:hover::after {
@@ -384,7 +374,6 @@ body{
   transform: translate(0, 5%);
   box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
   background-color: rgba(103, 85, 224, 0);
-
 }
 
 /* Button3 */
@@ -394,10 +383,10 @@ body{
   height: 49vh;
   font-size: 8vh;
   font-family: Copperplate, Papyrus, fantasy;
-  font-weight:bold;
+  font-weight: bold;
   background: transparent;
   border: none;
-  position:absolute;
+  position: absolute;
   left: 150vh;
   top: 185vh;
   color: #ffffff;
@@ -411,17 +400,16 @@ body{
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-
 }
 
 .button-88::after,
 .button-88::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   right: 0;
   z-index: -99999;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 .button-88::before {
@@ -430,12 +418,11 @@ body{
   height: 100%;
   background: #28282d;
   border-radius: 10px;
-  background: url(../Images/delhi.jpg) no-repeat center center fixed; 
+  background: url(../Images/delhi.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
- 
 }
 
 .button-88::after {
@@ -446,7 +433,6 @@ body{
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
   border-radius: 50px;
-  
 }
 
 .button-88:hover::before {
@@ -455,7 +441,6 @@ body{
   height: 110%;
   box-shadow: 0 0 20px rgb(6, 49, 218);
   background-color: rgb(10, 95, 232);
- 
 }
 
 .button-88:hover::after {
@@ -470,26 +455,19 @@ body{
   transform: translate(0, 5%);
   box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
   background-color: rgba(103, 85, 224, 0);
-
 }
 
-
-
-
-
-
-  .escapes__content {
-      display:flex;
-      flex-flow: column nowrap;
-      align-items: center;
-      position: relative;
-      /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-      bottom: -150vh;
-      font-family: 'Quicksand', sans-serif;
-      font-weight: bolder;
-      font-size: 3vh;
-      
-  }
+.escapes__content {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  position: relative;
+  /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  bottom: -150vh;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
+  font-size: 3vh;
+}
 /* } */
 
 .escapes__title {
@@ -497,7 +475,7 @@ body{
   font-weight: 600;
   font-size: 8vh;
   line-height: 1.24;
-  position: relative
+  position: relative;
 }
 
 .escapes__title:before {
@@ -506,7 +484,7 @@ body{
   bottom: -2vh;
   background-color: #ff5300;
   height: 0.4vh;
-  width: 10vh
+  width: 10vh;
 }
 
 .escapes__caption {
@@ -514,64 +492,64 @@ body{
 }
 
 .tourpackage {
-  display:flex;
+  display: flex;
   flex-flow: column nowrap;
   align-items: center;
   position: relative;
   /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
   bottom: -250vh;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: bolder;
   font-size: 3vh;
 }
 /* } */
 
 .tour_title {
-color: #3a3a3a;
-font-weight: 600;
-font-size: 8vh;
-line-height: 1.24;
-position: relative
+  color: #3a3a3a;
+  font-weight: 600;
+  font-size: 8vh;
+  line-height: 1.24;
+  position: relative;
 }
 
 .tour_title:before {
-content: "";
-position: absolute;
-bottom: -2vh;
-background-color: #ff5300;
-height: 0.4vh;
-width: 20vh
+  content: "";
+  position: absolute;
+  bottom: -2vh;
+  background-color: #ff5300;
+  height: 0.4vh;
+  width: 20vh;
 }
 
 .tour__caption {
-color: #3a3a3a;
+  color: #3a3a3a;
 }
 
-.packbox{
+.packbox {
   margin-top: 4vh;
-  display:flex;
+  display: flex;
   /* flex-flow: column nowrap; */
   align-items: center;
   position: relative;
   /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
   bottom: -250vh;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: bolder;
   font-size: 3vh;
 }
-.package1{
+.package1 {
   border: 0px solid rgba(0, 0, 0, 0.525);
   padding: 5vh 5vh;
   margin: 5vh;
   background-color: #ddd;
 }
 
-.packagebtn{
+.packagebtn {
   padding: 2vh 8vh;
-  float:right;
-  background: linear-gradient(to right, #f27941 0%,#ff0000 100%); 
+  float: right;
+  background: linear-gradient(to right, #f27941 0%, #ff0000 100%);
   border: 0px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: bolder;
   cursor: pointer;
 }
@@ -580,9 +558,7 @@ color: #3a3a3a;
   color: orange;
 }
 
-
 .boxbtm {
-  
   width: 160vh;
   position: absolute;
   top: 400vh;
@@ -598,16 +574,15 @@ color: #3a3a3a;
   width: 10px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: #888;
 }
-.btmimg{
+.btmimg {
   height: 5vh;
 }
-ul
-{
-float:none;
-margin:10 10px 10 10;
+ul {
+  float: none;
+  margin: 10 10px 10 10;
 }
-li{
+li {
   color: black;
 }

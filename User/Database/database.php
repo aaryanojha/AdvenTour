@@ -30,7 +30,7 @@ if (isset($_POST["login"])) {
             $sessionObject->email = $row["Email"];
             $sessionObject->isAdmin = $isAdmin;
             $sessionObject->pwd = $Password;
-            
+
             // Save the session object
             $_SESSION["mySessionObject"] = $sessionObject;
             if ($IsAdmin) {

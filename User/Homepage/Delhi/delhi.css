@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
-body{
-  font-family: 'Quicksand', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+body {
+  font-family: "Quicksand", sans-serif;
 }
 
 /* Css for nav bar */
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   width: 100%;
   height: 120%;
   position: absolute;
@@ -27,7 +27,7 @@ body {
 }
 
 .hover-underline-animation::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);
@@ -59,7 +59,7 @@ body {
   text-align: center;
   padding: 20px 20px;
   text-decoration: none;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 .dropdown {
@@ -69,7 +69,7 @@ body {
 
 .dropdown .dropbtn {
   font-size: 2.5vh;
-  font-weight: bold; 
+  font-weight: bold;
   border: none;
   outline: none;
   color: rgb(0, 0, 0);
@@ -79,17 +79,18 @@ body {
   margin: 0;
 }
 
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: rgba(133, 130, 130, 0); 
-    cursor: pointer;
-  }
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgba(133, 130, 130, 0);
+  cursor: pointer;
+}
 
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -129,15 +130,15 @@ body {
   width: 100%;
   border: 0;
   position: absolute;
-  bottom:2%;
+  bottom: 2%;
   right: 5%;
   width: 25%;
-  background: linear-gradient(to right, #ff6d12 0%,#ff3131 100%); 
+  background: linear-gradient(to right, #ff6d12 0%, #ff3131 100%);
   border-radius: 3px;
   margin-top: 10px;
   color: #fff;
   letter-spacing: 1px;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 .box {
   background-color: rgb(255, 255, 255);
@@ -151,7 +152,6 @@ body {
   padding: 8vh;
   margin: 4vh;
   align-self: center;
-  
 }
 .box2 {
   background-color: rgb(255, 255, 255);
@@ -270,7 +270,8 @@ body {
   padding: 8vh;
   margin: 4vh;
   align-self: center;
-}.box11 {
+}
+.box11 {
   background-color: rgb(255, 255, 255);
   width: 113vh;
   position: absolute;
@@ -282,7 +283,8 @@ body {
   padding: 8vh;
   margin: 4vh;
   align-self: center;
-}.box12 {
+}
+.box12 {
   background-color: rgb(255, 255, 255);
   width: 113vh;
   position: absolute;
@@ -297,7 +299,6 @@ body {
 }
 
 .boxbtm {
-  
   width: 160vh;
   position: absolute;
   top: 1480vh;
@@ -313,17 +314,16 @@ body {
   width: 10px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: #888;
 }
-.btmimg{
+.btmimg {
   height: 5vh;
 }
-ul
-{
-float:none;
-margin:10 10px 10 10;
+ul {
+  float: none;
+  margin: 10 10px 10 10;
 }
-li{
+li {
   color: orangered;
 }
 
@@ -346,7 +346,8 @@ li{
   align-self: center;
   zoom: 80%;
 }
-input[type=text], select {
+input[type="text"],
+select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -355,7 +356,8 @@ input[type=text], select {
   border-radius: 4px;
   box-sizing: border-box;
 }
-input[type=email], select {
+input[type="email"],
+select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -364,7 +366,7 @@ input[type=email], select {
   border-radius: 4px;
   box-sizing: border-box;
 }
-.txta{
+.txta {
   width: 100%;
   padding: 12px 20px;
   margin: 4px 0;
@@ -377,16 +379,16 @@ input[type=email], select {
   padding: 12px 10px 10px 10px;
   width: 100%;
   border: 0;
-  background: linear-gradient(to right, #ff6d12 0%,#ff3131 100%); 
+  background: linear-gradient(to right, #ff6d12 0%, #ff3131 100%);
   border-radius: 3px;
   margin-top: 10px;
   color: #fff;
   letter-spacing: 1px;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 .btnleft {
-  display:flex;
+  display: flex;
   position: absolute;
   bottom: 40%;
   right: 95%;
@@ -394,7 +396,7 @@ input[type=email], select {
   font-size: 18px;
   border: none;
   outline: none;
-  background: linear-gradient(to right, #ff6d12 0%,#ff3131 100%); 
+  background: linear-gradient(to right, #ff6d12 0%, #ff3131 100%);
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -408,5 +410,5 @@ input[type=email], select {
   width: 10px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: #888;
 }

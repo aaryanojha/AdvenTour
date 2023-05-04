@@ -4,10 +4,10 @@ if (isset($_POST['n1'])) {
     $question1 = $_POST['q1'];
     $question2 = $_POST['q2'];
 
- //Connect to the MySQL database
- require_once('../Database/functions.php');
+    //Connect to the MySQL database
+    require_once('../Database/functions.php');
 
- $conn = DBConnect();
+    $conn = DBConnect();
     if (
         !empty($uname) && !empty($question1) && !empty($question2)
     ) {
@@ -18,7 +18,7 @@ if (isset($_POST['n1'])) {
         }
         //prepare statement
         $stmt = $conn->prepare($SELECT);
- 
+
         // Assuming $uid, $question1, and $question2 are user input values
         $stmt->bind_param("s", $uname);
         $stmt->execute();
@@ -29,7 +29,7 @@ if (isset($_POST['n1'])) {
             // User input matches with the bound variables
             // Perform some action here
             // echo "Your Password:  ". $result_Password;
-            echo"<script>
+            echo "<script>
             alert('Your Password:  $result_Password');
             window.location.href='../Login/login.html';
             </script>";
@@ -37,7 +37,7 @@ if (isset($_POST['n1'])) {
             // User input does not match with the bound variables
             // Perform some error handling here
             // echo "invalid input";
-            echo"<script>
+            echo "<script>
             alert('Invalid Input.');
             window.location.href='../Login/forgot.html';
             </script>";
@@ -45,11 +45,10 @@ if (isset($_POST['n1'])) {
 
         $stmt->close();
         $conn->close();
-    }
-    else{
-        echo"<script>
+    } else {
+        echo "<script>
         alert('Invalid Input.');
         window.location.href='../Login/forgot.html';
-        </script>"; 
+        </script>";
     }
 }

@@ -28,10 +28,10 @@
           align-items: center;
           background-repeat: no-repeat;
         "></a>
- <a href="#news" class="hover-underline-animation">News</a>
-        <a href="../../Homepage/aboutus.php" class="hover-underline-animation">About Us</a>
-        <a href="../../Enquire/enquire.php" class="hover-underline-animation">Enquire</a>
-    
+    <a href="#news" class="hover-underline-animation">News</a>
+    <a href="../../Homepage/aboutus.php" class="hover-underline-animation">About Us</a>
+    <a href="../../Enquire/enquire.php" class="hover-underline-animation">Enquire</a>
+
     <div class="dropdown">
       <button class="dropbtn">Hi <b>
           <?php echo getSessionVar('name'); ?>
@@ -59,7 +59,7 @@
     <a href="../../Homepage/Profile/profile.php" class="text" style="color: blue">My profile</a>
     <a href="../../Homepage/Profile/booking.php" class="text" style=" top: 70%; color: blue">My Bookings</a>
   </div>
-  
+
   <div class="box2">
     <h3 style="
           position: absolute;
@@ -95,7 +95,7 @@
           left: 5%;
         ">
       <i style="font-size: 20px" class="fas">&#xf4ff;</i> Update Details</a>
-      <a href="./deleteform.php" style="
+    <a href="./deleteform.php" style="
           font-weight: 500;
           position: absolute;
           top: 80%;
@@ -104,4 +104,5 @@
       <i class="material-icons">delete</i> Delete Account</a>
   </div>
 </body>
+
 </html>

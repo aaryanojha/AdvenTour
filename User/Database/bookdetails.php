@@ -15,7 +15,7 @@ if (isset($_POST['submit'])) {
     $query = "INSERT INTO bookdetails (email,destination,adults,children,price) VALUES('$email','$destination','$adults','$children','$price')";
     $result = $conn->query($query);
     // echo $destination;
-    if ($destination == "PuneTour"||$destination=="MumbaiTour"||$destination=="DelhiTour") {
+    if ($destination == "PuneTour" || $destination == "MumbaiTour" || $destination == "DelhiTour") {
       echo "<script>window.location.href='../Payment/payment.php'; </script>";
     }
     if ($result) {

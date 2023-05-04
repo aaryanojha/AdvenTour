@@ -110,8 +110,8 @@
       <span class="boxcontent" style="margin-top:-50vh;margin-left:-50vh">
         <h1 style="border-left:4px solid orangered">&nbsp; Guided Highlights of Pune Tour with a local <br>&nbsp; (24
           Hrs Sightseeing in AC Bus)</h1>
-      <input type="hidden" name="destination" value="PuneTour">
-          
+        <input type="hidden" name="destination" value="PuneTour">
+
       </span>
       <br>
       <span class="boxcontent"><img src="../Images/agakhan.jpg" class="imgclass">Pune is a city located in the western
@@ -147,7 +147,7 @@
             (No additional taxes or booking fees)
           </p>
           <b style="font-size:4vh">Total ₹20,000.00</b>
-      <input type="hidden" name="price" value="20000">
+          <input type="hidden" name="price" value="20000">
 
           <button class="btn1" formaction="../Database/bookdetails.php" name="submit">Booknow</button>
         </span>

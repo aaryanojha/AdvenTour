@@ -1,10 +1,9 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 
 body {
   /* background-color: rgb(255, 255, 255); */
-  background: linear-gradient(to right, #d8c5c556 20%,#b1d1fc 80%);
-  font-family: 'Quicksand', sans-serif;
+  background: linear-gradient(to right, #d8c5c556 20%, #b1d1fc 80%);
+  font-family: "Quicksand", sans-serif;
 }
 
 .form-field {
@@ -12,9 +11,9 @@ body {
   padding: 0 100px;
   border: 2px solid #ddd;
   border-radius: 4px;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   outline: 0;
-  transition: .2s;
+  transition: 0.2s;
   margin-top: 20px;
 }
 
@@ -30,7 +29,7 @@ button {
   margin-top: 10px;
   color: #000000;
   letter-spacing: 1px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   width: 35%;
 }
 

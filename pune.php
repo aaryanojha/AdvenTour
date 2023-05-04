@@ -98,8 +98,8 @@
       </div>
       <p><button class="btn" formaction="../../Homepage/shaniwarwada/shaniwarwada.php">Book Now!</button></p>
       <div style="position:absolute;bottom:2%;right:35%;color:black;">₹250.00</div>
-     
-     
+
+
     </div>
 
     <!-- Lal Mahal -->
@@ -121,8 +121,8 @@
 
     <!-- Dagdusheth ganpati -->
     <div class="box3" style="font-family: 'Alata'; font-size: 22px; color: #ffb700">
-      <a href="./Destinations/DAGDUSHETH GANPATI/DAGDUSHETH GANPATI.php" style="color: #ffb700; text-decoration: none"><b
-          style="font-size: 50; font-family: fantasy">03</b>&emsp;
+      <a href="./Destinations/DAGDUSHETH GANPATI/DAGDUSHETH GANPATI.php"
+        style="color: #ffb700; text-decoration: none"><b style="font-size: 50; font-family: fantasy">03</b>&emsp;
         DAGDUSHETH GANPATI
         <hr style="border: 4px solid yellow" />
         <img src="../../Images/pune4.jpg" style="position: absolute; width: 90%; height: 65%; left: 5%" />
@@ -293,43 +293,51 @@
     </div>
     <br />
     <div class="boxbtm">
-        <p><img class="btmimg" src="../../Images/logo813.jpg" alt="">
+      <p><img class="btmimg" src="../../Images/logo813.jpg" alt="">
       <ul style="list-style-type:none;margin-left:40vh">
-        <li><h3>General</h3></li>
+        <li>
+          <h3>General</h3>
+        </li>
         <li><a href="pune.php" style="text-decoration:none;color: black;">Pune</a></li>
-        <li><a href="../Mumbai/mumbai.php" style="text-decoration:none;color: black;" >Mumbai</a></li>
-        <li><a href="../Delhi/delhi.php" style="text-decoration:none;color: black;" >Delhi</a></li>
-        <li><a href="../aboutus.php" style="text-decoration:none;color: black;" >About Us</a></li>
+        <li><a href="../Mumbai/mumbai.php" style="text-decoration:none;color: black;">Mumbai</a></li>
+        <li><a href="../Delhi/delhi.php" style="text-decoration:none;color: black;">Delhi</a></li>
+        <li><a href="../aboutus.php" style="text-decoration:none;color: black;">About Us</a></li>
       </ul>
       <ul style="list-style-type:none;float:right;margin-top:-20vh;margin-right:60vh">
-        <li><h3>Community</h3></li>
-        <li><a href="#" style="text-decoration:none;color: black;" >News</a></li>
-        <li><a href="#" style="text-decoration:none;color: black;" >Travel Advice</a></li>
+        <li>
+          <h3>Community</h3>
+        </li>
+        <li><a href="#" style="text-decoration:none;color: black;">News</a></li>
+        <li><a href="#" style="text-decoration:none;color: black;">Travel Advice</a></li>
       </ul>
       <ul style="list-style-type:none;float:right;margin-top:-20vh;margin-right:10vh">
-        <li><h3>Legal</h3></li>
-        <li><a href="#" style="text-decoration:none;color: black;" >Terms & Conditions</a></li>
-        <li><a href="#"style="text-decoration:none;color: black;" >Booking Terms</a></li>
-        <li><a href="#" style="text-decoration:none;color: black;" >Privacy Policy</a></li>
+        <li>
+          <h3>Legal</h3>
+        </li>
+        <li><a href="#" style="text-decoration:none;color: black;">Terms & Conditions</a></li>
+        <li><a href="#" style="text-decoration:none;color: black;">Booking Terms</a></li>
+        <li><a href="#" style="text-decoration:none;color: black;">Privacy Policy</a></li>
       </ul>
-    </p>
-    
-        <hr>
-        <p style="text-align: center;font-size:2vh">
-          2023 Adventour.com All rights reserved.<br />
-          The content and images used on this site are copyright protected and
-          copyrights vests with the respective owners. The usage of the content
-          and images on this website is intended to promote the works and no
-          endorsement of the artist shall be implied. Unauthorized use is
-          prohibited and punishable by law.
-        </p><hr width="20%">
-        <p style="text-align:center"> 
-                <a href="#"><i class='fab fa-instagram'></i></a>
-                <a href="#"><i class='fab fa-linkedin-in'></i></a>
-                <a href="#"><i class='fab fa-twitter'></i></a><br>
-                <br>Powered by <a href="../../../AdvenTour.html" target="_blank">AdvenTour.in</a></p>
-        <br>
-  </div>
+      </p>
+
+      <hr>
+      <p style="text-align: center;font-size:2vh">
+        2023 Adventour.com All rights reserved.<br />
+        The content and images used on this site are copyright protected and
+        copyrights vests with the respective owners. The usage of the content
+        and images on this website is intended to promote the works and no
+        endorsement of the artist shall be implied. Unauthorized use is
+        prohibited and punishable by law.
+      </p>
+      <hr width="20%">
+      <p style="text-align:center">
+        <a href="#"><i class='fab fa-instagram'></i></a>
+        <a href="#"><i class='fab fa-linkedin-in'></i></a>
+        <a href="#"><i class='fab fa-twitter'></i></a><br>
+        <br>Powered by <a href="../../../AdvenTour.html" target="_blank">AdvenTour.in</a>
+      </p>
+      <br>
+    </div>
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class='fas fa-arrow-up'></i></button>
   </form>
   <script>

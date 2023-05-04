@@ -109,7 +109,7 @@
       <span class="boxcontent" style="margin-top:-50vh;margin-left:-50vh">
         <h1 style="border-left:4px solid orangered">&nbsp; Guided Highlights of Mumbai Tour with a local <br>&nbsp; (24
           Hrs Sightseeing in AC Bus)</h1>
-      <input type="hidden" name="destination" value="MumbaiTour">
+        <input type="hidden" name="destination" value="MumbaiTour">
 
       </span>
       <br>
@@ -148,9 +148,9 @@
             (No additional taxes or booking fees)
           </p>
           <b style="font-size:4vh">Total ₹20,000.00</b>
-      <input type="hidden" name="price" value="20000">
+          <input type="hidden" name="price" value="20000">
 
-          <button class="btn1" formaction="../Database/bookdetails.php"name="submit">Booknow</button>
+          <button class="btn1" formaction="../Database/bookdetails.php" name="submit">Booknow</button>
         </span>
         <p>
 
@@ -178,35 +178,36 @@
           <b>Pickup At</b>:Kalbadevi, Mumbai India <br>
 
           <b>Stop At</b>: Babulnath Mandir, Mumbai India
-          Babulnath Mandir is a Hindu temple located in Mumbai, India. 
+          Babulnath Mandir is a Hindu temple located in Mumbai, India.
           It is dedicated to Lord Shiva and is known for its beautiful architecture and peaceful atmosphere.
 
           <br>Duration: 1 hour <br>
 
           <b>Stop At</b>: Marine Drive, Mumbai India <br>
 
-          Marine Drive in Mumbai is a 3.6-kilometer-long boulevard that curves along the coastline of the Arabian Sea, 
-          often referred to as the "Queen's Necklace" due to its shape resembling a necklace when viewed from above at night.<br>
+          Marine Drive in Mumbai is a 3.6-kilometer-long boulevard that curves along the coastline of the Arabian Sea,
+          often referred to as the "Queen's Necklace" due to its shape resembling a necklace when viewed from above at
+          night.<br>
 
           <b> Duration</b>: 1 hour<br>
 
           <b>Stop At</b>: Hanging Gardens,Mumbai India<br>
 
           Hanging Gardens is a terraced garden in Mumbai,
-           located on the slopes of Malabar Hill. It offers panoramic views of the city and the Arabian Sea.<br>
+          located on the slopes of Malabar Hill. It offers panoramic views of the city and the Arabian Sea.<br>
 
           <b>Duration</b>: 30 minutes<br>
 
           <b>Stop At</b>: Malabar Hill, Mumbai India<br>
 
-          Malabar Hill is an affluent neighborhood located in the southern part of Mumbai, India. 
+          Malabar Hill is an affluent neighborhood located in the southern part of Mumbai, India.
           It is known for its exclusive residences, upscale restaurants, and stunning views of the Arabian Sea.<br>
 
 
 
           <b>Stop At</b>: Gateway Of India Mumbai, Mumbai India<br>
 
-          The Gateway of India is an arch monument located on the waterfront in the city of Mumbai, India. 
+          The Gateway of India is an arch monument located on the waterfront in the city of Mumbai, India.
           It was built to commemorate the visit of King George V and Queen Mary to Mumbai in 1911.<br>
 
           <b>Duration</b>: 1 hour<br>
@@ -214,47 +215,53 @@
           <b>Stop At</b>: Haji Ali Dargah, Mumbai India.<br>
 
           Haji Ali Dargah is a mosque and tomb located in Mumbai, India, situated on a small islet in the Arabian Sea,
-           about 500 meters from the coast. 
+          about 500 meters from the coast.
           It is a popular religious and tourist destination in the city.<br>
 
           <b>Duration</b>: 1 hour<br>
 
           <b>Duration</b>: 1 day<br>
           <b>Stop At</b>: Taj Hotel view point, Mumbai India.<br>
-          The Taj Mahal Palace hotel in Mumbai is an iconic landmark and a popular tourist attraction that offers stunning 
+          The Taj Mahal Palace hotel in Mumbai is an iconic landmark and a popular tourist attraction that offers
+          stunning
           views of the Arabian Sea and the Gateway of India.<br>
 
           <b>Duration</b>: 1 hour<br>
 
           <b>Stop At</b>: Shree Siddhivinayak Temple, Mumbai India.<br>
 
-          Shree Siddhivinayak Temple is a Hindu temple located in Mumbai, India, dedicated to Lord Ganesh. 
+          Shree Siddhivinayak Temple is a Hindu temple located in Mumbai, India, dedicated to Lord Ganesh.
           It is one of the most popular and revered temples in the city.<br>
 
           <b>Duration</b>: 1 hour<br>
 
           <b>Stop At</b>: Fun City Come Play!, Mumbai India.<br>
-          "Fun City Come Play!" is a popular invitation for people to enjoy various entertainment activities in Mumbai, India. 
+          "Fun City Come Play!" is a popular invitation for people to enjoy various entertainment activities in Mumbai,
+          India.
           The Fun City brand is known for offering a range of games, rides, and attractions for all ages.<br>
 
           <b>Duration</b>: 1 hour.<br>
 
           <b>Stop At</b>: Oberoi Mall, Mumbai India<br>
-          Oberoi Mall is a shopping mall located in the western suburb of Mumbai, India. It features a variety of stores selling clothing, 
+          Oberoi Mall is a shopping mall located in the western suburb of Mumbai, India. It features a variety of stores
+          selling clothing,
           accessories, electronics, and more, as well as several restaurants and a multiplex cinema.<br>
 
           <b>Duration</b>: 1 hour<br>
 
           <b>Stop At</b>: Elephanta Caves, Mumbai India<br>
-          The Elephanta Caves are a network of sculpted caves located on Elephanta Island in Mumbai, India. They contain rock-cut temples 
-          and sculptures dedicated to the Hindu god Shiva, believed to have been created between the 5th and 8th centuries AD.<br>
+          The Elephanta Caves are a network of sculpted caves located on Elephanta Island in Mumbai, India. They contain
+          rock-cut temples
+          and sculptures dedicated to the Hindu god Shiva, believed to have been created between the 5th and 8th
+          centuries AD.<br>
 
           <b>Duration</b>: 1 hour<br>
 
           <b>Stop At</b>: Street Shopping Market, Mumbai India<br>
-          Mumbai is known for its bustling street shopping markets, offering a wide range of products from clothing 
-          and accessories to electronics and souvenirs, at bargain prices. 
-          Some popular street shopping markets in Mumbai include Colaba Causeway, Linking Road, Fashion Street, and Crawford Market.<br>
+          Mumbai is known for its bustling street shopping markets, offering a wide range of products from clothing
+          and accessories to electronics and souvenirs, at bargain prices.
+          Some popular street shopping markets in Mumbai include Colaba Causeway, Linking Road, Fashion Street, and
+          Crawford Market.<br>
 
           <b> Duration</b>: 1 hour<br>
         </span>

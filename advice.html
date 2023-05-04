@@ -4,120 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="advice.css" type="text/css" />
     <title>Document</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
-        body{
-            font-family: 'Quicksand', sans-serif;
-        }
-        .container{
-            background-color: rgba(255, 68, 0, 0.575);
-            color: rgba(0, 0, 0, 0.979);
-            text-align: center;
-            box-sizing: content-box;
-            border: 0px solid black;
-            box-shadow: 2px 2px 2px 1px black;
-            width: 100vh;
-            align-self: center;
-            justify-content: center;
-            margin-left: 50vh;
-            margin-top: 20vh;
-            border-radius: 1%;
-            font-size: 2vh;
-            padding: 2vh 2vh 2vh;
-        }
-        .navbar {
-    overflow: hidden;
-    background-color: #00000000;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    margin: 0 auto;
-    width: 100%;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* border-bottom: 2px solid black; */
-    -webkit-backdrop-filter: blur(0px);
-    backdrop-filter: blur(0px);
-    top: 4%;
-    height: fit-content;
-    zoom: 80%;
-    border-bottom: 1px solid #000000;
-  }
- 
-  .navbar a {
-    float: left;
-    font-size: 16px;
-    color: rgb(255, 34, 0);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: bolder;
-    font-size: large;
-  }
-  
-  .navbar a:hover{
-    background-color: rgba(122, 120, 120, 0.265);
-} 
-.boxbtm {
-  background-color: rgba(3, 13, 55, 0);
-  width: 120vh;
-  position: absolute;
-  top: 120vh;
-  left: 18vh;
-  height: 10vh;
-  border: 0px solid rgba(3, 1, 16, 0.044);
-  /* box-shadow: 1px 1px 2px 2px rgb(0, 0, 0); */
-  padding: 5vh;
-  margin: 20vh;
-  align-self: center;
-  font-size: 2vh;
-}
-::-webkit-scrollbar {
-  width: 10px;
-}
-::-webkit-scrollbar-thumb {
-  background: #888; 
-}
-.btmimg{
-  height: 5vh;
-}
-ul
-{
-float:none;
-margin:10 10px 10 10;
-}
-li{
-    color:orangered
-}
-.line {
-  display: inline-block;
-  position: relative;
-  color: #ca3d00;
-}
-
-.line::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 3px;
-  bottom: 0;
-  left: 0;
-  background-color: #ca0000;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-
-.line:hover::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-.disabled {
-    pointer-events: none;
-    opacity: 0.3;
-}
-    </style>
 </head>
 <body>
     <div class="navbar">
@@ -156,7 +45,8 @@ li{
         Stay safe, travel well and most of all have fun and leave only footprints.</p>
     </div>
     <div class="boxbtm">
-        <p><img class="btmimg" src="../Images/logo813.jpg" alt="">
+        <p>
+          <img class="btmimg" src="../Images/logo813.jpg" alt="">
       <ul style="list-style-type:none;margin-left:20vh">
         <li><h3>General</h3></li>
         <li><a href="../Homepage/Pune/pune.php" style="text-decoration:none">Pune</a></li>
@@ -194,5 +84,6 @@ li{
               
         <br>
       </div>
+
 </body>
 </html>
