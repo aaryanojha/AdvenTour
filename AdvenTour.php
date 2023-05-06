@@ -64,7 +64,8 @@
         </ul>
       </span>
       <hr>
-      <img src="User/Images/overview2.jpg" alt="" style=" background-size: contain;width:98%">
+      <video width="95%" height="100%" muted loop autoplay><source src="User/Images/video.mp4" type="video/mp4">
+    </video>
       <a href="User/Login/login.html"><input type=button class="expbtn" value="EXPLORE" formaction=""></a>
 
       <hr>
