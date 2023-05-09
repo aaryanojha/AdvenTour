@@ -66,9 +66,9 @@
       <p class="title">CEO & Founder, Designer</p>
       <p>ICCS</p>
       <div style="margin: 24px 0">
-        <a href="#"><i class="fa fa-twitter"></i></a>
-        <a href="#"><i class="fa fa-linkedin"></i></a>
-        <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class='fab fa-twitter'></i></a>
+        <a href="https://www.linkedin.com/in/aaryan-ojha-6ab578270"><i class='fab fa-linkedin-in'></i></a>
+        <a href="#"><i class='fab fa-facebook-f'></i></a>
       </div>
       <p><button>Contact</button></p>
     </div>
@@ -79,9 +79,9 @@
       <p class="title">CEO & Founder, Designer</p>
       <p>ICCS</p>
       <div style="margin: 24px 0">
-        <a href="#"><i class="fa fa-twitter"></i></a>
-        <a href="https://www.linkedin.com/in/pranav-malwatkar-9834b1239"><i class="fa fa-linkedin"></i></a>
-        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class='fab fa-twitter'></i></a>
+        <a href="https://www.linkedin.com/in/pranav-malwatkar-9834b1239"><i class='fab fa-linkedin-in'></i></a>
+        <a href="#"><i class='fab fa-facebook-f'></i></a>
       </div>
       <p><button>Contact</button></p>
     </div>
