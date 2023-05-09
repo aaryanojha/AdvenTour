@@ -100,7 +100,7 @@ if (isset($_POST['delete'])) {
     // Execute the query
     if ($conn->query($sql) === TRUE) {
       echo "<script>
-      alert('Row deleted successfully');
+      alert('Account Deleted successfully');
       window.location.href='../Profile/deleteform.php';
       </script>";
     } else {
