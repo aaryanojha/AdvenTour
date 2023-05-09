@@ -114,7 +114,7 @@
 
       </span>
       <br>
-      <span class="boxcontent"><img src="../Images/agakhan.jpg" class="imgclass">Pune is a city located in the western
+      <span class="boxcontent"><video src="../Images/Pune.mp4" muted loop autoplay type="video/mp4" class="imgclass"></video>Pune is a city located in the western
         Indian state of Maharashtra. It is the second-largest city in the state and is known as the "Oxford of the East"
         due to the presence of several reputed educational institutions.
         Historically, Pune was the seat of the Peshwas, who were the prime ministers of the Maratha Empire. The city
