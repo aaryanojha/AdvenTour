@@ -64,8 +64,9 @@
         </ul>
       </span>
       <hr>
-      <video src="User/Images/india.mp4" width="95%" height="100%" loop autoplay type="video/mp4">
-      </video>
+      <!-- <video><source src="User/Images/india.mp4" width="95%" height="100%" muted loop autoplay type="video/mp4"> -->
+      <!-- </video> -->
+      <video src="User/Images/india.mp4" muted loop autoplay type="video/mp4" class="imgclass"></video>
       <a href="User/Login/login.html"><input type=button class="expbtn" value="EXPLORE" formaction=""></a>
 
       <hr>
