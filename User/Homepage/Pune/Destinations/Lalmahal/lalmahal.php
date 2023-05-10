@@ -79,21 +79,20 @@
     </div>
 
     <div id="body">
-      <img src="../../../../Images/pune2.jpg" class="stretch" alt="" />
+      <img src="../../../../Images/pune3.jpg" class="stretch" alt="" />
     </div>
     <div class="text">
-      <input type="hidden" name="destination" value="Shaniwarwada">
-      SHANIWAR WADA
+      <input type="hidden" name="destination" value="Lalmahal">
+      Lalmahal
     </div>
 
     <div class="box" style="font-family: 'Alata'; font-size: 22px; color: #ff571b; text-decoration: none">
 
-      <b style="font-size: 50; font-family: fantasy"></b>Tour destination : SHANIWAR
-      WADA
+      <b style="font-size: 50; font-family: fantasy"></b>Tour destination :Lalmahal
       <hr style="border: 2px solid darkgrey" />
 
 
-      <p style="color:black"><b>Shaniwar Wada</b> a 13 storey palace of Peshwas was built by Bajirao-I,
+      <p style="color:black"><b>lalmahal</b> a 13 storey palace of Peshwas was built by Bajirao-I,
         in the year 1736.It was head quarter of the Peshwas and it symbolizes Pune’s culture.
         The structure was built giving security the highest priority.
         The main entrance is known as ‘Delhi Darwaja’ & others have names like Ganesh,
@@ -134,7 +133,7 @@
       <input type="hidden" name="price" value="250">
       <hr style="border: 2px solid darkgrey" />
       <br>
-      <b style="color:black;font-size:110%">Shaniwar Wada, Pune :</b>
+      <b style="color:black;font-size:110%">lalmahal, Pune :</b>
       <i style="font-size:50px" class="fa" name="price">250</i>
       <br><br>
 
@@ -158,7 +157,7 @@
         <option value="5">5</option>
         <option value="6">6</option>
       </select>
-      <input type="hidden" name="redirectTo" value="Homepage/Pune/Destinations/Shaniwarwada/shaniwarwada.php" />
+      <input type="hidden" name="redirectTo" value="Homepage/Pune/Destinations/Lalmahal/lalmahal.php" />
   </form>
 
   <p><button class="btn1" formaction="../../../../Payment/payment.php"><b>Book Now!</b></button>

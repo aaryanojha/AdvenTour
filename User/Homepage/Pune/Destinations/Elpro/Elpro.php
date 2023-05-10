@@ -83,16 +83,16 @@
     </div>
     <div class="text">
       <input type="hidden" name="destination" value="Elpro">
-      Elpro
+      INOX - ELPRO CITY SQUARE
     </div>
 
     <div class="box" style="font-family: 'Alata'; font-size: 22px; color: #ff571b; text-decoration: none">
 
-      <b style="font-size: 50; font-family: fantasy"></b>Tour destination : Elpro
+      <b style="font-size: 50; font-family: fantasy"></b>Tour destination : INOX - ELPRO CITY SQUARE
       <hr style="border: 2px solid darkgrey" />
 
 
-      <p style="color:black"><b>Elpro</b> a 13 storey palace of Peshwas was built by Bajirao-I,
+      <p style="color:black"><b>INOX - ELPRO CITY SQUARE</b> a 13 storey palace of Peshwas was built by Bajirao-I,
         in the year 1736.It was head quarter of the Peshwas and it symbolizes Pune’s culture.
         The structure was built giving security the highest priority.
         The main entrance is known as ‘Delhi Darwaja’ & others have names like Ganesh,

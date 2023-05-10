@@ -119,9 +119,9 @@ $(document).ready(function(){
             <th>Delhi</th>
         </tr>
         <tr>
-            <td align="center">Shaniwar Wada</td>
-            <td align="center">Gateway of India</td>
-            <td align="center">Chhatarpur Temple</td>
+            <td align="center">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Shaniwar Wada&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+            <td align="center">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Gateway of India&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+            <td align="center">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Chhatarpur Temple&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
         </tr>
         <td align="center">Lal Mahal</td>
         <td align="center">TAJ HOTEL</td>
@@ -175,9 +175,14 @@ $(document).ready(function(){
             <th>Delhi</th>
         </tr>
         <tr>
-            <td>Pune Full Tour</td>
-            <td>Mumbai Full Tour</td>
-            <td>Delhi Full Tour</td>
+            <td>&emsp;&emsp;&emsp;PUNE FULL TOUR&emsp;&emsp;&emsp;</td>
+            <td>&emsp;&emsp;&emsp;MUMBAI FULL TOUR&emsp;&emsp;&emsp;</td>
+            <td>&emsp;&emsp;&emsp;DELHI FULL TOUR&emsp;&emsp;&emsp;</td>
+        </tr>
+        <tr>
+            <td>&emsp;&emsp;&emsp;Pune Full Tour: 12 Destinations&emsp;&emsp;&emsp;</td>
+            <td>&emsp;&emsp;&emsp;Mumbai Full Tour: 12 Destinations&emsp;&emsp;&emsp;</td>
+            <td>&emsp;&emsp;&emsp;Delhi Full Tour: 12 Destinations&emsp;&emsp;&emsp;</td>
         </tr>
     </table>
     </div>

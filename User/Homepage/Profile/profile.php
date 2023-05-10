@@ -43,12 +43,13 @@
     </div>
   </div>
 
+
   <div class="box">
+    <!-- <input type="file"  name="img" accept="image/*" style="z-index:11;position:absolute;top:160px;left:120px"> -->
     <div class="circle">
       <img src="../../Images/beach.jpg" />
     </div>
     <h2 style="
-          
           font-weight: 500;
           position: absolute;
           top: 33%;
