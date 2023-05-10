@@ -85,6 +85,8 @@ if (isset($_POST['enquire'])) {
     $stmt->bind_param("ssss", $Fname, $Lname, $Email, $Message);
     $stmt->execute();
 
+    // $INSERT = "INSERT Into enquiries(Frist_name,Last_name,Email,Message) values('$Fname','$Lname','$Email','$Message')";
+    // $result = $conn->query($INSERT);
 
     echo "<script> alert('Enquiry Sent Successfully.');
     window.location.href='../Enquire/enquire.php';

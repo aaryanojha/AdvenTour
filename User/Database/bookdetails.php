@@ -3,6 +3,7 @@
 require_once('../Database/functions.php');
 
 $conn = DBConnect();
+$result = display_data("email");
 if (isset($_POST['submit'])) {
   $adults = $_POST['adults'];
   $children = $_POST['children'];

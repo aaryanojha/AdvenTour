@@ -56,7 +56,7 @@
                                         align-items: center;
                                         background-repeat: no-repeat;"></a>
       <a href="http://" target="_blank" rel="noopener noreferrer" class="disabled"></a>
-      <a href="#news" class="hover-underline-animation">News</a>
+      <a href="https://timesofindia.indiatimes.com/travel/travel-news" class="hover-underline-animation">News</a>
       <a href="../../Homepage/aboutus.php" class="hover-underline-animation">About Us</a>
       <a href="../../Enquire/enquire.php" class="hover-underline-animation">Enquire</a>
       <div class="dropdown">
@@ -94,8 +94,7 @@
       <!-- Map Button -->
       <div class="map"><a href="./Mumbaimap/mmap1.html"><i class="fa fa-map-marker" style="font-size:40;"></i></a></div>
 
-      <p><button class="btn" formaction="../../Homepage/Mumbai/Destinations/Shaniwarwada/shaniwarwada.php">Book
-          Now!</button></p>
+      <p><button class="btn" formaction="../../Homepage/Mumbai/Destinations/GATE/shaniwarwada.php">Book Now!</button></p>
       <div style="position:absolute;bottom:2%;right:35%;color:black;">₹ 12449.00</div>
     </div>
 
@@ -366,6 +365,7 @@
     // When the user clicks on the button, scroll to the top of the document
     function topFunction() {
       document.body.scrollTop = 0;
+      event.preventDefault();
       document.documentElement.scrollTop = 0;
     }
   </script>

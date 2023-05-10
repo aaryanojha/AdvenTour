@@ -19,8 +19,7 @@
     <div class="navbar">
       <a href="" class="disabled"></a><a href="" class="disabled"></a>
       <a href="Adventour.php" class="line">HOME</a>
-      <a href="" class="line">NEWS</a>
-      <a href="" class="disabled"></a>
+      <a href="https://timesofindia.indiatimes.com/topic/tourism/news" class="line">NEWS</a>
       <a href="advice.html" class="line">TRAVEL ADVICE</a>
       <a href="" class="disabled" style="float: right;"></a><a href="" class="disabled" style="float: right;"></a>
       <a href="../AdvenTour/User/Login/login.html" style="float: right;" class="line">LOGIN</a>
@@ -59,7 +58,7 @@
               name=email></li>
 
           <li><input type="text" style="width: 40%; height: 2%;padding: 2vh;" placeholder="Message" name="message">
-            <button type="submit" name=enquire>Enquire</button>
+            <button type="submit" name="enquire">Enquire</button>
           </li>
         </ul>
       </span>
@@ -90,7 +89,7 @@
 if (isset($_POST['enquire'])) {
 
   $Fname = $_POST['fname'];
-  $Lname = $_POST['lname'];
+  // $Lname = $_POST['lname'];
   $Email = $_POST['email'];
   $Message = $_POST['message'];
 
@@ -101,20 +100,17 @@ if (isset($_POST['enquire'])) {
   $conn = DBConnect();
 
   if (!empty($Fname) && !empty($Email) && !empty($Message)) {
-    $INSERT = "INSERT Into enquiries(Frist_name,Last_name,Email,Message) values('$Fname','$Lname','$Email','$Message')";
+    $INSERT = "INSERT INTO enquiries(Frist_name,Last_name,Email,Message) VALUES('$Fname','$Lname','$Email','$Message')";
     $result = $conn->query($INSERT);
     if ($result) {
-
-    }
-    echo "<script> alert('Enquiry Sent Successfully.');
+      echo "<script> alert('Enquiry Sent Successfully.');
     window.location.href='AdvenTour.php';
-    </>";
-
-
-  } else {
-    echo "<script> alert('Please enter all the details.');
+    </script>";
+    } else {
+      echo "<script> alert('Please enter all the details.');
             window.location.href='AdvenTour.php';
             </script>";
+    }
   }
 }
 ?>

@@ -60,14 +60,14 @@
             background-repeat: no-repeat;
           "></a>
       <a href="http://" target="_blank" rel="noopener noreferrer" class="disabled"></a>
-      <a href="#news" class="hover-underline-animation">News</a>
+      <a href="https://timesofindia.indiatimes.com/travel/travel-news" class="hover-underline-animation">News</a>
       <a href="../../../aboutus.php" class="hover-underline-animation">About Us</a>
       <a href="../../../../Enquire/enquire.php" class="hover-underline-animation">Enquire</a>
       <div class="dropdown">
         <button class="dropbtn">
           <i class="fas fa-user-alt"></i>
           <b>
-            <?php   echo getSessionVar('name');   ?>
+            <?php echo getSessionVar('name'); ?>
           </b>
         </button>
         <div class="dropdown-content">
@@ -79,21 +79,20 @@
     </div>
 
     <div id="body">
-      <img src="../../../../Images/pune2.jpg" class="stretch" alt="" />
+      <img src="../../../../Images/agakhan.jpg" class="stretch" alt="" />
     </div>
     <div class="text">
       <input type="hidden" name="destination" value="AGA KHAN PALACE">
-      SHANIWAR WADA
+      AGA KHAN PALACE
     </div>
 
     <div class="box" style="font-family: 'Alata'; font-size: 22px; color: #ff571b; text-decoration: none">
 
-      <b style="font-size: 50; font-family: fantasy"></b>Tour destination : SHANIWAR
-      WADA
+      <b style="font-size: 50; font-family: fantasy"></b>Tour destination : AGA KHAN PALACE
       <hr style="border: 2px solid darkgrey" />
 
 
-      <p style="color:black"><b>Shaniwar Wada</b> a 13 storey palace of Peshwas was built by Bajirao-I,
+      <p style="color:black"><b>AGA KHAN PALACE</b> a 13 storey palace of Peshwas was built by Bajirao-I,
         in the year 1736.It was head quarter of the Peshwas and it symbolizes Pune’s culture.
         The structure was built giving security the highest priority.
         The main entrance is known as ‘Delhi Darwaja’ & others have names like Ganesh,
@@ -131,84 +130,90 @@
       </ul>
 
       <h4>Packages:</h4>
-      <input type="hidden" name="price" value="1000">
+      <input type="hidden" name="price" value="250">
       <hr style="border: 2px solid darkgrey" />
       <br>
-      <b style="color:black;font-size:110%">Shaniwar Wada, Pune :</b>
-        <i style="font-size:50px" class="fa" name="price">1000</i>
-        <br><br>
-            
-            <select name="adults">
-  <option value="">Adults</option>
-  <option value="0">0</option>
-  <option value="1">1</option>
+      <b style="color:black;font-size:110%">AGA KHAN PALACE, Pune :</b>
+      <i style="font-size:50px" class="fa" name="price">250</i>
+      <br><br>
 
-  <option value="2">2</option>
-  <option value="3">3</option>
-  <option value="4">4</option>
-  <option value="5">5</option>
-  <option value="6">6</option>
-</select>
-<select name="children">
-  <option value="">Children</option>
-  <option value="0">0</option>
-  <option value="1">1</option>
+      <select name="adults">
+        <option value="">Adults</option>
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+      </select>
+      <select name="children">
+        <option value="">Children</option>
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+      </select>
+      <input type="hidden" name="redirectTo" value="Homepage/Pune/Destinations/AGA KHAN PALACE/AGA KHAN PALACE.php" />
+  </form>
 
-  <option value="2">2</option>
-  <option value="3">3</option>
-  <option value="4">4</option>
-  <option value="5">5</option>
-  <option value="6">6</option>
-</select>
+  <p><button class="btn1" formaction="../../../../Payment/payment.php"><b>Book Now!</b></button>
+    <input type="submit" value="Add to Bookings" style="margin-left:10vh" class="btn1" name="submit">
+  </p>
+  <br>
+  <p style="color:black">*Note: Children are only from age 0-12*</p>
 
-</form>
-
-            <p><button class="btn1" formaction="../../../../Payment/payment.php"><b>Book Now!</b></button>
-              <input type="submit" value="Add to Bookings" style="margin-left:10vh" class="btn1" name="submit">
-            </p>
-            <br>
-            <p style="color:black">*Note: Children are only from age 0-12*</p>
-
-            <div class="boxbtm">
-        <p><img class="btmimg" src="../Images/logo813.jpg" alt="">
-      <ul style="list-style-type:none;margin-left:40vh">
-        <li><h3 style="color:orangered;">General</h3></li>
-        <li><a href="../Homepage/Pune/pune.php" style="text-decoration:none;color: black;">Pune</a></li>
-        <li><a href="../Homepage/Mumbai/mumbai.php" style="text-decoration:none;color: black;" >Mumbai</a></li>
-        <li><a href="../Homepage/Delhi/delhi.php" style="text-decoration:none;color: black;" >Delhi</a></li>
-        <li><a href="../Homepage/aboutus.php" style="text-decoration:none;color: black;" >About Us</a></li>
-      </ul>
-      <ul style="list-style-type:none;float:right;margin-top:-20vh;margin-right:60vh">
-        <li><h3 style="color:orangered;">Community</h3></li>
-        <li><a href="" style="text-decoration:none;color: black;" >News</a></li>
-        <li><a href="" style="text-decoration:none;color: black;" >Travel Advice</a></li>
-      </ul>
-      <ul style="list-style-type:none;float:right;margin-top:-20vh;margin-right:10vh">
-        <li><h3 style="color:orangered;">Legal</h3></li>
-        <li><a href="" style="text-decoration:none;color: black;" >Terms & Conditions</a></li>
-        <li><a href=""style="text-decoration:none;color: black;" >Booking Terms</a></li>
-        <li><a href="" style="text-decoration:none;color: black;" >Privacy Policy</a></li>
-      </ul>
+  <div class="boxbtm">
+    <p><img class="btmimg" src="../../../../Images/logo813.jpg" alt="">
+    <ul style="list-style-type:none;margin-left:40vh">
+      <li>
+        <h3 style="color:orangered;">General</h3>
+      </li>
+      <li><a href="../Homepage/Pune/pune.php" style="text-decoration:none;color: black;">Pune</a></li>
+      <li><a href="../Homepage/Mumbai/mumbai.php" style="text-decoration:none;color: black;">Mumbai</a></li>
+      <li><a href="../Homepage/Delhi/delhi.php" style="text-decoration:none;color: black;">Delhi</a></li>
+      <li><a href="../Homepage/aboutus.php" style="text-decoration:none;color: black;">About Us</a></li>
+    </ul>
+    <ul style="list-style-type:none;float:right;margin-top:-20vh;margin-right:60vh">
+      <li>
+        <h3 style="color:orangered;">Community</h3>
+      </li>
+      <li><a href="" style="text-decoration:none;color: black;">News</a></li>
+      <li><a href="" style="text-decoration:none;color: black;">Travel Advice</a></li>
+    </ul>
+    <ul style="list-style-type:none;float:right;margin-top:-20vh;margin-right:10vh">
+      <li>
+        <h3 style="color:orangered;">Legal</h3>
+      </li>
+      <li><a href="" style="text-decoration:none;color: black;">Terms & Conditions</a></li>
+      <li><a href="" style="text-decoration:none;color: black;">Booking Terms</a></li>
+      <li><a href="" style="text-decoration:none;color: black;">Privacy Policy</a></li>
+    </ul>
     </p>
-    
-        <hr>
-        <p style="text-align: center;font-size:2vh">
-          2023 Adventour.com All rights reserved.<br />
-          The content and images used on this site are copyright protected and
-          copyrights vests with the respective owners. The usage of the content
-          and images on this website is intended to promote the works and no
-          endorsement of the artist shall be implied. Unauthorized use is
-          prohibited and punishable by law.
-        </p><hr width="20%">
-        <p style="text-align:center"> 
-                <a href=""><i class='fab fa-instagram'></i></a>
-                <a href=""><i class='fab fa-linkedin-in'></i></a>
-                <a href=""><i class='fab fa-twitter'></i></a><br>
-                <br>Powered by <a href="../../AdvenTour.html" target="_blank">AdvenTour.in</a></p>
-              
-        <br>
-      </div>
-            <button onclick="topFunction()" id="myBtn" title="Go to top"><i class='fas fa-arrow-up'></i></button>
+
+    <hr>
+    <p style="text-align: center;font-size:2vh">
+      2023 Adventour.com All rights reserved.<br />
+      The content and images used on this site are copyright protected and
+      copyrights vests with the respective owners. The usage of the content
+      and images on this website is intended to promote the works and no
+      endorsement of the artist shall be implied. Unauthorized use is
+      prohibited and punishable by law.
+    </p>
+    <hr width="20%">
+    <p style="text-align:center">
+      <a href=""><i class='fab fa-instagram'></i></a>
+      <a href=""><i class='fab fa-linkedin-in'></i></a>
+      <a href=""><i class='fab fa-twitter'></i></a><br>
+      <br>Powered by <a href="../../AdvenTour.html" target="_blank">AdvenTour.in</a>
+    </p>
+
+    <br>
+  </div>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class='fas fa-arrow-up'></i></button>
   </form>
   <script>
     // Get the button
@@ -228,6 +233,7 @@
     // When the user clicks on the button, scroll to the top of the document
     function topFunction() {
       document.body.scrollTop = 0;
+      event.preventDefault();
       document.documentElement.scrollTop = 0;
     }
   </script>

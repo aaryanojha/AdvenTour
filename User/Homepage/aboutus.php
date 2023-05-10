@@ -26,7 +26,7 @@
           align-items: center;
           background-repeat: no-repeat;"><img src="" /></a>
       <a href="http://" target="_blank" rel="noopener noreferrer" class="disabled"></a>
-      <a href="#news" class="hover-underline-animation">News</a>
+      <a href="https://timesofindia.indiatimes.com/travel/travel-news" class="hover-underline-animation">News</a>
       <a href="./aboutus.php" class="hover-underline-animation">About Us</a>
       <a href="../Enquire/enquire.php" class="hover-underline-animation">Enquire</a>
       <div class="dropdown">

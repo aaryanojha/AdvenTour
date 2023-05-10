@@ -32,7 +32,7 @@
         background-size:cover;
         align-items: center;
         background-repeat: no-repeat;"></a>
-      <a href="#news" class="hover-underline-animation">News</a>
+      <a href="https://timesofindia.indiatimes.com/travel/travel-news" class="hover-underline-animation">News</a>
       <a href="../../Homepage/aboutus.php" class="hover-underline-animation">About Us</a>
       <a href="../../Enquire/enquire.php" class="hover-underline-animation">Enquire</a>
       <div class="dropdown">
