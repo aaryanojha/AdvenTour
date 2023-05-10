@@ -64,9 +64,13 @@
         </ul>
       </span>
       <hr>
-      <!-- <video><source src="User/Images/india.mp4" width="95%" height="100%" muted loop autoplay type="video/mp4"> -->
-      <!-- </video> -->
-      <video src="User/Images/india.mp4" muted loop autoplay type="video/mp4" class="imgclass"></video>
+
+      <video src="User/Images/india.mp4" muted loop autoplay type="video/mp4" class="imgclass">
+        <audio id="sound" src="User/Images/india.mp4"></audio></video>
+
+      <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/35npVaFGHMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+
+
       <a href="User/Login/login.html"><input type=button class="expbtn" value="EXPLORE" formaction=""></a>
 
       <hr>
@@ -104,7 +108,7 @@ if (isset($_POST['enquire'])) {
     }
     echo "<script> alert('Enquiry Sent Successfully.');
     window.location.href='AdvenTour.php';
-    </script>";
+    </>";
 
 
   } else {
