@@ -299,7 +299,7 @@
         <li>
           <h3>Community</h3>
         </li>
-        <li><a href="#" style="text-decoration:none;color: black;">News</a></li>
+        <li><a href="https://timesofindia.indiatimes.com/travel/travel-news" style="text-decoration:none;color: black;">News</a></li>
         <li><a href="#" style="text-decoration:none;color: black;">Travel Advice</a></li>
       </ul>
       <ul style="list-style-type:none;float:right;margin-top:-20vh;margin-right:10vh">
