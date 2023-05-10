@@ -61,7 +61,7 @@
     <h2 style="text-align: center">OUR TEAM</h2>
 
     <div class="card">
-      <img src="../Images/man.jpg" alt="John" style="width: 100%" />
+      <img src="../Images/aaryan.jpg" alt="John" style="width: 100%" />
       <h2>Aaryan Ojha</h2>
       <p class="title">CEO & Founder, Designer</p>
       <p>ICCS</p>
